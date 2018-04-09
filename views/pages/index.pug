@@ -2,7 +2,8 @@ extends ../layout.pug
 
 block content
   header.nav-top
-  h1 hello world 2
+    amp-img.logo(src='assets/branding/GitBit-Logo-Mercury.png' height=50 width=50)
+    h1.title GitBit
   .container
     a.card(href='https://medium.com/@gruberjl/10-tips-to-improve-productivity-using-onenote-85dee4a32cf2')
       amp-img.card-image(src='assets/OneNote-2016.jpeg', height=200 width=300 layout="responsive")
@@ -20,3 +21,6 @@ block content
       amp-img.card-image(src='assets/Office-365-Planner.png', height=200 width=300 layout="responsive")
       h3.card-title How to Stop Managing and Start Meeting Deadlines
       p.card-body Scrum is the leading agile development methodology, used by Fortune 500 companies around the world. Planner is Microsoft Office 365’s task management app designed for agile teams.
+  footer.nav-bottom
+    a.twitter(href="https://twitter.com/gruberjl") Twitter
+    a.linkedin(href="https://www.linkedin.com/in/gruberjl/") LinkedIn
