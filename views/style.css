@@ -59,7 +59,11 @@ img.logo {
 footer.nav-bottom {
   display: flex;
   justify-content: space-around;
-  margin-top: 8px;
+  padding-top: 40px;
+  border-top: 1px #e1e4e8 solid;
+  margin-top: 40px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 footer.nav-bottom a {
