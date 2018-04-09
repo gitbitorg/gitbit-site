@@ -1,0 +1,27 @@
+{
+  "name": "gitbit-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbitorg/gitbit-site.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gitbitorg/gitbit-site/issues"
+  },
+  "homepage": "https://github.com/gitbitorg/gitbit-site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-pug": "^4.0.1"
+  }
+}
