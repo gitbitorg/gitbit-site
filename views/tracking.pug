@@ -1,0 +1,14 @@
+script(async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js")
+amp-analytics(type="googleanalytics")
+  script(type="application/json").
+    {
+      "vars": {
+        "account": "UA-10841251-3"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
