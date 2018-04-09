@@ -47,6 +47,10 @@ html(amp="" lang="en")
     meta(property='og:image', content='http://gitbit.org/assets/branding/GitBit-Logo-Mercury.png')
     meta(property='fb:app_id', content='125424108093912')
     link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+    style(amp-custom)
+      include style.css
+  body
+    block content
     script(async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js")
     amp-analytics(type="googleanalytics")
       script(type="application/json").
@@ -61,7 +65,3 @@ html(amp="" lang="en")
             }
           }
         }
-    style(amp-custom)
-      include style.css
-  body
-    block content
