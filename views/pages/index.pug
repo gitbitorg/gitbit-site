@@ -5,22 +5,11 @@ block content
     amp-img.logo(src='assets/branding/GitBit-Logo-Mercury-50x50.png' height=50 width=50)
     h1.title GitBit
   .container
-    a.card(href='https://medium.com/@gruberjl/10-tips-to-improve-productivity-using-onenote-85dee4a32cf2')
-      amp-img.card-image(src='assets/OneNote-2016-300x200.jpg', height=200 width=300 layout="responsive")
-      h3.card-title 11 Tips for Improving Productivity using OneNote
-      p.card-body OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac,iPhone, Android. OneNote notebooks…
-    a.card(href='https://hackernoon.com/19-reasons-exchange-online-is-winning-195f2188150d')
-      amp-img.card-image(src='assets/Exchange-Online-300x200.jpg', height=200 width=300 layout="responsive")
-      h3.card-title 19 Reasons Exchange Online is Winning
-      p.card-body Exchange Online is Microsoft’s hosted email for businesses. It’s the industry-leading cloud solution adopted by small businesses and fortune 500 companies. Microsoft Exchange Online provides the…
-    a.card(href='https://medium.com/@gruberjl/13-outlook-productivity-organization-tips-244e9f16efeb')
-      amp-img.card-image(src='assets/Outlook-2016-300x200.jpg', height=200 width=300 layout="responsive")
-      h3.card-title 13 Outlook Productivity & Organization Tips
-      p.card-body Microsoft Outlook is a personal information manager from Microsoft, accessible as a piece of the Microsoft Office suite. Albeit often used as an email application, it likewise incorporates a…
-    a.card(href='https://medium.com/swlh/how-to-stop-managing-and-start-meeting-deadlines-d404f65404a9')
-      amp-img.card-image(src='assets/Office-365-Planner-300x200.png', height=200 width=300 layout="responsive")
-      h3.card-title How to Stop Managing and Start Meeting Deadlines
-      p.card-body Scrum is the leading agile development methodology, used by Fortune 500 companies around the world. Planner is Microsoft Office 365’s task management app designed for agile teams.
+    each article in articles
+      a.card(href=article.link)
+        amp-img.card-image(src=article.image, height=200 width=300 layout="responsive")
+        h3.card-title=article.title
+        p.card-body=article.body
   footer.nav-bottom
     a.twitter(href="https://twitter.com/gruberjl") Twitter
     a.linkedin(href="https://www.linkedin.com/in/gruberjl/") LinkedIn
