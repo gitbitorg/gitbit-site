@@ -9,9 +9,9 @@
             <link>http://gitbit.org</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Apr 2018 01:15:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Apr 2018 01:21:46 GMT</lastBuildDate>
         <atom:link href="http://gitbit.org/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Apr 2018 01:15:44 GMT</pubDate>
+        <pubDate>Wed, 11 Apr 2018 01:21:46 GMT</pubDate>
         <copyright><![CDATA[2018 GitBit]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[john.gruber@gitbit.org (John Gruber)]]></managingEditor>
