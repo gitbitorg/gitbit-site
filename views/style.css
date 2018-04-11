@@ -51,7 +51,7 @@ img.logo {
   border-top-right-radius: 5px;
 }
 
-.card-title, .card-body {
+.card-title, .card-description {
   padding: 8px;
   margin: 0px;
 }

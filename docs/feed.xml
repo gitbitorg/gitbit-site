@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Office 365 Tips to Improve Productivity - GitBit]]></title>
+        <description><![CDATA[Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.]]></description>
+        <link>http://gitbit.org</link>
+        <image>
+            <url>http://gitbit.org/assets/branding/GitBit-Logo-88x88.png</url>
+            <title>Office 365 Tips to Improve Productivity - GitBit</title>
+            <link>http://gitbit.org</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 11 Apr 2018 01:15:44 GMT</lastBuildDate>
+        <atom:link href="http://gitbit.org/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 11 Apr 2018 01:15:44 GMT</pubDate>
+        <copyright><![CDATA[2018 GitBit]]></copyright>
+        <language><![CDATA[en]]></language>
+        <managingEditor><![CDATA[john.gruber@gitbit.org (John Gruber)]]></managingEditor>
+        <webMaster><![CDATA[john.gruber@gitbit.org (John Gruber)]]></webMaster>
+        <ttl>60</ttl>
+        <category><![CDATA[Office 365]]></category>
+        <category><![CDATA[Microsoft]]></category>
+        <category><![CDATA[Enterprise Cloud]]></category>
+        <item>
+            <title><![CDATA[10 Reasons SharePoint Online Destroys File Shares]]></title>
+            <description><![CDATA[The IT department of the future leads the business driving innovation. We streamline the day to day, improve customer experience, and help the sales team close more deals!]]></description>
+            <guid isPermaLink="false">10 Reasons SharePoint Online Destroys File Shares</guid>
+            <category><![CDATA[Microsoft]]></category>
+            <category><![CDATA[Office 365]]></category>
+            <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
+            <pubDate>Thu, 01 Feb 2018 05:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Stop Managing and Start Meeting Deadlines]]></title>
+            <description><![CDATA[Scrum is the leading agile development methodology, used by Fortune 500 companies around the world. Planner is Microsoft Office 365’s task management app designed for agile teams.]]></description>
+            <guid isPermaLink="false">How to Stop Managing and Start Meeting Deadlines</guid>
+            <category><![CDATA[Microsoft]]></category>
+            <category><![CDATA[Office 365]]></category>
+            <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
+            <pubDate>Wed, 24 Jan 2018 05:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[13 Outlook Productivity & Organization Tips]]></title>
+            <description><![CDATA[Microsoft Outlook is a personal information manager from Microsoft, accessible as a piece of the Microsoft Office suite. Albeit often used as an email application, it likewise incorporates a…]]></description>
+            <guid isPermaLink="false">13 Outlook Productivity &amp; Organization Tips</guid>
+            <category><![CDATA[Microsoft]]></category>
+            <category><![CDATA[Office 365]]></category>
+            <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
+            <pubDate>Tue, 23 Jan 2018 05:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[19 Reasons Exchange Online is Winning]]></title>
+            <description><![CDATA[Exchange Online is Microsoft’s hosted email for businesses. It’s the industry-leading cloud solution adopted by small businesses and fortune 500 companies. Microsoft Exchange Online provides the…]]></description>
+            <guid isPermaLink="false">19 Reasons Exchange Online is Winning</guid>
+            <category><![CDATA[Microsoft]]></category>
+            <category><![CDATA[Office 365]]></category>
+            <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
+            <pubDate>Fri, 19 Jan 2018 05:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11 Tips for Improving Productivity using OneNote]]></title>
+            <description><![CDATA[OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac,iPhone, Android. OneNote notebooks…]]></description>
+            <guid isPermaLink="false">11 Tips for Improving Productivity using OneNote</guid>
+            <category><![CDATA[Microsoft]]></category>
+            <category><![CDATA[Office 365]]></category>
+            <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
+            <pubDate>Fri, 12 Jan 2018 05:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
