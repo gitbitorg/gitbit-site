@@ -25,4 +25,4 @@ articles.forEach((article) => {
 })
 
 const xml = feed.xml({indent: true})
-fs.writeFileSync('./docs/feed.xml', xml)
+fs.writeFileSync('./docs/rss.xml', xml)
