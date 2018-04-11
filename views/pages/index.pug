@@ -6,7 +6,7 @@ block content
     h1.title GitBit
   .container
     each article in articles
-      a.card(href=article.link)
+      a.card(href=article.url)
         amp-img.card-image(src=article.image, height=200 width=300 layout="responsive")
         h3.card-title=article.title
         p.card-description=article.description

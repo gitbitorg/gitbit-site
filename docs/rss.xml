@@ -9,9 +9,9 @@
             <link>http://gitbit.org</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Apr 2018 01:25:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Apr 2018 01:32:11 GMT</lastBuildDate>
         <atom:link href="http://gitbit.org/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Apr 2018 01:25:34 GMT</pubDate>
+        <pubDate>Wed, 11 Apr 2018 01:32:11 GMT</pubDate>
         <copyright><![CDATA[2018 GitBit]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[john.gruber@gitbit.org (John Gruber)]]></managingEditor>
@@ -23,7 +23,8 @@
         <item>
             <title><![CDATA[10 Reasons SharePoint Online Destroys File Shares]]></title>
             <description><![CDATA[The IT department of the future leads the business driving innovation. We streamline the day to day, improve customer experience, and help the sales team close more deals!]]></description>
-            <guid isPermaLink="false">10 Reasons SharePoint Online Destroys File Shares</guid>
+            <link>https://blog.usejournal.com/10-reasons-sharepoint-online-destroys-file-shares-7c2c2680f1e9</link>
+            <guid isPermaLink="true">https://blog.usejournal.com/10-reasons-sharepoint-online-destroys-file-shares-7c2c2680f1e9</guid>
             <category><![CDATA[Microsoft]]></category>
             <category><![CDATA[Office 365]]></category>
             <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
@@ -32,7 +33,8 @@
         <item>
             <title><![CDATA[How to Stop Managing and Start Meeting Deadlines]]></title>
             <description><![CDATA[Scrum is the leading agile development methodology, used by Fortune 500 companies around the world. Planner is Microsoft Office 365’s task management app designed for agile teams.]]></description>
-            <guid isPermaLink="false">How to Stop Managing and Start Meeting Deadlines</guid>
+            <link>https://medium.com/swlh/how-to-stop-managing-and-start-meeting-deadlines-d404f65404a9</link>
+            <guid isPermaLink="true">https://medium.com/swlh/how-to-stop-managing-and-start-meeting-deadlines-d404f65404a9</guid>
             <category><![CDATA[Microsoft]]></category>
             <category><![CDATA[Office 365]]></category>
             <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
@@ -41,7 +43,8 @@
         <item>
             <title><![CDATA[13 Outlook Productivity & Organization Tips]]></title>
             <description><![CDATA[Microsoft Outlook is a personal information manager from Microsoft, accessible as a piece of the Microsoft Office suite. Albeit often used as an email application, it likewise incorporates a…]]></description>
-            <guid isPermaLink="false">13 Outlook Productivity &amp; Organization Tips</guid>
+            <link>https://medium.com/@gruberjl/13-outlook-productivity-organization-tips-244e9f16efeb</link>
+            <guid isPermaLink="true">https://medium.com/@gruberjl/13-outlook-productivity-organization-tips-244e9f16efeb</guid>
             <category><![CDATA[Microsoft]]></category>
             <category><![CDATA[Office 365]]></category>
             <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
@@ -50,7 +53,8 @@
         <item>
             <title><![CDATA[19 Reasons Exchange Online is Winning]]></title>
             <description><![CDATA[Exchange Online is Microsoft’s hosted email for businesses. It’s the industry-leading cloud solution adopted by small businesses and fortune 500 companies. Microsoft Exchange Online provides the…]]></description>
-            <guid isPermaLink="false">19 Reasons Exchange Online is Winning</guid>
+            <link>https://hackernoon.com/19-reasons-exchange-online-is-winning-195f2188150d</link>
+            <guid isPermaLink="true">https://hackernoon.com/19-reasons-exchange-online-is-winning-195f2188150d</guid>
             <category><![CDATA[Microsoft]]></category>
             <category><![CDATA[Office 365]]></category>
             <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
@@ -59,7 +63,8 @@
         <item>
             <title><![CDATA[11 Tips for Improving Productivity using OneNote]]></title>
             <description><![CDATA[OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac,iPhone, Android. OneNote notebooks…]]></description>
-            <guid isPermaLink="false">11 Tips for Improving Productivity using OneNote</guid>
+            <link>https://medium.com/@gruberjl/10-tips-to-improve-productivity-using-onenote-85dee4a32cf2</link>
+            <guid isPermaLink="true">https://medium.com/@gruberjl/10-tips-to-improve-productivity-using-onenote-85dee4a32cf2</guid>
             <category><![CDATA[Microsoft]]></category>
             <category><![CDATA[Office 365]]></category>
             <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
