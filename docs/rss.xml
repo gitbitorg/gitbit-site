@@ -9,9 +9,9 @@
             <link>http://gitbit.org</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Apr 2018 16:17:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Apr 2018 16:23:00 GMT</lastBuildDate>
         <atom:link href="http://gitbit.org/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 17 Apr 2018 16:17:25 GMT</pubDate>
+        <pubDate>Tue, 17 Apr 2018 16:23:00 GMT</pubDate>
         <copyright><![CDATA[2018 GitBit]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[john.gruber@gitbit.org (John Gruber)]]></managingEditor>
@@ -22,6 +22,7 @@
         <category><![CDATA[Enterprise Cloud]]></category>
         <item>
             <title><![CDATA[What Is Office 365?]]></title>
+            <description><![CDATA[Office 365 is Microsoft’s cloud for businesses. Designed around productivity and collaboration, Microsoft has integrated over 30 apps into the cloud platform. From email, file storage, and secure chat...]]></description>
             <link>http://documentmedia.com/article-2792-What-Is-Office-365.html</link>
             <guid isPermaLink="true">http://documentmedia.com/article-2792-What-Is-Office-365.html</guid>
             <category><![CDATA[Microsoft]]></category>
