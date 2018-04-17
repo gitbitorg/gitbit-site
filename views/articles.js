@@ -1,5 +1,12 @@
 module.exports = [
   {
+    url: 'http://documentmedia.com/article-2792-What-Is-Office-365.html',
+    image: 'assets/office-365-300x200.jpg',
+    title: 'What Is Office 365?',
+    body: 'Office 365 is Microsoft’s cloud for businesses. Designed around productivity and collaboration, Microsoft has integrated over 30 apps into the cloud platform. From email, file storage, and secure chat...',
+    date: 'April 1, 2018'
+  },
+  {
     url: 'https://blog.usejournal.com/10-reasons-sharepoint-online-destroys-file-shares-7c2c2680f1e9',
     image: 'assets/SharePoint-vs-File-Shares-original.jpg',
     title: '10 Reasons SharePoint Online Destroys File Shares',

@@ -9,9 +9,9 @@
             <link>http://gitbit.org</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Apr 2018 01:32:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Apr 2018 16:17:25 GMT</lastBuildDate>
         <atom:link href="http://gitbit.org/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Apr 2018 01:32:11 GMT</pubDate>
+        <pubDate>Tue, 17 Apr 2018 16:17:25 GMT</pubDate>
         <copyright><![CDATA[2018 GitBit]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[john.gruber@gitbit.org (John Gruber)]]></managingEditor>
@@ -20,6 +20,15 @@
         <category><![CDATA[Office 365]]></category>
         <category><![CDATA[Microsoft]]></category>
         <category><![CDATA[Enterprise Cloud]]></category>
+        <item>
+            <title><![CDATA[What Is Office 365?]]></title>
+            <link>http://documentmedia.com/article-2792-What-Is-Office-365.html</link>
+            <guid isPermaLink="true">http://documentmedia.com/article-2792-What-Is-Office-365.html</guid>
+            <category><![CDATA[Microsoft]]></category>
+            <category><![CDATA[Office 365]]></category>
+            <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>
+            <pubDate>Sun, 01 Apr 2018 04:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[10 Reasons SharePoint Online Destroys File Shares]]></title>
             <description><![CDATA[The IT department of the future leads the business driving innovation. We streamline the day to day, improve customer experience, and help the sales team close more deals!]]></description>
