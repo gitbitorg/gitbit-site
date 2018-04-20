@@ -5,11 +5,8 @@ block content
     amp-img.logo(src='assets/branding/GitBit-Logo-Mercury-50x50.png' height=50 width=50)
     h1.title GitBit
   .container
-    each article in articles
-      a.card(href=article.url)
-        amp-img.card-image(src=article.image, height=200 width=300 layout="responsive")
-        h3.card-title=article.title
-        p.card-description=article.description
+    .document
+      include:markdown-it privacy.md
   footer.nav-bottom
     a.twitter(href="https://twitter.com/gruberjl") Twitter
     a.linkedin(href="https://www.linkedin.com/in/gruberjl/") LinkedIn
