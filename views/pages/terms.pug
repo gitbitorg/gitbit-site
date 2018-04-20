@@ -1,16 +1,10 @@
 extends ../layout.pug
 
 block content
-  header.nav-top
+  include ../includes/header.pug
     amp-img.logo(src='assets/branding/GitBit-Logo-Mercury-50x50.png' height=50 width=50)
     h1.title GitBit
   .container
     .document
       include:markdown-it terms.md
-  footer.nav-bottom
-    a.twitter(href="https://twitter.com/gruberjl") Twitter
-    a.linkedin(href="https://www.linkedin.com/in/gruberjl/") LinkedIn
-    a.newsletter(href="https://businesscenter.office.com/b/gitbit/signup") Tips to your inbox
-    a.rss(href="rss.xml") RSS
-    a.terms(href="/terms.html") Terms
-    a.terms(href="/privacy.html") Privacy
+  include ../includes/footer.pug

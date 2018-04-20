@@ -1,19 +1,11 @@
 extends ../layout.pug
 
 block content
-  header.nav-top
-    amp-img.logo(src='assets/branding/GitBit-Logo-Mercury-50x50.png' height=50 width=50)
-    h1.title GitBit
+  include ../includes/header.pug
   .container
     each article in articles
       a.card(href=article.url)
         amp-img.card-image(src=article.image, height=200 width=300 layout="responsive")
         h3.card-title=article.title
         p.card-description=article.description
-  footer.nav-bottom
-    a.twitter(href="https://twitter.com/gruberjl") Twitter
-    a.linkedin(href="https://www.linkedin.com/in/gruberjl/") LinkedIn
-    a.newsletter(href="https://businesscenter.office.com/b/gitbit/signup") Tips to your inbox
-    a.rss(href="rss.xml") RSS
-    a.terms(href="/terms.html") Terms
-    a.terms(href="/privacy.html") Privacy
+  include ../includes/footer.pug
