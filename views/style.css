@@ -31,6 +31,11 @@ img.logo {
   justify-content: space-around;
 }
 
+.document {
+  padding: 16px;
+  max-width: 768px;
+}
+
 .card {
   background: white;
   width: 300px;
