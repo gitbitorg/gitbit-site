@@ -28,21 +28,22 @@ html(amp="" lang="en")
     noscript
       style(amp-boilerplate='').
         body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
-    script(type='application/ld+json').
-      {
-        "@context": "http://schema.org",
-        "@type": "NewsMediaOrganization",
-        "name": "GitBit",
-        "url": "http://gitbit.org",
-        "logo": "http://gitbit.org/assets/branding/GitBit-Logo-Mercury.png",
-        "sameAs": [
-          "https://twitter.com/gruberjl",
-          "https://plus.google.com/+JohnGruber-gitbit",
-          "https://www.linkedin.com/in/gruberjl/",
-          "https://www.pinterest.com/gitbit00/",
-          "https://www.tumblr.com/blog/gruberjl"
-        ]
-      }
+    block jsonld
+      script(type='application/ld+json').
+        {
+          "@context": "http://schema.org",
+          "@type": "NewsMediaOrganization",
+          "name": "GitBit",
+          "url": "http://gitbit.org",
+          "logo": "http://gitbit.org/assets/branding/GitBit-Logo-Mercury.png",
+          "sameAs": [
+            "https://twitter.com/gruberjl",
+            "https://plus.google.com/+JohnGruber-gitbit",
+            "https://www.linkedin.com/in/gruberjl/",
+            "https://www.pinterest.com/gitbit00/",
+            "https://www.tumblr.com/blog/gruberjl"
+          ]
+        }
     meta(name='twitter:card', content='summary')
     meta(name='twitter:site', content='@gruberjl')
     meta(name='twitter:creator', content='@gruberjl')

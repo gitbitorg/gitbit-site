@@ -5,6 +5,39 @@ block variables
   - const canonical = '/articles/how-to-automate-scheduling-with-office-365.html'
   - const description = 'Office 365 has a Bookings app included. Use Bookings to automate and streamline your scheduling.'
   - const keywords = 'Bookings, automated scheduling'
+  
+block jsonld
+  script(type='application/ld+json').
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": title,
+      "datePublished": "2018-04-24T05:00:00Z",
+      "dateModified": "2018-04-24T05:00:00Z",
+      "description": description,
+      "author": {
+        "@type": "Person",
+        "name": "John Gruber",
+        "email": "john.gruber@gitbit.org"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "GitBit",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://gitbit.org/assets/branding/GitBit-Logo-Mercury-50x50.png",
+          "width": 50,
+          "height": 50
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "http://gitbit.org/assets/article/bookings/microsoft-bookings-screenshot0.png",
+        "height": 599,
+        "width": 656
+      }
+    }
+
 
 block article
   h1#whats-microsoft-bookings What’s Microsoft Bookings?
