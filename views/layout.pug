@@ -4,25 +4,10 @@ html(amp="" lang="en")
   head
     meta(charset="utf-8")
     script(async src="https://cdn.ampproject.org/v0.js")
-    if title
-      title #{title} | GitBit
-    else
-      title GitBit | Office 365 Tips to Improve Productivity
-      
-    if canonical
-      link(rel="canonical" href="http://gitbit.org/" + canonical)
-    else
-      link(rel="canonical" href="http://gitbit.org")
-      
-    if description
-      meta(name='description', content=description)
-    else
-      meta(name='description', content='Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.')
-    
-    if keywords
-      meta(name='keywords', content=keywords)
-    else
-      meta(name='keywords', content='Office 365, Tips & Tricks, Microsoft')
+    title= title ? `${title} | GitBit` : 'GitBit | Office 365 Tips to Improve Productivity'
+    link(rel="canonical" href=`http://gitbit.org/${canonical}`)
+    meta(name='description', content=description ? description : 'Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.')
+    meta(name='keywords', content=keywords ? `Office 365, Microsoft, ${keywords}` : 'Office 365, Microsoft')
         
     meta(name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1")
     link(rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png")
