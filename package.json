@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/gitbitorg/gitbit-site#readme",
   "devDependencies": {
+    "browser-sync": "^2.23.7",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "gulp-pug": "^4.0.1",
