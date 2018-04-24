@@ -47,6 +47,7 @@ const sitemap = () => {
   fs.writeFileSync(sitemapPath, sitemap.toString())
 }
 
-// clean()
-// views()
+clean()
+views()
 sitemap()
+require('./rss.js')
