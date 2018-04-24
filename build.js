@@ -1,13 +1,22 @@
 const fs = require('fs')
-const glob = require('glob')
+const Glob = require('glob').Glob
+const pug = require('pug')
 
 const clean = () => {
-  glob('docs/**.html', (err, files) => {
-    if (err) throw err
-    files.forEach((file) => {
-      fs.unlinkSync(file)
-    })
+  const {found} = Glob('docs/**.html', {sync:true})
+  found.forEach((file) => {
+    fs.unlinkSync(file)
   })
 }
 
-clean()
+const views = () => {
+  const articles = require('./views/articles')
+  const {found} = Glob('views/pages/**/*.pug', {sync:true})
+  found.forEach((file) => {
+    const html = pug.renderFile(file, {articles})
+    console.log(html)
+  })
+}
+
+// clean()
+views()
