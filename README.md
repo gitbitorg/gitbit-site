@@ -4,5 +4,5 @@
 
 ```
 npm install
-npm install gulp-cli -g
+npm run build
 ```
