@@ -10,7 +10,7 @@ gulp.task('default', ['clean', 'views', 'rss', 'sitemap'])
 gulp.task('clean', () => gulp.src('docs/**.html', {force: true}).pipe(clean()))
 
 gulp.task('views', () =>
-  gulp.src('views/pages/*.pug')
+  gulp.src('views/pages/**/*.pug')
     .pipe(pug({data: {articles}}))
     .pipe(gulp.dest('docs'))
 )

@@ -12,7 +12,12 @@
 </head>
 
 <body>
-  <h1>hello</h1>
+  <header class="toolbar">
+    <button onclick="toggleBold();">B</button>
+  </header>
+  <main>
+    <div contenteditable="true" class="editor" id="editor" onblur="saveSelector()"></div>
+  </main>
   <script src="/script.js"></script>
 </body>
 </html>

@@ -3,8 +3,15 @@ html(amp="" lang="en")
   head
     meta(charset="utf-8")
     script(async src="https://cdn.ampproject.org/v0.js")
-    title GitBit | Office 365 Tips to Improve Productivity
-    link(rel="canonical" href="http://gitbit.org")
+    block title
+      title GitBit | Office 365 Tips to Improve Productivity
+    block canonical
+      link(rel="canonical" href="http://gitbit.org")
+    block description  
+      meta(name='description', content='Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.')
+    block keywords
+      meta(name='keywords', content='Office 365, Tips & Tricks, Microsoft')
+        
     meta(name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1")
     link(rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png")
     link(rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png")
@@ -15,8 +22,7 @@ html(amp="" lang="en")
     meta(name="msapplication-TileColor" content="#00aba9")
     meta(name="msapplication-config" content="/assets/favicons/browserconfig.xml")
     meta(name="theme-color" content="#ffffff")
-    meta(name='description', content='Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.')
-    meta(name='keywords', content='Office 365, Tips & Tricks, Microsoft')
+
     meta(name='author', content='John Gruber <John.Gruber@gitbit.org>')
     script(async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js")
     link(rel="alternate" type="application/rss+xml" title="Office 365 Tips to Improve Productivity - GitBit" href="rss.xml")
@@ -27,18 +33,18 @@ html(amp="" lang="en")
         body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
     script(type='application/ld+json').
       {
-      "@context": "http://schema.org",
-      "@type": "NewsMediaOrganization",
-      "name": "GitBit",
-      "url": "http://gitbit.org",
-      "logo": "http://gitbit.org/assets/branding/GitBit-Logo-Mercury.png",
-      "sameAs": [
-      "https://twitter.com/gruberjl",
-      "https://plus.google.com/+JohnGruber-gitbit",
-      "https://www.linkedin.com/in/gruberjl/",
-      "https://www.pinterest.com/gitbit00/",
-      "https://www.tumblr.com/blog/gruberjl"
-      ]
+        "@context": "http://schema.org",
+        "@type": "NewsMediaOrganization",
+        "name": "GitBit",
+        "url": "http://gitbit.org",
+        "logo": "http://gitbit.org/assets/branding/GitBit-Logo-Mercury.png",
+        "sameAs": [
+          "https://twitter.com/gruberjl",
+          "https://plus.google.com/+JohnGruber-gitbit",
+          "https://www.linkedin.com/in/gruberjl/",
+          "https://www.pinterest.com/gitbit00/",
+          "https://www.tumblr.com/blog/gruberjl"
+        ]
       }
     meta(name='twitter:card', content='summary')
     meta(name='twitter:site', content='@gruberjl')

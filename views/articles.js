@@ -1,5 +1,12 @@
 module.exports = [
   {
+    url: '/articles/how-to-automate-scheduling-with-office-365.html',
+    image: '/assets/article/bookings/microsoft-bookings-screenshot.png',
+    title: 'How to Automate Scheduling with Office 365',
+    description: 'Office 365 has a Bookings app included. Use Bookings to automate and streamline your scheduling.',
+    date: 'April 24, 2018'
+  },
+  {
     url: 'http://documentmedia.com/article-2792-What-Is-Office-365.html',
     image: 'assets/office-365-300x200.jpg',
     title: 'What Is Office 365?',

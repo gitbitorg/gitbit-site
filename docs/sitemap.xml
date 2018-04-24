@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://gitbit.org/</loc>
-        <lastmod>2018-04-20T20:08:39.292Z</lastmod>
+        <lastmod>2018-04-24T18:48:15.372Z</lastmod>
     </url>
     <url>
         <loc>http://gitbit.org/privacy.html</loc>
-        <lastmod>2018-04-20T20:08:39.413Z</lastmod>
+        <lastmod>2018-04-24T18:48:15.674Z</lastmod>
     </url>
     <url>
         <loc>http://gitbit.org/terms.html</loc>
-        <lastmod>2018-04-20T20:08:39.416Z</lastmod>
+        <lastmod>2018-04-24T18:48:15.677Z</lastmod>
+    </url>
+    <url>
+        <loc>http://gitbit.org/articles/how-to-automate-scheduling-with-office-365.html</loc>
+        <lastmod>2018-04-24T18:48:15.680Z</lastmod>
     </url>
 </urlset>
