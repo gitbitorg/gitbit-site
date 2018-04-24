@@ -4,6 +4,7 @@ const fs = require('fs')
 const Glob = require('glob').Glob
 const pug = require('pug')
 const ampify = require('ampify')
+const sm = require('sitemap')
 
 const clean = () => {
   const {found} = Glob('docs/**.html', {sync:true})
@@ -24,5 +25,28 @@ const views = () => {
   })
 }
 
+const sitemap = () => {
+  const sitemapPath = 'docs/sitemap.xml'
+  fs.unlinkSync(sitemapPath)
+
+  const {found} = Glob('docs/**/*.html', {sync:true})
+  const urls = found.map((file) => ({
+    url: file.replace('docs', ''),
+    changefreq: 'weekly',
+    priority: 0.8,
+    lastmodrealtime: true,
+    lastmodfile: file.replace('docs/', 'views/pages/').replace('.html', '.pug')
+  }))
+
+  const sitemap = sm.createSitemap({
+    hostname: 'http://gitbit.org',
+    cacheTime: 600000,  //600 sec (10 min) cache purge period
+    urls
+  })
+
+  fs.writeFileSync(sitemapPath, sitemap.toString())
+}
+
 // clean()
 // views()
+sitemap()

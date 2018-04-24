@@ -31,6 +31,7 @@
     "gulp-sitemap": "^5.1.0",
     "jstransformer-markdown-it": "^2.0.0",
     "pug": "^2.0.3",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "sitemap": "^1.13.0"
   }
 }
