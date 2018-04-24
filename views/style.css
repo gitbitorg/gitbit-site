@@ -6,6 +6,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  margin: 12px;
+  max-width: 700px;
+}
+
 .nav-top {
   background-color: white;
   width:100%;
