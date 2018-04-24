@@ -5,6 +5,9 @@ block variables
   - const canonical = '/articles/how-to-automate-scheduling-with-office-365.html'
   - const description = 'Office 365 has a Bookings app included. Use Bookings to automate and streamline your scheduling.'
   - const keywords = 'Bookings, automated scheduling'
+
+block head
+  script(async='', custom-element='amp-youtube', src='https://cdn.ampproject.org/v0/amp-youtube-0.1.js')
   
 block jsonld
   script(type='application/ld+json').
@@ -48,8 +51,7 @@ block article
     | Microsoft has continued to improve the product and has expanded the app to
     | enterprise customers.
   p
-    a(href='http://www.youtube.com/watch?v=G2HOsM767Sw')
-      img(src='http://img.youtube.com/vi/G2HOsM767Sw/0.jpg', alt='Microsoft Bookings Introduction Video')
+    amp-youtube(data-videoid='G2HOsM767Sw', layout='responsive', width='480', height='270')
   h1#why-use-microsoft-bookings Why use Microsoft Bookings?
   h2#customers-love-it Customers Love it!
   p
