@@ -17,7 +17,8 @@ const views = () => {
   const articles = require('./views/articles')
   const {found} = Glob('views/pages/**/*.pug', {sync:true})
   found.forEach((file) => {
-    const html = pug.renderFile(file, {articles})
+    const stats = file == 'views/pages/index.pug' ? fs.statSync('views/articles.js') : fs.statSync(file)
+    const html = pug.renderFile(file, {articles, dateModified:stats.birthtime, datePublished:stats.mtime})
     const amp = ampify(html, {cwd:'./docs'})
 
     const destinationPath = file.replace('views/pages/', './docs/').replace('.pug', '.html')
