@@ -2,7 +2,41 @@ extends ./layout.pug
 block head
   block head
 block jsonld
-  block jsonld
+  script(type='application/ld+json').
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": #{`http://gitbit.org${canonical}`}
+      },
+      "headline": #{title},
+      "name": #{title}
+      "image": [
+        #{image16x9},
+        #{image4x3},
+        #{image1x1}
+      ],
+      "datePublished": #{datePublished},
+      "dateModified": #{dateModified},
+      "author": {
+        "@type": "Person",
+        "name": "John Gruber",
+        "email": "john.gruber@gitbit.org"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "GitBit",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://gitbit.org/assets/branding/gitbit-logo-200x60.jpg"
+        }
+      },
+      "description": #{description},
+      "about": "Office 365",
+      "wordCount": 1500,
+      "keywords": #{keywords}
+    }
 append variables
   - const pageType = 'article'
   block variables
