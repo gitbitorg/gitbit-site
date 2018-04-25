@@ -9,9 +9,9 @@
             <link>http://gitbit.org</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Apr 2018 15:55:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Apr 2018 16:01:02 GMT</lastBuildDate>
         <atom:link href="http://gitbit.org/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 25 Apr 2018 15:55:49 GMT</pubDate>
+        <pubDate>Wed, 25 Apr 2018 16:01:02 GMT</pubDate>
         <copyright><![CDATA[2018 GitBit]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[john.gruber@gitbit.org (John Gruber)]]></managingEditor>
@@ -23,8 +23,8 @@
         <item>
             <title><![CDATA[How to Automate Scheduling with Office 365]]></title>
             <description><![CDATA[Office 365 has a Bookings app included. Use Bookings to automate and streamline your scheduling.]]></description>
-            <link>http://gitbit.org/articles/how-to-automate-scheduling-with-office-365.html</link>
-            <guid isPermaLink="true">http://gitbit.org/articles/how-to-automate-scheduling-with-office-365.html</guid>
+            <link>http://gitbit.org/articles/how-to-automate-scheduling-with-office-365</link>
+            <guid isPermaLink="true">http://gitbit.org/articles/how-to-automate-scheduling-with-office-365</guid>
             <category><![CDATA[Microsoft]]></category>
             <category><![CDATA[Office 365]]></category>
             <dc:creator><![CDATA[john.gruber@gitbit.org (John Gruber)]]></dc:creator>

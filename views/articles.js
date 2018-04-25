@@ -1,6 +1,6 @@
 module.exports = [
   {
-    url: '/articles/how-to-automate-scheduling-with-office-365.html',
+    url: '/articles/how-to-automate-scheduling-with-office-365',
     image: '/assets/article/bookings/Microsoft-Bookings-Screenshot-300x200.png',
     title: 'How to Automate Scheduling with Office 365',
     description: 'Office 365 has a Bookings app included. Use Bookings to automate and streamline your scheduling.',
