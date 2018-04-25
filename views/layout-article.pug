@@ -11,17 +11,17 @@ block jsonld
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": #{`http://gitbit.org${canonical}`}
+        "@id": "#{`http://gitbit.org${canonical}`}"
       },
-      "headline": #{title},
-      "name": #{title}
+      "headline": "#{title}",
+      "name": "#{title}",
       "image": [
-        #{image16x9},
-        #{image4x3},
-        #{image1x1}
+        "#{image16x9}",
+        "#{image4x3}",
+        "#{image1x1}"
       ],
-      "datePublished": #{datePublished},
-      "dateModified": #{dateModified},
+      "datePublished": "#{datePublished}",
+      "dateModified": "#{dateModified}",
       "author": {
         "@type": "Person",
         "name": "John Gruber",
@@ -48,10 +48,10 @@ block jsonld
           "https://twitter.com/gitbitorg"
         ]
       },
-      "description": #{description},
+      "description": "#{description}",
       "about": "Office 365",
-      "wordCount": #{wordCount},
-      "keywords": #{keywords}
+      "wordCount": "#{wordCount}",
+      "keywords": "#{keywords}"
     }
 block content
   include ./includes/header.pug
