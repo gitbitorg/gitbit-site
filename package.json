@@ -27,7 +27,6 @@
     "jstransformer-markdown-it": "^2.0.0",
     "pug": "^2.0.3",
     "rss": "^1.2.2",
-    "sitemap": "^1.13.0",
-    "word-count": "^0.2.2"
+    "sitemap": "^1.13.0"
   }
 }
