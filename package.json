@@ -23,9 +23,11 @@
   "devDependencies": {
     "ampify": "^0.2.6",
     "glob": "^7.1.2",
+    "html-word-count": "^2.0.0",
     "jstransformer-markdown-it": "^2.0.0",
     "pug": "^2.0.3",
     "rss": "^1.2.2",
-    "sitemap": "^1.13.0"
+    "sitemap": "^1.13.0",
+    "word-count": "^0.2.2"
   }
 }

@@ -5,6 +5,7 @@ const Glob = require('glob').Glob
 const pug = require('pug')
 const ampify = require('ampify')
 const sm = require('sitemap')
+const wordCount = require('html-word-count')
 
 const clean = () => {
   const {found} = Glob('docs/**.html', {sync:true})
@@ -20,7 +21,8 @@ const views = () => {
     const stats = file == 'views/pages/index.pug' ? fs.statSync('views/articles.js') : fs.statSync(file)
     const dateModified = (new Date(stats.mtime)).toISOString()
     const datePublished = (new Date(stats.birthtime)).toISOString()
-    const html = pug.renderFile(file, {articles, dateModified, datePublished})
+    let html = pug.renderFile(file, {articles, dateModified, datePublished})
+    html = pug.renderFile(file, {articles, dateModified, datePublished, wordCount: wordCount(html)})
     const amp = ampify(html, {cwd:'./docs'})
 
     const destinationPath = file.replace('views/pages/', './docs/').replace('.pug', '.html')
