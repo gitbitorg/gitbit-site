@@ -98,8 +98,9 @@ footer.nav-bottom {
   margin-right: 32px;
 }
 
-footer.nav-bottom a + a {
-  padding-left: 12px;
+footer.nav-bottom a {
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 footer.nav-bottom a, .nav-top a {
