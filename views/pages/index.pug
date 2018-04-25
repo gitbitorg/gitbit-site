@@ -4,7 +4,9 @@ block jsonld
   script(type='application/ld+json')
     | { "@context":"http://schema.org", "@type":"ItemList", "itemListElement":[
     each article, index in articles
-      | { "@type":"ListItem", "position":#{index + 1}, "url":#{article.url}, "name":#{article.title}, "image"#{article.image} },
+      | { "@type":"ListItem", "position":#{index + 1}, "url":"#{article.url}", "name":"#{article.title}", "image": "#{article.image}" }
+      if articles.length > index+1
+        | ,
     | ] }
 
 block content
