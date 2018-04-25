@@ -5,10 +5,13 @@ html(amp="" lang="en")
     - let layoutTitle = title ? `${title} | GitBit` : 'GitBit | Office 365 Tips to Improve Productivity'
     - let layoutDescription = description ? description : 'Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.'
     - let layoutKeywords = keywords ? `Office 365, Microsoft, ${keywords}` : 'Office 365, Microsoft'
+    - let layoutCanonical = `http://gitbit.org/${canonical}`
+    - let layoutPageType = pageType ? pageType : 'website'
+    
     meta(charset="utf-8")
     script(async src="https://cdn.ampproject.org/v0.js")
     title= layoutTitle
-    link(rel="canonical" href=`http://gitbit.org/${canonical}`)
+    link(rel="canonical" href=layoutCanonical)
     meta(name='description', content=layoutDescription)
     meta(name='keywords', content=layoutKeywords)
         
@@ -61,12 +64,13 @@ html(amp="" lang="en")
       <!--meta(name='twitter:image', content='https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg')-->
 
     block og
-      meta(property='og:url', content='http://gitbit.org')
+      meta(property="og:site_name" content="GitBit")
+      meta(property='og:url', content=layoutCanonical)
       meta(property='og:locale', content='en_US')
-      meta(property='og:type', content='website')
-      meta(property='og:title', content='Office 365 Tips & Tricks to Improve Productivity and Collaboration')
-      meta(property='og:description', content='Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips & tricks so your organization can have a ROI of 162% in a 7 month payback period.')
-      meta(property='og:image', content='http://gitbit.org/assets/branding/gitbit-logo-black.jpg')
+      meta(property='og:type', content=layoutPageType)
+      meta(property='og:title', content=layoutTitle)
+      meta(property='og:description', content=layoutDescription)
+      <!-- meta(property='og:image', content='http://gitbit.org/assets/branding/gitbit-logo-black.jpg') -->
     meta(property='fb:app_id', content='125424108093912')
     <!-- link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet") -->
     style(amp-custom)
