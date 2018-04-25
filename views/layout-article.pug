@@ -1,4 +1,7 @@
 extends ./layout.pug
+append variables
+  - const pageType = 'article'
+  block variables
 block head
   block head
 block jsonld
@@ -50,9 +53,6 @@ block jsonld
       "wordCount": 1500,
       "keywords": #{keywords}
     }
-append variables
-  - const pageType = 'article'
-  block variables
 block content
   include ./includes/header.pug
   main
