@@ -1,8 +1,8 @@
 const mammoth = require('mammoth')
 const fs = require('fs')
 
-const assetsFolder = 'test'
-const path = './Title1.docx'
+const assetsFolder = 'OneNote'
+const path = './drafts/11 Tips for Improving Productivity using.docx'
 
 const encode = (str) => {
   str = str.replace(/[^a-zA-Z 0-9]/g, '')
@@ -12,7 +12,8 @@ const encode = (str) => {
 }
 
 const createDir = () => {
-  if (!fs.existsSync(`${__dirname}/${assetsFolder}`)) fs.mkdirSync(`${__dirname}/${assetsFolder}`)
+  if (!fs.existsSync(`${__dirname}/docs/assets/article/${assetsFolder}`))
+    fs.mkdirSync(`${__dirname}/docs/assets/article/${assetsFolder}`)
   return assetsFolder
 }
 
@@ -33,16 +34,16 @@ const convertImage = mammoth.images.imgElement(async (image) => {
   const extension = image.contentType.split('/')[1]
 
   const folderName = createDir()
-  const fileName = createUniqueFileName(`${__dirname}/${folderName}/`, encode(image.altText), extension)
+  const fileName = createUniqueFileName(`${__dirname}/docs/assets/article/${folderName}/`, encode(image.altText), extension)
 
   const buf = await image.read()
-  fs.writeFileSync(`${__dirname}/${folderName}/${fileName}.${extension}`, buf)
-  return { src: `/${folderName}/${fileName}.${extension}` }
+  fs.writeFileSync(`${__dirname}/docs/assets/article/${folderName}/${fileName}.${extension}`, buf)
+  return { src: `/assets/article/${folderName}/${fileName}.${extension}` }
 })
 
 const start = async () => {
   const res = await mammoth.convertToHtml({path}, {convertImage})
-  console.log(res.value)
+  // console.log(res.value)
   console.log(res.messages)
 }
 
