@@ -5,17 +5,17 @@ const html2pug = require('html2pug')
 const path = './drafts/11 Tips for Improving Productivity using.docx'
 
 const article = {
-  image: '/assets/article/bookings/Microsoft-Bookings-Screenshot-300x200.png',
   title: '11 Tips for Improving Productivity using OneNote',
-  description: '',
-  keywords: '',
-  assetsFolder: ''
+  description: 'OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac, iPhone, Android. OneNote notebooks can be shared with colleagues for real-time collaboration.',
+  keywords: 'Office 365, OneNote, Microsoft Office',
+  assetsFolder: 'tips-for-onenote'
 }
 
-const encode = (str) => {
+const encode = (str, limitStringLength = true) => {
   str = str.replace(/[^a-zA-Z 0-9]/g, '')
   str = str.replace(/ /g, '-')
-  str = str.substring(0, 15)
+  limitStringLength ? str = str.substring(0, 15) : null
+
   return str
 }
 
@@ -54,15 +54,13 @@ const writeMeta = () => {
   article.datePublished = (new Date()).toISOString()
   article.dateModified = (new Date()).toISOString()
   article.canonical = `/articles/${article.fileName}`
+  article.image1200x1200 = `http://gitbit.org/assets/article/${article.assetsFolder}/1200x1200.jpg`
+  article.image1200x900 = `http://gitbit.org/assets/article/${article.assetsFolder}/1200x900.jpg`
+  article.image1200x675 = `http://gitbit.org/assets/article/${article.assetsFolder}/1200x675.jpg`
+  article.image400x300 = `http://gitbit.org/assets/article/${article.assetsFolder}/400x300.jpg`
 
-  /*
-    canonical
-    description
-    keywords
-    image1x1
-    image16x9
-    image4x3
-  */
+  const output = `module.exports = ${JSON.stringify(article, null, '\t')}`
+  fs.writeFileSync(`${__dirname}/views/pages/articles/${article.fileName}.js`, output)
 }
 
 const start = async () => {
