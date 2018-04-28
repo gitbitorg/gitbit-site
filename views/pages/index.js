@@ -1,5 +1,6 @@
 const Glob = require('glob').Glob
-const {found} = Glob('articles/*.js', {sync:true})
+const {found} = Glob(`${__dirname}\\articles\\*.js`, {sync:true})
+
 const articles = found.map((file) => require(file))
 module.exports = {
   'title': 'GitBit | Office 365 Tips to Improve Productivity',
