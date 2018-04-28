@@ -25,6 +25,7 @@
     "glob": "^7.1.2",
     "html-word-count": "^2.0.0",
     "html2pug": "^2.0.1",
+    "htmlparser2": "^3.9.2",
     "jstransformer-markdown-it": "^2.0.0",
     "mammoth": "^1.4.5",
     "pug": "^2.0.3",
