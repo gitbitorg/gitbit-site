@@ -38,13 +38,17 @@ const sitemap = () => {
     fs.unlinkSync(sitemapPath)
 
   const {found} = Glob('docs/**/*.html', {sync:true})
-  const urls = found.map((file) => ({
-    url: file.replace('docs', ''),
-    changefreq: 'weekly',
-    priority: 0.8,
-    lastmodrealtime: true,
-    lastmodfile: file.replace('docs/', 'views/pages/').replace('.html', '.pug')
-  }))
+  const urls = found.map((file) => {
+    const metaPath = file.replace('docs', 'views/pages').replace('.html', '.js')
+    const meta = require(`./${metaPath}`)
+
+    return {
+      url: file.replace('docs', ''),
+      changefreq: 'weekly',
+      priority: 0.8,
+      lastmodISO: meta.dateModified
+    }
+  })
 
   const sitemap = sm.createSitemap({
     hostname: 'http://gitbit.org',
@@ -55,7 +59,7 @@ const sitemap = () => {
   fs.writeFileSync(sitemapPath, sitemap.toString())
 }
 
-clean()
-views()
+// clean()
+// views()
 sitemap()
-require('./rss.js')
+// require('./rss.js')
