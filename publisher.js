@@ -46,7 +46,10 @@ const convertImage = mammoth.images.imgElement(async (image) => {
 
   const buf = await image.read()
   fs.writeFileSync(`${__dirname}/docs/assets/article/${folderName}/${fileName}.${extension}`, buf)
-  return { src: `/assets/article/${folderName}/${fileName}.${extension}` }
+  return {
+    src: `/assets/article/${folderName}/${fileName}.${extension}`,
+    layout: 'responsive'
+  }
 })
 
 const writeMeta = () => {
