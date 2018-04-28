@@ -102,6 +102,12 @@ img.logo {
   height:100%;
 }
 
+.no-print {
+  @media print {
+    display: none;
+  }
+}
+
 footer.nav-bottom {
   display: flex;
   justify-content: space-around;
