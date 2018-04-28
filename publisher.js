@@ -5,10 +5,10 @@ const sharp = require('sharp')
 const Glob = require('glob').Glob
 
 const article = {
-  title: 'John Gruber',
-  description: 'John Gruber is a Collaboration Engineer and is responsible for helping customers manage and maintain Microsoft Office 365. John brings 10 years of information technology (IT) experience, helping small and large organizations across North America. Follow him on Twitter @gruberjl',
-  keywords: 'John Gruber, John L Gruber, John L Gruber Jr',
-  assetsFolder: 'gruberjl'
+  title: 'test',
+  description: 'test article',
+  keywords: 'Office 365',
+  assetsFolder: 'test'
 }
 
 const encode = (str, limitStringLength = true) => {
@@ -93,8 +93,8 @@ const start = async () => {
     console.log('article not published')
     console.log(res.messages)
   } else {
-    moveFiles()
-    await createThumbnail()
+    // moveFiles()
+    // await createThumbnail()
     writeMeta()
     fs.writeFileSync(`${__dirname}/views/pages/articles/${article.fileName}.pug`, pug)
   }
