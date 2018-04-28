@@ -5,10 +5,10 @@ const sharp = require('sharp')
 const Glob = require('glob').Glob
 
 const article = {
-  title: '12 Tips for Improving Productivity using OneNote',
-  description: 'OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac, iPhone, Android. OneNote notebooks can be shared with colleagues for real-time collaboration.',
-  keywords: 'Office 365, OneNote, Microsoft Office',
-  assetsFolder: 'tips-for-onenote'
+  title: 'John Gruber',
+  description: 'John Gruber is a Collaboration Engineer and is responsible for helping customers manage and maintain Microsoft Office 365. John brings 10 years of information technology (IT) experience, helping small and large organizations across North America. Follow him on Twitter @gruberjl',
+  keywords: 'John Gruber, John L Gruber, John L Gruber Jr',
+  assetsFolder: 'gruberjl'
 }
 
 const encode = (str, limitStringLength = true) => {
