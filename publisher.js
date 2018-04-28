@@ -48,7 +48,8 @@ const convertImage = mammoth.images.imgElement(async (image) => {
   fs.writeFileSync(`${__dirname}/docs/assets/article/${folderName}/${fileName}.${extension}`, buf)
   return {
     src: `/assets/article/${folderName}/${fileName}.${extension}`,
-    layout: 'intrinsic'
+    layout: 'intrinsic',
+    attribution: 'CC courtesy of John L. Gruber on GitBit'
   }
 })
 
