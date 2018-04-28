@@ -15,14 +15,16 @@ const clean = () => {
 }
 
 const views = () => {
-  const articles = require('./views/articles')
-  const {found} = Glob('views/pages/**/*.pug', {sync:true})
-  found.forEach((file) => {
-    const stats = file == 'views/pages/index.pug' ? fs.statSync('views/articles.js') : fs.statSync(file)
-    const dateModified = (new Date(stats.mtime)).toISOString()
-    const datePublished = (new Date(stats.birthtime)).toISOString()
-    let html = pug.renderFile(file, {articles, dateModified, datePublished})
-    html = pug.renderFile(file, {articles, dateModified, datePublished, wordCount: wordCount(html)})
+  // const articles = require('./views/articles')
+  const templates = (Glob('views/pages/**/*.pug', {sync:true})).found
+  templates.forEach((file) => {
+    // const stats = file == 'views/pages/index.pug' ? fs.statSync('views/articles.js') : fs.statSync(file)
+    // const dateModified = (new Date(stats.mtime)).toISOString()
+    // const datePublished = (new Date(stats.birthtime)).toISOString()
+    const metaPath = file.replace('.pug', '.js')
+    const meta = require(`./${metaPath}`)
+    let html = pug.renderFile(file, meta)
+    html = pug.renderFile(file, Object.assign({wordCount: wordCount(html)}, meta))
     const amp = ampify(html, {cwd:'./docs'})
 
     const destinationPath = file.replace('views/pages/', './docs/').replace('.pug', '.html')
