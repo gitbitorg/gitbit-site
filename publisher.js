@@ -48,7 +48,7 @@ const convertImage = mammoth.images.imgElement(async (image) => {
   fs.writeFileSync(`${__dirname}/docs/assets/article/${folderName}/${fileName}.${extension}`, buf)
   return {
     src: `/assets/article/${folderName}/${fileName}.${extension}`,
-    layout: 'responsive'
+    layout: 'intrinsic'
   }
 })
 
@@ -96,8 +96,8 @@ const start = async () => {
     console.log('article not published')
     console.log(res.messages)
   } else {
-    // moveFiles()
-    // await createThumbnail()
+    moveFiles()
+    await createThumbnail()
     writeMeta()
     fs.writeFileSync(`${__dirname}/views/pages/articles/${article.fileName}.pug`, pug)
   }
