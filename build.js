@@ -8,7 +8,7 @@ const sm = require('sitemap')
 const wordCount = require('html-word-count')
 
 const clean = () => {
-  const {found} = Glob('docs/**.html', {sync:true})
+  const {found} = Glob('docs/**/*.html', {sync:true})
   found.forEach((file) => {
     fs.unlinkSync(file)
   })
@@ -34,7 +34,8 @@ const views = () => {
 
 const sitemap = () => {
   const sitemapPath = 'docs/sitemap.xml'
-  fs.unlinkSync(sitemapPath)
+  if (fs.existsSync(sitemapPath))
+    fs.unlinkSync(sitemapPath)
 
   const {found} = Glob('docs/**/*.html', {sync:true})
   const urls = found.map((file) => ({
