@@ -102,8 +102,8 @@ img.logo {
   height:100%;
 }
 
-.no-print {
-  @media print {
+@media print {
+  .no-print {
     display: none;
   }
 }
