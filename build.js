@@ -42,7 +42,8 @@ const getImages = (path) => {
       if(name === 'amp-img' && attribs.alt) {
         const img = {
           url: `http://gitbit.org${attribs.src}`,
-          title: attribs.alt
+          title: attribs.alt,
+          license: 'https://creativecommons.org/licenses/by/4.0/'
         }
 
         if (img.title) img.caption = img.title
