@@ -36,16 +36,15 @@ article {
   margin-bottom: 8px;
 }
 
-.flex {
+.align-center {
   display: flex;
+  align-items: center;
 }
 
-.align-center {
+#social-media {
   width:100%;
   padding-left: 8px;
   padding-right: 8px;
-  display: flex;
-  align-items: center;
 }
 
 img.logo {
