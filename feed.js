@@ -43,6 +43,15 @@ const getContent = (metaPath, meta) => {
       $(el).attr('src', `http://gitbit.org${$(el).attr('src')}`)
   })
 
+  $('*')
+    .not('html').not('meta').not('body').not('link').not('title').not('style').not('noscript').not('head')
+    .not('p').not('a').not('img').not('strong').not('li').not('ul').not('ol').not('br').not('div').not('em')
+    .not('h1').not('h2').not('h3').not('h4').not('h5').not('h6')
+    .not('footer').not('header').not('article').not('main')
+    .each((idx, el) => {
+      $(el).remove()
+    })
+
   return $('article').html()
 }
 
