@@ -25,6 +25,7 @@
     "glob": "^7.1.2",
     "html-minifier": "^3.5.15",
     "html-word-count": "^2.0.0",
+    "html2jade": "^0.8.6",
     "html2pug": "^2.0.1",
     "htmlparser2": "^3.9.2",
     "jstransformer-markdown-it": "^2.1.0",

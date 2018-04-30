@@ -1,14 +1,15 @@
 const mammoth = require('mammoth')
 const fs = require('fs')
-const html2pug = require('html2pug')
+const util = require('util')
+const html2pug = util.promisify(require('html2jade').convertHtml)
 const sharp = require('sharp')
 const Glob = require('glob').Glob
 
 const article = {
-  title: 'test',
-  description: 'test article',
-  keywords: 'Office 365',
-  assetsFolder: 'test'
+  title: '12 Tips for Improving Productivity using OneNote',
+  description: 'OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac, iPhone, Android. OneNote notebooks can be shared with colleagues for real-time collaboration.',
+  keywords: 'Office 365, OneNote, Microsoft Office',
+  assetsFolder: 'tips-for-onenote'
 }
 
 const encode = (str, limitStringLength = true) => {
@@ -92,7 +93,7 @@ const getDocx = () => {
 const start = async () => {
   const pathToDraft = getDocx()
   const res = await mammoth.convertToHtml({path: pathToDraft}, {convertImage})
-  const pug = html2pug(res.value, { tabs: true })
+  const pug = await html2pug(res.value, {})
   if (res.messages.length > 0) {
     console.log('article not published')
     console.log(res.messages)
