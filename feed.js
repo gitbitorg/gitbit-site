@@ -5,12 +5,6 @@ const pug = require('pug')
 const wordCount = require('html-word-count')
 const cheerio = require('cheerio')
 
-/*
-link(rel='alternate', type='application/rss+xml', title='RSS Feed for gitbit.org', href='http://gitbit.org/rss.xml')
-link(rel='alternate', type='application/atom+xml', title='Atom Feed for gitbit.org', href='http://gitbit.org/atom.xml')
-link(rel='alternate', title='JSON Feed for GitBit.org', type='application/json', href='https://gitbit.org/feed.json')
-
-*/
 const metaPaths = (Glob('views/pages/articles/**/*.js', {sync:true})).found
 
 const feed = new Feed({
@@ -38,6 +32,16 @@ const getContent = (metaPath, meta) => {
   let html = pug.renderFile(articlePath, meta)
   html = pug.renderFile(articlePath, Object.assign({wordCount: wordCount(html)}, meta))
   const $ = cheerio.load(html)
+
+  $('article a').each((idx, el) => {
+    if ($(el).attr('href').startsWith('/'))
+      $(el).attr('href', `http://gitbit.org${$(el).attr('href')}`)
+  })
+
+  $('article img').each((idx, el) => {
+    if ($(el).attr('src').startsWith('/'))
+      $(el).attr('src', `http://gitbit.org${$(el).attr('src')}`)
+  })
 
   return $('article').html()
 }
