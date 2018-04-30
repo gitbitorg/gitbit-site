@@ -4,6 +4,7 @@ const util = require('util')
 const html2pug = util.promisify(require('html2jade').convertHtml)
 const sharp = require('sharp')
 const Glob = require('glob').Glob
+const {moveDrafts} = require('./build/move-drafts')
 
 const article = {
   title: '12 Tips for Improving Productivity using OneNote',
@@ -73,14 +74,6 @@ const createThumbnail = () => sharp(`./docs/assets/article/${article.assetsFolde
   .sharpen()
   .toFile(`./docs/assets/article/${article.assetsFolder}/400x300.jpg`)
 
-
-const moveFiles = () => {
-  const {found} = Glob('./drafts/*.*', {sync:true})
-  found.forEach((file) => {
-    fs.renameSync(file, file.replace('./drafts/', `${__dirname}/docs/assets/article/${article.assetsFolder}/`))
-  })
-}
-
 const getDocx = () => {
   const {found} = Glob('./drafts/*.docx', {sync:true})
   if (found.length > 1) {
@@ -98,7 +91,7 @@ const start = async () => {
     console.log('article not published')
     console.log(res.messages)
   } else {
-    moveFiles()
+    moveDrafts(article.assetsFolder)
     await createThumbnail()
     writeMeta()
     fs.writeFileSync(`${__dirname}/views/pages/articles/${article.fileName}.pug`, pug)
