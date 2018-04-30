@@ -22,6 +22,7 @@
   "homepage": "https://github.com/gitbitorg/gitbit-site#readme",
   "devDependencies": {
     "ampify": "^0.2.6",
+    "cheerio": "^1.0.0-rc.2",
     "feed": "^1.1.1",
     "glob": "^7.1.2",
     "html-minifier": "^3.5.15",

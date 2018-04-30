@@ -2,12 +2,14 @@ const Glob = require('glob').Glob
 const Feed = require('feed')
 const fs = require('fs')
 const pug = require('pug')
-const htmlparser = require('htmlparser2')
 const wordCount = require('html-word-count')
+const cheerio = require('cheerio')
 
 /*
-link(rel='alternate', type='application/rss+xml', title='RSS Feed for petefreitag.com', href='http://gitbit.org/rss.xml')
-link(rel='alternate', type='application/atom+xml', title='Atom Feed for petefreitag.com', href='http://gitbit.org/rss.xml')
+link(rel='alternate', type='application/rss+xml', title='RSS Feed for gitbit.org', href='http://gitbit.org/rss.xml')
+link(rel='alternate', type='application/atom+xml', title='Atom Feed for gitbit.org', href='http://gitbit.org/atom.xml')
+link(rel='alternate', title='JSON Feed for GitBit.org', type='application/json', href='https://gitbit.org/feed.json')
+
 */
 const metaPaths = (Glob('views/pages/articles/**/*.js', {sync:true})).found
 
@@ -35,34 +37,20 @@ const getContent = (metaPath, meta) => {
   const articlePath = metaPath.replace('.js', '.pug')
   let html = pug.renderFile(articlePath, meta)
   html = pug.renderFile(articlePath, Object.assign({wordCount: wordCount(html)}, meta))
-  let content = ''
-  let isArticle = false
-  const parser = new htmlparser.Parser({
-    onopentag: (name) => {
-      if(name === 'article') {
-        isArticle = true
-      }
-    },
-    ontext: (txt) => {
-      if (isArticle) content = txt
-    }
-  }, {decodeEntities: true})
+  const $ = cheerio.load(html)
 
-  parser.write(html)
-  parser.end()
-  console.log(content)
+  return $('article').html()
 }
 
 metaPaths.forEach(metaPath => {
   const meta = require(`./${metaPath}`)
-  const content = getContent(metaPath, meta)
 
   feed.addItem({
     title: meta.title,
     id: `http://gitbit.org/${meta.canonical}`,
     link: `http://gitbit.org/${meta.canonical}`,
     description: meta.description,
-    content: content,
+    content: getContent(metaPath, meta),
     author: [{
       name: 'John Gruber',
       email: 'john.gruber@gitbit.org',
@@ -75,7 +63,6 @@ metaPaths.forEach(metaPath => {
 
 feed.addCategory('Office 365')
 
-fs.writeFileSync('./feed.xml', feed.rss2())
-
-// feed.atom1()
-// feed.json1()
+fs.writeFileSync('./docs/rss.xml', feed.rss2())
+fs.writeFileSync('./docs/atom.xml', feed.atom1())
+fs.writeFileSync('./docs/feed.json', feed.json1())

@@ -92,5 +92,5 @@ const sitemap = () => {
 
 clean()
 views()
+require('./feed.js')
 sitemap()
-require('./rss.js')
