@@ -5,6 +5,7 @@ const html2pug = util.promisify(require('html2jade').convertHtml)
 const sharp = require('sharp')
 const Glob = require('glob').Glob
 const {moveDrafts} = require('./build/move-drafts')
+const {convertPugToArticle} = require('./build/convert-pug-to-article')
 
 const article = {
   title: '12 Tips for Improving Productivity using OneNote',
@@ -94,7 +95,7 @@ const start = async () => {
     moveDrafts(article.assetsFolder)
     await createThumbnail()
     writeMeta()
-    fs.writeFileSync(`${__dirname}/views/pages/articles/${article.fileName}.pug`, pug)
+    fs.writeFileSync(`${__dirname}/views/pages/articles/${article.fileName}.pug`, convertPugToArticle(pug))
   }
 }
 
