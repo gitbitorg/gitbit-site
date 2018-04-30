@@ -7,15 +7,9 @@ html(amp="" lang="en")
     - let layoutKeywords = keywords ? `Office 365, Microsoft, ${keywords}` : 'Office 365, Microsoft'
     - let layoutCanonical = `http://gitbit.org/${canonical}`
     - let layoutPageType = pageType ? pageType : 'website'
-    - let layoutImage1x1 = image1x1 ? image1x1 : 'http://gitbit.org/assets/branding/GitBit-Logo-1200x1200.png'
-    - let layoutImage1x1Height = image1x1Height ? image1x1Height : '1200'
-    - let layoutImage1x1Width = image1x1Width ? image1x1Width : '1200'
-    - let layoutImage16x9 = image16x9 ? image16x9 : 'http://gitbit.org/assets/branding/GitBit-Logo-1200x675.png'
-    - let layoutImage16x9Height = image16x9Height ? image16x9Height : '675'
-    - let layoutImage16x9Width = image16x9Width ? image16x9Width : '1200'
-    - let layoutImage4x3 = image4x3 ? image4x3 : 'http://gitbit.org/assets/branding/GitBit-Logo-1200x900.png'
-    - let layoutImage4x3Height = image4x3Height ? image4x3Height : '900'
-    - let layoutImage4x3Width = image4x3Width ? image4x3Width : '1200'
+    - let layoutimage1200x1200 = image1200x1200 ? image1200x1200 : 'http://gitbit.org/assets/branding/GitBit-Logo-1200x1200.png'
+    - let layoutimage1200x675 = image1200x675 ? image1200x675 : 'http://gitbit.org/assets/branding/GitBit-Logo-1200x675.png'
+    - let layoutimage1200x900 = image1200x900 ? image1200x900 : 'http://gitbit.org/assets/branding/GitBit-Logo-1200x900.png'
     
     meta(charset="utf-8")
     script(async src="https://cdn.ampproject.org/v0.js")
@@ -74,7 +68,7 @@ html(amp="" lang="en")
       meta(name='twitter:creator', content='@gruberjl')
       meta(name='twitter:title', content=layoutTitle)
       meta(name='twitter:description', content=layoutDescription)
-      meta(name='twitter:image', content=layoutImage1x1)
+      meta(name='twitter:image', content=layoutimage1200x1200)
 
     block og
       meta(property="og:site_name" content="GitBit")
@@ -89,15 +83,15 @@ html(amp="" lang="en")
         meta(property='article:section', content='Technology')
         meta(property='article:tag', content=layoutKeywords)
       meta(property='og:description', content=layoutDescription)
-      meta(property='og:image', content=layoutImage16x9)
-      meta(property='og:image:width', content=layoutImage16x9Width)
-      meta(property='og:image:height', content=layoutImage16x9Height)
-      meta(property='og:image', content=layoutImage4x3)
-      meta(property='og:image:width', content=layoutImage4x3Width)
-      meta(property='og:image:height', content=layoutImage4x3Height)
-      meta(property='og:image', content=layoutImage1x1)
-      meta(property='og:image:width', content=layoutImage1x1Width)
-      meta(property='og:image:height', content=layoutImage1x1Height)
+      meta(property='og:image', content=layoutimage1200x675)
+      meta(property='og:image:width', content='1200')
+      meta(property='og:image:height', content='675')
+      meta(property='og:image', content=layoutimage1200x900)
+      meta(property='og:image:width', content='1200')
+      meta(property='og:image:height', content='900')
+      meta(property='og:image', content=layoutimage1200x1200)
+      meta(property='og:image:width', content='1200')
+      meta(property='og:image:height', content='1200')
     meta(property='fb:app_id', content='125424108093912')
     style(amp-custom)
       include style.css
