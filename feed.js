@@ -4,6 +4,7 @@ const fs = require('fs')
 const pug = require('pug')
 const wordCount = require('html-word-count')
 const cheerio = require('cheerio')
+const mime = require('mime-types')
 
 const metaPaths = (Glob('views/pages/articles/**/*.js', {sync:true})).found
 
@@ -76,6 +77,22 @@ metaPaths.forEach(metaPath => {
 
 feed.addCategory('Office 365')
 
-fs.writeFileSync('./docs/rss.xml', feed.rss2())
+const fixEnclosure = (rss) => {
+  const getLocalPath = (url) => url.replace('http://gitbit.org', './docs')
+
+  const $ = cheerio.load(rss, {xmlMode: true})
+  $('enclosure').each((idx, el) => {
+    const path = getLocalPath($(el).attr('url'))
+    const stats = fs.statSync(path)
+    $(el).attr('size', stats.size)
+    $(el).attr('type ', mime.lookup(path))
+  })
+
+  return $.html()
+}
+
+const rss = fixEnclosure(feed.rss2())
+
+fs.writeFileSync('./docs/rss.xml', rss)
 fs.writeFileSync('./docs/atom.xml', feed.atom1())
 fs.writeFileSync('./docs/feed.json', feed.json1())
