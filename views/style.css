@@ -36,6 +36,10 @@ article {
   margin-bottom: 8px;
 }
 
+.flex {
+  display: flex;
+}
+
 .align-center {
   width:100%;
   padding-left: 8px;
