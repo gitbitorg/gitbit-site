@@ -84,7 +84,7 @@ const fixEnclosure = (rss) => {
   $('enclosure').each((idx, el) => {
     const path = getLocalPath($(el).attr('url'))
     const stats = fs.statSync(path)
-    $(el).attr('size', stats.size)
+    $(el).attr('length', stats.size)
     $(el).attr('type ', mime.lookup(path))
   })
 
