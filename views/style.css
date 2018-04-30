@@ -16,20 +16,36 @@ body {
 main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-article {
+main > * {
   margin: 12px;
   max-width: 700px;
   flex-grow: 1;
 }
 
 .subtitle {
-  color: rgba(0,0,0,.60)
+  color: #666
 }
 
 .circle {
   border-radius: 50%;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.side-margins {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.double-column-margins {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .nav-top {

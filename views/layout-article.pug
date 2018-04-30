@@ -58,11 +58,15 @@ block content
   main
     article
       block article
-    aside.align-center
-      a(href="http://gitbit.org/John-Gruber")
-        img.circle(src="http://gitbit.org/assets/gruberjl/john-gruber-200x200.jpg" alt="Image of John Gruber")
-      span.subtitle WRITTEN BY
-      a(href="http://gitbit.org/John-Gruber")
-        h3 John L. Gruber
-      div Office 365 engineer
+    aside.align-center.double-column-margins
+      .side-margins
+        a(href="http://gitbit.org/John-Gruber")
+          img.circle(src="http://gitbit.org/assets/gruberjl/john-gruber-200x200.jpg" alt="Image of John Gruber")
+      .side-margins
+        div
+          span.subtitle WRITTEN BY
+        div
+          a(href="http://gitbit.org/John-Gruber")
+            h3.no-margin John L. Gruber
+        div John Gruber is a Collaboration Engineer and is responsible for helping customers manage and maintain Microsoft Office 365. John brings 10 years of information technology (IT) experience, helping small and large organizations across North America.
   include ./includes/footer.pug
