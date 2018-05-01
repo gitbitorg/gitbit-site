@@ -63,13 +63,16 @@ main > * {
 .align-center {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 #social-media {
   width:100%;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+#author-description {
+  max-width: 450px;
 }
 
 img.logo {
