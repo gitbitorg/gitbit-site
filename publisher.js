@@ -11,17 +11,10 @@ const {getMeta} = require('./build/get-doc-meta')
 
 let meta
 
-// const article = {
-//   title: '12 Tips for Improving Productivity using OneNote',
-//   description: 'OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac, iPhone, Android. OneNote notebooks can be shared with colleagues for real-time collaboration.',
-//   keywords: 'Office 365, OneNote, Microsoft Office',
-//   assetsFolder: 'tips-for-onenote'
-// }
-
 const encode = (str, limitStringLength = true) => {
   str = str.replace(/[^a-zA-Z 0-9]/g, '')
   str = str.replace(/ /g, '-')
-  limitStringLength ? str = str.substring(0, 15) : null
+  limitStringLength ? str = str.substring(0, 30) : null
 
   return str
 }
