@@ -32,6 +32,7 @@
     "jstransformer-markdown-it": "^2.1.0",
     "mammoth": "^1.4.5",
     "mime-types": "^2.1.18",
+    "office-document-properties": "^1.0.6",
     "pug": "^2.0.3",
     "rss": "^1.2.2",
     "sharp": "^0.20.2",
