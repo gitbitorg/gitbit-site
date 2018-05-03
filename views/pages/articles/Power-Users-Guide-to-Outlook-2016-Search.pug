@@ -1,0 +1,233 @@
+extends ../../layout-article.pug
+block article
+  h1 Power Users Guide to Outlook 2016 Search
+  p
+    | Despite new apps like Slack, and Microsoft Teams email is still one of the most common and fastest growing platforms for communication. Mailboxes continue to expand, and people are receiving more emails per day year over year. The rapid growth of mailboxes is why Microsoft offers 50 GB mailboxes for all customers. Enterprise customers (E3 &amp; E5) receive 100 GB mailboxes with an archive mailbox with unlimited size.
+  p
+    | Email usage isn&rsquo;t the only reason for mailbox expansion. Regulations, for example HIPAA, have required many organizations to retain all emails for several years. As time continues, the growing requirements for data storage by regulators will continue to expand.
+  p
+    | While Microsoft Office 365 handles most concerns, notably storage and security, 
+    strong administrators and end-users face one large challenge: search
+    | . Fortunately for Office 365 / Outlook ProPlus customers, Microsoft has built searching and indexing into Outlook. Outlook&rsquo;s search is fast, dynamic, and robust.
+  p
+    | Tapping into the mailbox search features is one of the best ways to improve productivity. Search has the capability to search across folders and mailboxes. Once you&rsquo;ve mastered searching you may no longer have to waste time organizing your inbox. By leaving everything in the inbox and improving your search ability you&rsquo;ll be able to quickly find emails from certain people, with certain keywords, and find attachments without any unneeded sorting and organizing.
+  h2
+    strong Introduction to Outlook Search
+  p
+    | Outlook 2016&rsquo;s search feature is located in the center of each page or pulled to the right.
+  p
+    img(src='/assets/article/Outlook-Search/Search-Bar-in-O.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Search Bar in Outlook 2016')
+  h3 Narrowing your Search
+  p
+    | The search will change depending on if you&rsquo;re in your inbox, calendar, people, or tasks folder. When located in your inbox, or any email folder, the search will have a drop-down box on the right-hand side to narrow your search by folder, mailbox, or everywhere.
+  p
+    img(src='/assets/article/Outlook-Search/Outlook-Search-.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook Search bar with mailbox filter drop down')
+  h3 Word Matching: Case Sensitivity &amp; Prefix Matching
+  p
+    | The search is intelligently designed. Type in a word or phrase and Outlook will search the subject, body, and other fields to find a match. Searches aren&rsquo;t case sensitive, so you don&rsquo;t need to worry about searching for words with upper and lower-case characters. Outlook&rsquo;s search includes a prefix matching system too. Searching for &ldquo;build&rdquo; will return other words like &ldquo;building&rdquo;.
+  p
+    img(src='/assets/article/Outlook-Search/Microsoft-prefi.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Microsoft prefix searching')
+  h3 Search Ribbon
+  p
+    | When you click on the Search textbox Microsoft will display the Search ribbon. In the search ribbon you can narrow your search by different fields and limit your search results.
+  p
+    img(src='/assets/article/Outlook-Search/Outlook-2016-Se.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook 2016 Search ribbon')
+  p
+    | The ribbon is a fantastic way to limit your search. Use the ribbon if you can&rsquo;t find the email you&rsquo;re looking for after performing a keyword search. After clicking a button in the ribbon Outlook will automatically add the proper keywords to your search. Fill in the blanks and press
+    strong  Enter
+    |  to limit your search.
+  p
+    img(src='/assets/article/Outlook-Search/Searching-using.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Searching using keywords in the search bar for Outlook 2016')
+  h2 Search Keyword Table
+  p
+    | Keywords is where we can really start to unlock the searches full potential. The search box has been integrated with a ton of search patterns and keywords to use. The easiest way to learn the keywords is by using the Search ribbon. When using the Search ribbon, the keywords will automatically be filled in on your behalf. After remembering some keywords, you can improve your search productivity and success using the keywords.
+  table
+    tr
+      td
+        p Keyword
+      td
+        p Example
+      td
+        p Description
+    tr
+      td
+        p AND
+      td
+        p Build AND server
+      td
+        p Items containing both words but not necessarily in that order
+    tr
+      td
+        p NOT
+      td
+        p NOT server
+      td
+        p Items that don&rsquo;t contain the word
+    tr
+      td
+        p &ldquo;&rdquo;
+      td
+        p &ldquo;server build&rdquo;
+      td
+        p Items containing the exact phrase
+    tr
+      td
+        p From:&rdquo;&rdquo;
+      td
+        p From:&ldquo;John&rdquo;
+      td
+        p Items containing the word or phrase in the from field.
+    tr
+      td
+        p hasattachment:
+      td
+        p hasattachment:yes
+      td
+        p Items that have or don&rsquo;t have an attachment.
+    tr
+      td
+        p Attachments:
+      td
+        p attachments:presentation.pptx
+      td
+        p Items that have a particular attachment
+    tr
+      td
+        p Subject:
+      td
+        p Subject:server
+      td
+        p Items with a word or phrase in the subject line
+  p
+    em NOTE: Keywords AND, NOT, and OR are case-sensitive. The must be all upper-case.
+  h2 How to Perform an Advanced Search
+  p
+    | You can use the 
+    strong Advanced Find
+    |  feature for complex searches. Advanced searches are a great way to find emails when you know information in multiple fields but cannot find the item with a normal search.
+  p
+    | Advanced Find can be found under the 
+    strong Search ribbon &gt; Search Tools &gt; Advanced Find&mldr;
+  p
+    img(src='/assets/article/Outlook-Search/Advanced-Find-b.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Advanced Find button in Outlook search ribbon')
+  p
+    | The Advanced Find box will have a ton of options for filtering and retrieving the exact item you&rsquo;re looking for.
+  p
+    img(src='/assets/article/Outlook-Search/Advanced-find-i.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Advanced find in Outlook 2016')
+  h2 How to Increase the Search Results in Outlook 2016
+  p
+    | By default, Outlook 2016 limits the number of searches returned when searching your mailbox. The default limit is set to 250. The limit is designed to improve search results speed. Outlook does have an option to return all items when you perform a search. While a bit slower, those that need to perform a lot of mailbox searches may find the change improves productivity.
+  h3 Default Search Result Limits in Outlook
+  table
+    tr
+      td
+        p Outlook Version
+      td
+        p Default Limit
+    tr
+      td
+        p Outlook 2016
+      td
+        p 250
+    tr
+      td
+        p Outlook 2013
+      td
+        p 250
+    tr
+      td
+        p Outlook 2010
+      td
+        p 200
+    tr
+      td
+        p Outlook 2007
+      td
+        p 200
+  h3 Outlook 2016 Increase Search Results (Simple)
+  ol
+    li
+      | From Outlook go to 
+      strong File &gt; Options &gt; Search
+      | .
+    li
+      | Uncheck 
+      strong Improve search speed by limiting the number of results shown
+      | .
+  h3 Outlook 2016 Increase Search Results (Detailed)
+  ol
+    li
+      | From Outlook click the 
+      strong File
+      |  button.
+      br
+      img(src='/assets/article/Outlook-Search/File-button-in-.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='File button in Outlook')
+    li
+      | From the file menu, click 
+      strong Options
+      | . The options menu contains hundreds of settings that you can use to change how Outlook interacts. Microsoft has separated the options into different categories, mail, calendar, people, and tasks just to name a few. You&rsquo;ll find the section, or categories, listed on the left-hand side called the navigation pane.
+      br
+      img(src='/assets/article/Outlook-Search/Options-button-.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Options button in Outlook File menu')
+    li
+      | Click 
+      strong Search
+      |  in the left navigation pane.
+      br
+      img(src='/assets/article/Outlook-Search/Outlook-options.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook options with Search button circled')
+    li
+      | From the Search menu you can update how searching and indexing functions. Microsoft has included several options including indexing, what&rsquo;s searched by default, and the limit to search results. To return all results when performing a search click 
+      strong Improve search speed by limiting the number of results shown
+      | .
+      br
+      img(src='/assets/article/Outlook-Search/Outlook-options0.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook options search with Improve search speed by limiting the number of results shown circled')
+    li
+      | After you uncheck the box click OK to save the settings. No reboot or Outlook restart required. Perform a search to verify the results are no longer limited.
+  h2 How to Fix Common Problems with Outlook Search
+  p
+    | Outlook search uses Microsoft&rsquo;s built-in indexing system. Simply put, every Outlook item is indexed into a local database on the computer, as well as, on the server for fast searching. Sometimes, the index can become corrupt or misconfigured and not return the items from Outlook.
+  h3 How to Verify Local Search Issues
+  p
+    | When you have an issue with searching, you&rsquo;ll want to verify if you have a local problem. Open Office 365&rsquo;s OWA (
+    a(href='https://mail.office365.com') https://mail.office365.com
+    | ), login, and perform a search from OWA. OWA will use the server&rsquo;s indexes and won&rsquo;t rely on the local computer. If you find the items using OWA but can&rsquo;t find the item on your local Outlook, you have a local problem.
+  p OWA&rsquo;s search is located in the top left corner of the webpage.
+  p
+    img(src='/assets/article/Outlook-Search/Office-365-OWA-.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Office 365 OWA search bar')
+  h3 How to Verify Indexing is Enabled for Outlook
+  p
+    | Outlook is added to the indexing by default. You can add or remove Microsoft Outlook from the Index by going to 
+    strong Outlook &gt; File &gt; Options &gt; Search &gt; Indexing Options
+    | .
+  p
+    img(src='/assets/article/Outlook-Search/Outlook-Indexin.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook Indexing Options')
+  h3 How to Rebuild the Index
+  p
+    | After you verified Microsoft Outlook is being indexed, and you&rsquo;re having a local problem, the next step is rebuilding the index.
+  p
+    | Go to
+    strong  Outlook &gt; File &gt; Options &gt; Search &gt; Indexing Options &gt; Advanced &gt; Rebuild.
+  p
+    img(src='/assets/article/Outlook-Search/Outlook-Indexin0.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook Indexing options advanced menu')
+  h3 Final Solution
+  p
+    | If you continue to have Outlook search issues your next step is calling your IT support, partner, or Microsoft to help.
+  h2 Search on Outlook for Android &amp; iPhone
+  p
+    | Microsoft has recently improved the search on smartphones and tablets. If you&rsquo;re using the Outlook app on your device, you can find the search by clicking the magnifying glass in the menu.
+  p
+    img(src='/assets/article/Outlook-Search/Outlook-app-sea.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook app search button')
+  p
+    | After the search page opens you can use your keyword search just like Outlook on your desktop.
+  ul
+    li In the top right corner, you can filter the search results by mailbox.
+    li
+      | Right below the mailbox filter button is an attachment switch to filter by attachments.
+  p
+    img(src='/assets/article/Outlook-Search/Outlook-app-sea0.png', layout='intrinsic', attribution='CC courtesy of John L. Gruber on GitBit', alt='Outlook app searching screenshot')
+  p
+    | Can you think of any tips I missed? Share with me your favorites on Twitter 
+    a(href='https://twitter.com/gruberjl') @gruberjl
+    |  or 
+    a(href='https://www.linkedin.com/in/gruberjl/') LinkedIn
+    | .
+

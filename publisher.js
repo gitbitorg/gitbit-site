@@ -7,7 +7,7 @@ const sharp = require('sharp')
 const Glob = require('glob').Glob
 const {moveDrafts} = require('./build/move-drafts')
 const {convertPugToArticle} = require('./build/convert-pug-to-article')
-const {getMeta} = require('./get-doc-meta')
+const {getMeta} = require('./build/get-doc-meta')
 
 let meta
 
