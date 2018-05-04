@@ -56,22 +56,29 @@ const getContent = (metaPath, meta) => {
   return $('article').html()
 }
 
-metaPaths.forEach(metaPath => {
-  const meta = require(`./${metaPath}`)
+const articles = metaPaths.map(metaPath => {
+  const article = require(`./${metaPath}`)
+  article.content = getContent(metaPath, article)
 
+  return article
+}).sort(
+  (a, b) => new Date(a.dateModified) < new Date(b.dateModified) ? 1 : -1
+)
+
+articles.forEach((article) => {
   feed.addItem({
-    title: meta.title,
-    id: `http://gitbit.org/${meta.canonical}`,
-    link: `http://gitbit.org/${meta.canonical}`,
-    description: meta.description,
-    content: getContent(metaPath, meta),
+    title: article.title,
+    id: `http://gitbit.org/${article.canonical}`,
+    link: `http://gitbit.org/${article.canonical}`,
+    description: article.description,
+    content: article.content,
     author: [{
       name: 'John Gruber',
       email: 'john.gruber@gitbit.org',
       link: 'http://gitbit.org/John-Gruber'
     }],
-    date: new Date(meta.dateModified),
-    image: meta.image1200x900
+    date: new Date(article.dateModified),
+    image: article.image1200x900
   })
 })
 

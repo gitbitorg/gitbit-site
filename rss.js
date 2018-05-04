@@ -20,7 +20,7 @@ const feed = new RSS({
 articles.forEach((article) => {
   if (article.url.startsWith('/')) article.url = `http://gitbit.org${article.url}`
   if (article.image.startsWith('/')) article.image = `http://gitbit.org${article.image}`
-  
+
   feed.item(Object.assign({
     author: 'john.gruber@gitbit.org (John Gruber)',
     categories: ['Microsoft', 'Office 365']

@@ -1,7 +1,7 @@
 const Glob = require('glob').Glob
 const {found} = Glob(`${__dirname}\\articles\\*.js`, {sync:true})
 
-const articles = found.map((file) => require(file))
+const articles = found.map((file) => require(file)).sort((a, b) => new Date(a.dateModified) < new Date(b.dateModified) ? 1 : -1)
 module.exports = {
   'title': 'GitBit | Office 365 Tips to Improve Productivity',
   'description': 'Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.',
