@@ -26,6 +26,12 @@ main > * {
   flex-grow: 1;
 }
 
+blockquote {
+  color: rgba(0,0,0,.68);
+  font-style: italic;
+  font-size: larger;
+}
+
 .subtitle {
   color: #666
 }
