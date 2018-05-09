@@ -89,10 +89,17 @@ const getDocx = () => {
   return resolve(found[0])
 }
 
+const options = {
+  styleMap: [
+    'p[style-name=\'Quote\'] => blockquote:fresh'
+  ],
+  convertImage
+}
+
 const start = async () => {
   const pathToDraft = getDocx()
   meta = await getMeta(pathToDraft)
-  const res = await mammoth.convertToHtml({path: pathToDraft}, {convertImage})
+  const res = await mammoth.convertToHtml({path: pathToDraft}, options)
   const pug = await html2pug(res.value, {})
   if (res.messages.length > 0) {
     console.log('article not published')
