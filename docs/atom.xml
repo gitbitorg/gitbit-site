@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://gitbit.org/</id>
     <title>Office 365 Tips to Improve Productivity - GitBit</title>
-    <updated>2018-05-10T11:33:00Z</updated>
+    <updated>2018-05-11T01:05:55Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>John Gruber</name>
@@ -19,8 +19,8 @@
     </category>
     <entry>
         <title type="html"><![CDATA[4 Steps to Being More Productive Using Microsoft To-Do]]></title>
-        <id>http://gitbit.org//articles/4-Steps-to-Being-More-Productive-Using-Microsoft-ToDo</id>
-        <link href="http://gitbit.org//articles/4-Steps-to-Being-More-Productive-Using-Microsoft-ToDo">
+        <id>http://gitbit.org/articles/4-Steps-to-Being-More-Productive-Using-Microsoft-ToDo</id>
+        <link href="http://gitbit.org/articles/4-Steps-to-Being-More-Productive-Using-Microsoft-ToDo">
         </link>
         <updated>2018-05-09T17:43:04Z</updated>
         <summary type="html"><![CDATA["The list is the origin of culture. What does culture want? To make infinity comprehensible. And how does one face infinity? Through lists"]]></summary>
@@ -33,8 +33,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Power Users Guide to Outlook 2016 Search]]></title>
-        <id>http://gitbit.org//articles/Power-Users-Guide-to-Outlook-2016-Search</id>
-        <link href="http://gitbit.org//articles/Power-Users-Guide-to-Outlook-2016-Search">
+        <id>http://gitbit.org/articles/Power-Users-Guide-to-Outlook-2016-Search</id>
+        <link href="http://gitbit.org/articles/Power-Users-Guide-to-Outlook-2016-Search">
         </link>
         <updated>2018-05-03T19:08:11Z</updated>
         <summary type="html"><![CDATA[Manage your inbox with ease with Microsoft Outlook 2016 search.]]></summary>
@@ -47,8 +47,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[12 Tips for Improving Productivity using OneNote]]></title>
-        <id>http://gitbit.org//articles/12-Tips-for-Improving-Productivity-using-OneNote</id>
-        <link href="http://gitbit.org//articles/12-Tips-for-Improving-Productivity-using-OneNote">
+        <id>http://gitbit.org/articles/12-Tips-for-Improving-Productivity-using-OneNote</id>
+        <link href="http://gitbit.org/articles/12-Tips-for-Improving-Productivity-using-OneNote">
         </link>
         <updated>2018-05-02T16:55:30Z</updated>
         <summary type="html"><![CDATA[OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac, iPhone, Android. OneNote notebooks can be shared with colleagues for real-time collaboration.]]></summary>
@@ -61,8 +61,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[How to Automate Scheduling with Office 365]]></title>
-        <id>http://gitbit.org//articles/how-to-automate-scheduling-with-office-365</id>
-        <link href="http://gitbit.org//articles/how-to-automate-scheduling-with-office-365">
+        <id>http://gitbit.org/articles/how-to-automate-scheduling-with-office-365</id>
+        <link href="http://gitbit.org/articles/how-to-automate-scheduling-with-office-365">
         </link>
         <updated>2018-04-25T01:24:32Z</updated>
         <summary type="html"><![CDATA[Office 365 has a Bookings app included. Use Bookings to automate and streamline your scheduling.]]></summary>

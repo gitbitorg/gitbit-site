@@ -68,8 +68,8 @@ const articles = metaPaths.map(metaPath => {
 articles.forEach((article) => {
   feed.addItem({
     title: article.title,
-    id: `http://gitbit.org/${article.canonical}`,
-    link: `http://gitbit.org/${article.canonical}`,
+    id: `http://gitbit.org${article.canonical}`,
+    link: `http://gitbit.org${article.canonical}`,
     description: article.description,
     content: article.content,
     author: [{
