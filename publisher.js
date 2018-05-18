@@ -96,11 +96,21 @@ const options = {
   convertImage
 }
 
+const addSections = (html) => {
+  const results = html
+    .replace(/<h2/g, '</section><section><h2')
+    .replace('</section>', '')
+    .concat('</section>')
+
+  return results
+}
+
 const start = async () => {
   const pathToDraft = getDocx()
   meta = await getMeta(pathToDraft)
   const res = await mammoth.convertToHtml({path: pathToDraft}, options)
-  const pug = await html2pug(res.value, {})
+  const html = addSections(res.value)
+  const pug = await html2pug(html, {})
   if (res.messages.length > 0) {
     console.log('article not published')
     console.log(res.messages)
