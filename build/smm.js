@@ -2,7 +2,7 @@ const {resolve} = require('path')
 const {renderTemplate, getMeta, getAbsoluteUrl} = require('./render-template')
 const cheerio = require('cheerio')
 const BitlyClient = require('bitly')
-const {Apps, Keywords} = require(resolve(__dirname, '..', '..', 'workplace', 'packages', 'sharepoint'))
+const {Apps, Keywords, Posts} = require(resolve(__dirname, '..', '..', 'workplace', 'packages', 'sharepoint'))
 let shortenedurl
 let keywords
 
@@ -16,9 +16,10 @@ const getSections = (html) => {
   return sections
 }
 
-const createTemplateObject = async (url, title, summary, postafter) => {
+const createTemplateObject = async (app, url, Title, Summary, postafter) => {
   postafter ? null : postafter = new Date()
-  return {url, title, summary, shortenedurl, postafter}
+  const summary = Summary.split('\n').join('&#xD;&#xA;')
+  return {url: {Url:url}, Title, summary, postafter: postafter.toISOString()}
 }
 
 const addHours = (hours, date) => {
@@ -45,13 +46,13 @@ const twitterTemplates = async (html, meta, url) => {
   const templates = []
 
   let summary = `${meta.title}\n${hashtag(meta.keywords)}\n${shortenedurl}`
-  templates.push(await createTemplateObject(url, '', summary))
+  templates.push(await createTemplateObject('twitter', url, '', summary))
 
   summary = `${meta.description}\n#Microsoft #Office365 #Technology\n${shortenedurl}`
-  templates.push(await createTemplateObject(url, '', summary, addHours(5)))
+  templates.push(await createTemplateObject('twitter', url, '', summary, addHours(5)))
 
   await getSections(html).forEach(async (section, idx) => {
-    if (idx < 4) {
+    if (idx < 3) {
       const summary = `${section.title}\n${hashtag(findKeywords(section.text))}\n${shortenedurl}`
 
       let hours
@@ -60,16 +61,16 @@ const twitterTemplates = async (html, meta, url) => {
         hours = addHours(24)
         break
       case 1:
-        addHours(168)
+        hours = addHours(168)
         break
       case 2:
-        addHours(730)
+        hours = addHours(730)
         break
       case 3:
         break
       }
 
-      templates.push(await createTemplateObject(url, '', summary, hours))
+      templates.push(await createTemplateObject('twitter', url, '', summary, hours))
     }
   })
 
@@ -88,7 +89,12 @@ const createSocialMediaTemplates = async (templatePath) => {
 
   const templates = await twitterTemplates(html, meta, url)
 
-  console.log(templates)
+  const results = await Posts.post(templates)
+  results.forEach((result, idx) => {
+    console.log(templates[idx].summary)
+    console.log(result.statusCode)
+    console.log('')
+  })
 }
 
 module.exports = {createSocialMediaTemplates}
