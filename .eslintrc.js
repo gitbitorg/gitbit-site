@@ -10,7 +10,8 @@ module.exports = {
     "globals": {
       "test": true,
       "expect": true,
-      "describe": true
+      "describe": true,
+      "beforeAll": true
     },
     "rules": {
         "no-empty": 0,
