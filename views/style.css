@@ -181,3 +181,16 @@ td {
   padding: 12px;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
+
+pre.code {
+  font-size: 14px;
+  padding: 16px;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+pre.code p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
