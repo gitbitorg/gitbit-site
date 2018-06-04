@@ -91,7 +91,8 @@ const getDocx = () => {
 
 const options = {
   styleMap: [
-    'p[style-name=\'Quote\'] => blockquote:fresh'
+    'p[style-name=\'Quote\'] => blockquote:fresh',
+    'p[style-name=\'No Spacing\'] => p.no-spacing:fresh'
   ],
   convertImage
 }

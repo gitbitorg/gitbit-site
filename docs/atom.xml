@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://gitbit.org/</id>
     <title>Office 365 Tips to Improve Productivity - GitBit</title>
-    <updated>2018-05-22T15:28:51Z</updated>
+    <updated>2018-06-04T19:47:30Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>John Gruber</name>
@@ -17,6 +17,20 @@
     <rights>All rights reserved 2018, John L. Gruber</rights>
     <category term="Office 365">
     </category>
+    <entry>
+        <title type="html"><![CDATA[8 Updates to Help Migrate and Collaborate between Skype and Teams]]></title>
+        <id>http://gitbit.org/articles/8-Updates-to-Help-Migrate-and-Collaborate-between-Skype-and-Teams</id>
+        <link href="http://gitbit.org/articles/8-Updates-to-Help-Migrate-and-Collaborate-between-Skype-and-Teams">
+        </link>
+        <updated>2018-06-04T19:47:13Z</updated>
+        <summary type="html"><![CDATA[8 updates to help organizations migrate and collaborate from Skype for Business to Microsoft Teams]]></summary>
+        <content type="html"><![CDATA[<h1>8 Updates to Help Migrate and Collaborate between Skype and Teams</h1><p>Microsoft is in the process of rolling out several major updates to the way businesses will communicate using Office 365. The updates are designed around improving the migration from Skype for Business to Microsoft Teams. While less than a year-old Microsoft made a bold statement that Microsoft Teams will replace Skype for Business. Microsoft Teams is a major game changer across many organizations. The latest updates to Microsoft Office 365 will allow a slower batch or champion style deployment that will give users backward compatibility and allow IT administrators to migrate to the new app out in phases reducing the IT burden.</p>]]></content>
+        <author>
+            <name>John Gruber</name>
+            <email>john.gruber@gitbit.org</email>
+            <uri>http://gitbit.org/John-Gruber</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Agile Teamwork with Office 365 Planner]]></title>
         <id>http://gitbit.org/articles/Agile-Teamwork-with-Office-365-Planner</id>

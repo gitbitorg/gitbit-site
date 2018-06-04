@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "node build.js"
+    "build": "node build.js",
+    "publisher": "node publisher.js"
   },
   "repository": {
     "type": "git",

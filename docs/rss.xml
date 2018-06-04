@@ -4,7 +4,7 @@
         <title>Office 365 Tips to Improve Productivity - GitBit</title>
         <link>http://gitbit.org/</link>
         <description>Over 70% of Fortune 500 companies have migrated to Microsoft Office 365. Learn the latest tips to maximize your ROI.</description>
-        <lastBuildDate>Tue, 22 May 2018 15:28:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Jun 2018 19:47:30 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -15,6 +15,17 @@
         <copyright>All rights reserved 2018, John L. Gruber</copyright>
         <category>Office 365</category>
         <atom:link href="http://gitbit.org/atom.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[8 Updates to Help Migrate and Collaborate between Skype and Teams]]></title>
+            <link>http://gitbit.org/articles/8-Updates-to-Help-Migrate-and-Collaborate-between-Skype-and-Teams</link>
+            <guid>http://gitbit.org/articles/8-Updates-to-Help-Migrate-and-Collaborate-between-Skype-and-Teams</guid>
+            <pubDate>Mon, 04 Jun 2018 19:47:13 GMT</pubDate>
+            <description><![CDATA[8 updates to help organizations migrate and collaborate from Skype for Business to Microsoft Teams]]></description>
+            <content:encoded><![CDATA[<h1>8 Updates to Help Migrate and Collaborate between Skype and Teams</h1><p>Microsoft is in the process of rolling out several major updates to the way businesses will communicate using Office 365. The updates are designed around improving the migration from Skype for Business to Microsoft Teams. While less than a year-old Microsoft made a bold statement that Microsoft Teams will replace Skype for Business. Microsoft Teams is a major game changer across many organizations. The latest updates to Microsoft Office 365 will allow a slower batch or champion style deployment that will give users backward compatibility and allow IT administrators to migrate to the new app out in phases reducing the IT burden.</p>]]></content:encoded>
+            <author>john.gruber@gitbit.org (John Gruber)</author>
+            <enclosure url="http://gitbit.org/assets/article/Teams-to-Skype/1200x900.jpg" length="109055" type ="image/jpeg">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[Agile Teamwork with Office 365 Planner]]></title>
             <link>http://gitbit.org/articles/Agile-Teamwork-with-Office-365-Planner</link>
