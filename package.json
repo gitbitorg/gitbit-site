@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest",
     "build": "node build.js",
-    "publisher": "node publisher.js"
+    "publisher": "node publisher.js",
+    "smm": "node lib/smm/index.js"
   },
   "repository": {
     "type": "git",
