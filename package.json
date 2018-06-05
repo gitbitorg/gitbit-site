@@ -10,7 +10,8 @@
     "test": "jest",
     "build": "node build.js",
     "publisher": "node publisher.js",
-    "smm": "node lib/smm/index.js"
+    "smm": "node lib/smm/index.js",
+    "roadmap": "node lib/roadmap/index.js"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "mime-types": "^2.1.18",
     "office-document-properties": "^1.0.6",
     "pug": "^2.0.3",
+    "request": "^2.87.0",
     "rss": "^1.2.2",
     "sharp": "^0.20.2",
     "sitemap": "^1.13.0"
