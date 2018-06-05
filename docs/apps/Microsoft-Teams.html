@@ -209,25 +209,13 @@ pre.code p {
   margin-bottom: 0px;
 }
 </style><style>.app .heading {
-  display: flex;
   width: 100%;
   background: rgb(63,63,63);
   font-size: 200%;
   color: white;
-  overflow: hidden;
 }
 
 .app .heading .icon-container {
-  width: 40vw;
-  height: 40vw;
-  margin-top: -10vw;
-  margin-left: -10vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 5vw;
-  padding-top: 5vw;
-
   border-radius: 50%;
   background: white;
   border-style: solid;
@@ -236,74 +224,58 @@ pre.code p {
 }
 
 .app .heading .title-container {
-  width: 60vw;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .app .heading .title-container * {
   margin: 0px;
 }
 
-/*
-.container.app
-  section.heading
-    .heading-container
-      .icon-container
-        .icon-wrapper
-          img(src=icon)
-      .title-container
-        .title-wrapper
-          h1=name
-          p=description
+@media screen and (max-width: 899px) {
+  .app .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.app .heading {
-  width: 100%;
-  background: rgb(63,63,63);
-  font-size: 200%;
-  color: white;
-  overflow: hidden;
+  .app .heading .icon-container {
+    height: 310px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app .heading .title-container {
+    margin: 40px;
+  }
 }
 
-.app .heading .heading-container {
-  margin-bottom: -200px;
-}
+@media screen and (min-width: 900px) {
+  .app .heading {
+    display: flex;
+    overflow: hidden;
+  }
 
-.app .heading .heading-container > * {
-  display: inline-block;
-  vertical-align: middle;
-}
+  .app .heading .icon-container {
+    width: 40vw;
+    height: 40vw;
+    margin-top: -10vw;
+    margin-left: -10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-top: 5vw;
+  }
 
-.app .heading .icon-wrapper {
-  border-radius: 50%;
-  background: white;
-  border-style: solid;
-  border-width: 10px;
-  border-color: rgb(217, 217, 217);
-  position: relative;
-  left: -200px;
-  top: -200px;
-  padding-bottom: 150px;
-  padding-top: 250px;
-  padding-left: 250px;
-  padding-right: 150px;
+  .app .heading .title-container {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
-
-.app .heading .title-container {
-  margin-top: -200px;
-  margin-left: -200px;
-  text-align: center;
-}
-
-.app .heading h1 {
-  margin: 0px;
-}
-
-.app .heading p {
-  margin: 0px;
-} */
 </style></head><body><header class="nav-top"><a class="align-center" href="/"><amp-img class="logo" src="/assets/branding/GitBit-Logo-Mercury-50x50.png" height="50" width="50"></amp-img><h1 class="title">GitBit</h1></a><div class="spacer"></div><a class="no-print" href="https://outlook.office365.com/owa/calendar/ThemisDigital@themisdigital.com/bookings/">Schedule Consultation</a></header><div class="container app"><section class="heading"><div class="icon-container"><img width="200px" height="200px" src="teams-icon.png"></div><div class="title-container"><h1>Microsoft Teams</h1><p>Chat-Based Workspace</p></div></section></div><footer class="nav-bottom no-print"><a class="twitter" href="https://twitter.com/gruberjl">Twitter</a><a class="linkedin" href="https://www.linkedin.com/in/gruberjl/">LinkedIn</a><a class="facebook" href="https://www.facebook.com/GitBit0/">Facebook</a><a class="newsletter" href="https://businesscenter.office.com/b/gitbit/signup">Tips to your inbox</a><a class="rss" href="rss.xml">RSS</a><a class="terms" href="/terms">Terms</a><a class="privacy" href="/privacy">Privacy</a></footer><amp-analytics type="googleanalytics"><script type="application/json">{
   "vars": {
     "account": "UA-10841251-3"
