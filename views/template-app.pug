@@ -1,0 +1,17 @@
+extends ./layout.pug
+
+block head
+  style
+    include pages/apps/styles.css
+  
+block content
+  include includes/header.pug
+
+  .container.app
+    section.heading
+      .icon-container
+          img(width='200px', height='200px', src=icon)
+      .title-container
+          h1=name
+          p=description
+  include includes/footer.pug
