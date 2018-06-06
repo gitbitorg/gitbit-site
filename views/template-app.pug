@@ -7,11 +7,55 @@ block head
 block content
   include includes/header.pug
 
-  .container.app
+  .container.app.stack
     section.heading
       .icon-container
           img(width='200px', height='200px', src=icon)
       .title-container
           h1=name
           p=description
+    section.columnar.sm-stack
+      .stack
+        h2.text-center.no-margins Features
+        .content
+          ul
+            each feature in features
+              li
+                strong= feature.name
+                span= ": " + feature.description
+      .text-center
+        iframe(width="560", height="315", src="https://www.youtube.com/embed/ENEQzM2u_vA", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen)
+    section.stack.reverse
+      h2.text-center.no-margins Platforms
+      .columnar.space-around
+          if platforms.web
+            a(href=platforms.web).platform-container
+              img(src='edge-logo-96px.png' width='96px' height='96px')
+              span Web
+          if platforms.pc
+            a(href=platforms.pc).platform-container
+              img(src='microsoft-logo-96px.png' width='96px' height='96px')
+              span Desktop
+          if platforms.mac
+            a(href=platforms.mac).platform-container
+              img(src='apple-logo-96x.png' width='96px' height='96px')
+              span Mac
+          if platforms.iPhone
+            a(href=platforms.iPhone).platform-container
+              img(src='iphone-logo-96px.png' width='96px' height='96px')
+              span iPhone
+          if platforms.android
+            a(href=platforms.android).platform-container
+              img(src='android-logo-96px.png' width='96px' height='96px')
+              span Android
+    section.columnar.sm-stack
+      .stack
+        h2.text-center.no-margins Compliance
+        h3.text-center.no-margins= compliance.tier
+        .columnar
+          ul.scatter
+            each standard in compliance.standards
+              li=standard
+      .align-center.hide-overflow
+        img(src='Compliance-Admin-Center.png')
   include includes/footer.pug
