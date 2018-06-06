@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/gitbitorg/gitbit-site#readme",
   "devDependencies": {
-    "ampify": "^0.2.6",
+    "ampify": "^0.3.0",
     "bitly": "^5.0.12",
     "cheerio": "^1.0.0-rc.2",
     "feed": "^1.1.1",

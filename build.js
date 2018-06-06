@@ -24,7 +24,7 @@ const views = () => {
     const meta = require(`./${metaPath}`)
     let html = pug.renderFile(file, meta)
     html = pug.renderFile(file, Object.assign({wordCount: wordCount(html)}, meta))
-    const amp = ampify(html, {cwd:'./docs'})
+    const amp = ampify(html, {cwd:resolve(__dirname, 'docs')})
     const mini = minify(amp, {minifyCSS: true, minifyJS: true})
     const destinationPath = file.replace('views/pages/', './docs/').replace('.pug', '.html')
     fs.writeFileSync(destinationPath, mini)

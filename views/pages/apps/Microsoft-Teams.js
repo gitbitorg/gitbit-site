@@ -2,7 +2,7 @@ module.exports = {
   name: 'Microsoft Teams',
   description: 'Chat-Based Workspace',
   icon: '/assets/icons/teams-icon.png',
-  video: 'https://youtu.be/ENEQzM2u_vA',
+  video: 'http://www.youtube.com/embed/ENEQzM2u_vA',
   rating: '91%',
   color: '5558af',
   testimonials: [
