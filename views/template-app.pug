@@ -16,7 +16,7 @@ block content
           p=description
     section.columnar.sm-stack
       .stack
-        h2.text-center.no-margins Features
+        h2.text-center.no-margin Features
         .content
           ul
             each feature in features
@@ -26,7 +26,7 @@ block content
       .text-center
         iframe(width="560", height="315", src="https://www.youtube.com/embed/ENEQzM2u_vA", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen)
     section.stack.reverse
-      h2.text-center.no-margins Platforms
+      h2.text-center.no-margin Platforms
       .columnar.space-around
           if platforms.web
             a(href=platforms.web).platform-container
@@ -50,12 +50,25 @@ block content
               span Android
     section.columnar.sm-stack
       .stack
-        h2.text-center.no-margins Compliance
-        h3.text-center.no-margins= compliance.tier
+        h2.text-center.no-margin Compliance
+        h3.text-center.no-margin= compliance.tier
         .columnar
           ul.scatter
             each standard in compliance.standards
               li=standard
       .align-center.hide-overflow
         img(src='Compliance-Admin-Center.png')
+    section.stack.reverse
+      h2.text-center.no-margin Top Competitors
+      .columnar.space-around
+          each competitor in competitors
+            a(href=competitor.url).platform-container
+              img(src=competitor.image width='96px' height='96px')
+              span=competitor.name
+    section.stack
+      h2.text-center.no-margin Additional Resources
+      ul.scatter
+        each resource in resources
+          li
+            a(href=resource.url)=resource.title
   include includes/footer.pug

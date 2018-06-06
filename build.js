@@ -30,6 +30,11 @@ const views = () => {
   })
 }
 
+const renderAppViews = () => {
+  const {renderAppPages} = require('./build/render-app-pages.js')
+  renderAppPages()
+}
+
 const getImages = (path) => {
   const imgs = []
   const html = fs.readFileSync(path, 'utf8')
@@ -92,5 +97,6 @@ const sitemap = () => {
 
 clean()
 views()
+renderAppViews()
 require('./feed.js')
 sitemap()

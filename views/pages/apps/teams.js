@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Microsoft Teams',
   description: 'Chat-Based Workspace',
-  icon: 'teams-icon.png',
+  icon: '/assets/icons/teams-icon.png',
   video: 'https://youtu.be/ENEQzM2u_vA',
   features: [
     {
@@ -37,12 +37,20 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-teams/group-chat-software'},
-    {title: 'News', url:'https://news.microsoft.com/microsoft-teams/'}
+    {title: 'News', url:'https://news.microsoft.com/microsoft-teams/'},
+    {title: '8 Updates to Help Migrate and Collaborate between Skype and Teams', url:'http://gitbit.org/articles/8-Updates-to-Help-Migrate-and-Collaborate-between-Skype-and-Teams'},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftTeams'},
+    {title: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Microsoft_Teams'},
+    {title: 'YouTube', url: 'https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw'},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams'},
+    {title: 'UserVoice', url:'https://microsoftteams.uservoice.com'},
+    {title: 'End User Training', url:'https://docs.microsoft.com/en-us/microsoftteams/enduser-training'},
+    {title: 'Admin Training', url:'https://docs.microsoft.com/en-us/microsoftteams/itadmin-readiness'}
   ],
   competitors: [
-    {name: 'Slack', url: 'https://slack.com/'},
-    {name: 'Spark', url: 'https://www.cisco.com/c/en_uk/solutions/collaboration/ciscospark.html'},
-    {name: 'Skype for Business', url: 'https://www.skype.com/en/business/'},
+    {name: 'Slack', url: 'https://slack.com/', image:'/assets/icons/Slack-Icon-96px.png'},
+    {name: 'Spark', url: 'https://www.cisco.com/c/en_uk/solutions/collaboration/ciscospark.html', image:'/assets/icons/Cisco-Spark-96px.png'},
+    {name: 'Skype for Business', url: 'https://www.skype.com/en/business/', image:'/assets/icons/Microsoft-Skype-for-Business-logo-96px.png'},
   ],
   compliance: {
     tier: 'Tier C-compliant',

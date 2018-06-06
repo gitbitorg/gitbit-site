@@ -3,7 +3,7 @@ const {resolve} = require('path')
 const pug = require('pug')
 const template = resolve(__dirname, '..', 'views', 'template-app.pug')
 
-const buildAppPages = async () => {
+const renderAppPages = () => {
   const app = require(resolve(__dirname, '..', 'views', 'pages', 'apps', 'teams.js'))
   const slug = app.name.split(' ').join('-') + '.html'
   const destination = resolve(__dirname, '..', 'docs', 'apps', slug)
@@ -11,4 +11,4 @@ const buildAppPages = async () => {
   fs.writeFileSync(destination, html)
 }
 
-buildAppPages()
+module.exports = {renderAppPages}
