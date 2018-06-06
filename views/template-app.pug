@@ -3,7 +3,7 @@ extends ./layout.pug
 block content
   include includes/header.pug
 
-  .container.app.stack
+  .container.app.stack(class='header-color-' + color)
     section.heading
       .icon-container
           img(width='200px', height='200px', src=icon)
@@ -44,7 +44,17 @@ block content
             a(href=platforms.android).platform-container
               img(src='/assets/icons/android-logo-96px.png' width='96px' height='96px')
               span Android
-    section.columnar.sm-stack
+    section.stack
+      h2.text-center.no-margin User Reviews
+      .columnar.sm-stack.user-reviews-container
+        .stack
+          each testimonial in testimonials
+            p=testimonial.text
+        .align-center.hide-overflow.user-rating-container
+          h1.no-margin=rating
+    section.columnar.sm-stack.reverse
+      .align-center.hide-overflow
+        img(src='/assets/icons/Compliance-Admin-Center.png')
       .stack
         h2.text-center.no-margin Compliance
         h3.text-center.no-margin= compliance.tier
@@ -52,8 +62,19 @@ block content
           ul.scatter
             each standard in compliance.standards
               li=standard
-      .align-center.hide-overflow
-        img(src='/assets/icons/Compliance-Admin-Center.png')
+    section.stack
+      h2.text-center.no-margin Top Requested Features
+      .columnar.space-around
+        each request in requests
+          .request-container.stack
+            .votes
+              h3.request-votes.text-center.no-margin= request.votes
+              span.request-label VOTES
+            span.request-title=request.title
+            if request.status
+              .status-container
+                span.request-label STATUS
+                span.request-status(class=request.status.split(' ').join('-').toLowerCase())=request.status
     section.stack.reverse
       h2.text-center.no-margin Top Competitors
       .columnar.space-around

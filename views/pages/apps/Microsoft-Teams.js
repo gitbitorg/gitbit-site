@@ -3,6 +3,12 @@ module.exports = {
   description: 'Chat-Based Workspace',
   icon: '/assets/icons/teams-icon.png',
   video: 'https://youtu.be/ENEQzM2u_vA',
+  rating: '91%',
+  color: '5558af',
+  testimonials: [
+    {text: '"It\'s great, I use it weekly, and it\'s a much smoother way of keeping up with my team than email."'},
+    {text: '"It allows for a conversation to take place without multiple emails going back-and-forth and having other emails come in, in between those emails. It keeps a better flow to the work that’s being performed and doesn’t simply clog up our email boxes."'}
+  ],
   features: [
     {
       name: 'Group Chat',
@@ -59,6 +65,13 @@ module.exports = {
       'ISO 27001', 'ISO 27018', 'SSAE16 SOC 1', 'SOC 2', 'HIPAA', 'EU Model Clauses (EUMC)'
     ]
   },
+  requests: [
+    {votes: 9000, title:'Support for Private Channels', status:'Working on It'},
+    {votes: 5100, title:'Integrate Office 365 Group Calendars', status:'Under Review'},
+    {votes: 4700, title:'Additional Capabilites for Planner', status:'Partially Done'},
+    {votes: 4600, title:'Compact Chat Layout', status:'Working on It'},
+    {votes: 4100, title:'Integrate Skype for Business', status:'Working on It'}
+  ],
   'title': 'Microsoft Teams',
   'keywords': 'Office 365, Microsoft Teams, ',
   'assetsFolder': 'microsoft-teams',
