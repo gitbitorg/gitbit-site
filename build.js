@@ -1,6 +1,7 @@
 /* eslint no-unused-vars:0 */
 
 const fs = require('fs')
+const {resolve} = require('path')
 const Glob = require('glob').Glob
 const pug = require('pug')
 const ampify = require('ampify')
@@ -31,8 +32,18 @@ const views = () => {
 }
 
 const renderAppViews = () => {
-  const {renderAppPages} = require('./build/render-app-pages.js')
-  renderAppPages()
+  const template = resolve(__dirname, 'views', 'template-app.pug')
+  const apps = (Glob('views/pages/apps/*.js', {sync:true})).found
+
+  apps.forEach((file) => {
+    const app = require(`./${file}`)
+    const slug = app.name.split(' ').join('-') + '.html'
+    const destination = resolve(__dirname, 'docs', 'apps', slug)
+    const html = pug.renderFile(template, app)
+    const amp = ampify(html, {cwd:'./docs'})
+    const mini = minify(amp, {minifyCSS: true, minifyJS: true})
+    fs.writeFileSync(destination, mini)
+  })
 }
 
 const getImages = (path) => {
