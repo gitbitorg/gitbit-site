@@ -1,5 +1,6 @@
 module.exports = {
   name: 'Microsoft Teams',
+  tag: 'Microsoft Teams',
   description: 'Chat-Based Workspace',
   icon: '/assets/icons/teams-icon.png',
   video: 'http://www.youtube.com/embed/ENEQzM2u_vA',
@@ -73,7 +74,7 @@ module.exports = {
     {votes: 4100, title:'Integrate Skype for Business', status:'Working on It'}
   ],
   'title': 'Microsoft Teams',
-  'keywords': 'Office 365, Microsoft Teams, ',
+  'keywords': 'Office 365, Microsoft Teams',
   'assetsFolder': 'microsoft-teams',
   'fileName': 'Microsoft-Teams',
   'datePublished': '2018-06-06T06:00:00.000Z',

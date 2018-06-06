@@ -9,6 +9,7 @@ const sm = require('sitemap')
 const wordCount = require('html-word-count')
 const htmlparser = require('htmlparser2')
 const minify = require('html-minifier').minify
+const roadmap = require('./lib/roadmap')
 
 const clean = () => {
   const {found} = Glob('docs/**/*.html', {sync:true})
@@ -37,10 +38,11 @@ const renderAppViews = () => {
 
   apps.forEach((file) => {
     const app = require(`./${file}`)
+    app.updates = roadmap.getLatest(app.tag)
     const slug = app.name.split(' ').join('-') + '.html'
     const destination = resolve(__dirname, 'docs', 'apps', slug)
     const html = pug.renderFile(template, app)
-    const amp = ampify(html, {cwd:'./docs'})
+    const amp = ampify(html, {cwd:resolve(__dirname, 'docs')})
     const mini = minify(amp, {minifyCSS: true, minifyJS: true})
     fs.writeFileSync(destination, mini)
   })

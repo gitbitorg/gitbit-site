@@ -62,7 +62,29 @@ block content
           ul.scatter
             each standard in compliance.standards
               li=standard
-    section.stack
+    section.stack.align-center
+      h2.text-center.no-margin Latest Updates
+      .updates
+        h3 Launched
+        each update in updates.launched
+          .columnar.update-title-container
+            p.update-title=update.title
+            p=update.publicDisclosureAvailabilityDate
+          p.update-description=update.description
+            if update.moreInfoLink
+              |  - 
+              a(href=update.moreInfoLink) More Information
+      .updates
+        h3 Rolling Out
+        each update in updates.rollingOut
+          .columnar.update-title-container
+            p.update-title=update.title
+            p=update.publicDisclosureAvailabilityDate
+          p.update-description=update.description
+            if update.moreInfoLink
+              |  - 
+              a(href=update.moreInfoLink) More Information
+    section.stack.reverse
       h2.text-center.no-margin Top Requested Features
       .columnar.space-around
         each request in requests
@@ -75,14 +97,14 @@ block content
               .status-container
                 span.request-label STATUS
                 span.request-status(class=request.status.split(' ').join('-').toLowerCase())=request.status
-    section.stack.reverse
+    section.stack
       h2.text-center.no-margin Top Competitors
       .columnar.space-around
           each competitor in competitors
             a(href=competitor.url).platform-container
               img(src=competitor.image width='96px' height='96px')
               span=competitor.name
-    section.stack
+    section.stack.reverse
       h2.text-center.no-margin Additional Resources
       ul.scatter
         each resource in resources
