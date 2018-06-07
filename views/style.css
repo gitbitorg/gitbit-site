@@ -308,6 +308,10 @@ pre.code p {
     color: #5558af;
 }
 
+.header-color-2471ba h1, .header-color-2471ba h2, .header-color-2471ba h3 {
+    color: #5558af;
+}
+
 @media screen and (min-width: 900px) {
   .app .heading {
     display: flex;

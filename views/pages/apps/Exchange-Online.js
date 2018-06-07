@@ -46,8 +46,8 @@ module.exports = {
     web: 'http://mail.office365.com',
     pc: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
     mac: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
-    android: 'https://play.google.com/store/apps/details?id=com.microsoft.teams',
-    iPhone: 'https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en_US'
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-outlook/id951937596?mt=8'
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/exchange/exchange-online'},
