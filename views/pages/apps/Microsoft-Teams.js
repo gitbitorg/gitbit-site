@@ -33,7 +33,9 @@ module.exports = {
     'Office 365 A1',
     'Office 365 A3',
     'Office 365 A5',
-    'Office 365 F1'
+    'Office 365 F1',
+    'Office 365 Nonprofit Business Premium',
+    'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
     web: 'https://teams.microsoft.com',
@@ -60,7 +62,7 @@ module.exports = {
     {name: 'Skype for Business', url: 'https://www.skype.com/en/business/', image:'/assets/icons/Microsoft-Skype-for-Business-logo-96px.png'},
   ],
   compliance: {
-    tier: 'Tier C-compliant',
+    tier: 'Tier C-Compliant',
     url: 'https://docs.microsoft.com/en-us/microsoftteams/security-compliance-overview',
     standards: [
       'ISO 27001', 'ISO 27018', 'SSAE16 SOC 1', 'SOC 2', 'HIPAA', 'EU Model Clauses (EUMC)'
