@@ -44,6 +44,19 @@ h1 {
   font-size: 2em;
 }
 
+em {
+  font-weight: 300;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+pre {
+  max-width: 90vw;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -58,13 +71,13 @@ main > * {
 }
 
 blockquote {
-  color: rgba(0,0,0,.68);
-  font-style: italic;
   font-size: larger;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .subtitle {
-  color: #666
+  font-weight: 300;
 }
 
 .circle {
@@ -266,7 +279,7 @@ pre.code p {
 
 .app .updates .update-description {
   margin-top: 0px;
-  color: rgba(0,0,0,.7);
+  font-weight: 300;
 }
 
 .app .updates .update-title-container {
