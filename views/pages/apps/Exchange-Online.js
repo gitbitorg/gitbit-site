@@ -16,7 +16,7 @@ module.exports = {
       description: 'Anti-malware and anti-spam filtering for all email. Globally redundant servers with a 99.9% up-time SLA.'
     },
     {
-      name: 'Flixiblity',
+      name: 'Flexibility',
       description: 'Office 365 Exchange Online offers the an extensive list of features. Users can tailor their solutions to their unique needs.'
     },
     {
@@ -53,7 +53,7 @@ module.exports = {
     {title: 'Homepage', url:'https://products.office.com/en-us/exchange/exchange-online'},
     {title: 'News', url:'https://blogs.technet.microsoft.com/blog/tag/exchange-online/'},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/ExchangeOnline'},
-    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams'},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=exchange'},
     {title: 'Admin Training', url:'https://mva.microsoft.com/en-us/training-courses/managing-exchange-online-using-microsoft-online-console-8336'}
   ],
   competitors: [
