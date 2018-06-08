@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Access',
   tag: 'Access',
-  description: '',
+  description: 'Database Management System (DBMS)',
   icon: '/assets/icons/access.png',
   video: '',
   rating: '',
@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Access'}
   ],
   competitors: [
     {name: 'FileMaker', url: 'http://www.filemaker.com/', image:'/assets/icons/filemaker.png'},

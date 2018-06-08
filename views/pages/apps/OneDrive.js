@@ -57,7 +57,8 @@ module.exports = {
     {title: 'User Training', url: 'https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
     {title: 'Admin Training', url:'https://support.office.com/en-us/article/onedrive-for-business-admin-help-3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb'},
     {title: 'YouTube', url:'https://www.youtube.com/user/skydrivevideos/'},
-    {title: 'UserVoice', url:'https://onedrive.uservoice.com'}
+    {title: 'UserVoice', url:'https://onedrive.uservoice.com'},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/OneDrive'}
   ],
   competitors: [
     {name: 'Google Drive', url: 'https://www.google.com/drive/', image:'/assets/icons/Google-Drive-Logo.png'},

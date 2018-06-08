@@ -55,7 +55,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Dynamics_365'}
   ],
   competitors: [
     {name: 'HubSpot', url: 'https://www.hubspot.com/', image:'/assets/icons/hubspot.png'},

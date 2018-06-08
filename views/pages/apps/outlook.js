@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Outlook'}
   ],
   competitors: [
     {name: 'Thunderbird', url: 'https://www.thunderbird.net/en-US/', image:'/assets/icons/thunderbird.png'},

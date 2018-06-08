@@ -55,7 +55,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Publisher'}
   ],
   competitors: [
     {name: 'LibreOffice Draw', url: 'https://www.libreoffice.org/discover/draw/', image:'/assets/icons/libreoffice-draw.png'},

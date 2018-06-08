@@ -40,7 +40,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/'},
-    {title: 'UserVoice', url:'https://.uservoice.com'}
+    {title: 'UserVoice', url:'https://.uservoice.com'},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_mobile_services#Office_Lens'}
   ],
   competitors: [
     {name: 'CamScanner', url: 'https://www.camscanner.com/', image:'/assets/icons/camscanner.png'},

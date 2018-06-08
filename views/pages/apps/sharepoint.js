@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/SharePoint'}
   ],
   competitors: [
     {name: 'ShareFile', url: 'https://www.sharefile.com/', image:'/assets/icons/citrix-sharefile.png'},

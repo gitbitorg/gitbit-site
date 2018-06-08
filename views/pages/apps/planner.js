@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Planner'}
   ],
   competitors: [
     {name: 'Asana', url: 'https://asana.com/', image:'/assets/icons/asana.png'},

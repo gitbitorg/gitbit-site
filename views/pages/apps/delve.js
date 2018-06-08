@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Delve'}
   ],
   competitors: [
     {name: 'Docurated', url: 'http://www.quark.com/products/docurated/', image:'/assets/icons/docurated.png'},

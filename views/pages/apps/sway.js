@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Office_Sway'}
   ],
   competitors: [
     {name: 'Prezi', url: 'https://prezi.com/', image:'/assets/icons/prezi.png'},

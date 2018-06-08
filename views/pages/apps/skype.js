@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Skype_for_Business'}
   ],
   competitors: [
     {name: 'Yammer', url: '/apps/yammer', image:'/assets/icons/yammer-96px.png'},

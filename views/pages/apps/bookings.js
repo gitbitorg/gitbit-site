@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Bookings',
   tag: 'Small Business Apps',
-  description: '',
+  description: 'Online Bookings and Appointment Scheduling',
   icon: '/assets/icons/bookings.png',
   video: '',
   rating: '',
@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Bookings'}
   ],
   competitors: [
     {name: 'acuity', url: 'https://acuityscheduling.com/', image:'/assets/icons/acuity.png'},

@@ -55,7 +55,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_To-Do'}
   ],
   competitors: [
     {name: 'Google Keep', url: 'https://keep.google.com/', image:'/assets/icons/google-keep.png'},

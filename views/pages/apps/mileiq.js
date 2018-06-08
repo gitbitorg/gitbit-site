@@ -55,7 +55,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/MileIQ'}
   ],
   competitors: [
     {name: 'Everlance', url: 'https://everlance.com/', image:'/assets/icons/everlance.png'},

@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Yammer'}
   ],
   competitors: [
     {name: 'Microsoft Teams', url: '/apps/microsoft-teams', image:'/assets/icons/microsoft-teams-96px.png'},

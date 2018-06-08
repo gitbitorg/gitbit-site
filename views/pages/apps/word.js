@@ -56,7 +56,8 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:''},
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Word'}
   ],
   competitors: [
     {name: 'Google Docs', url: 'https://www.google.com/docs/about/', image:'/assets/icons/google-docs.png'},
