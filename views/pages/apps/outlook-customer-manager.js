@@ -23,22 +23,7 @@ module.exports = {
     }
   ],
   licenses: [
-    'Office 365 Business',
-    'Office 365 Business Premium',
-    'Office 365 Business Essentials',
-    'Office 365 ProPlus',
-    'Office 365 Enterprise E1',
-    'Office 365 Enterprise E3',
-    'Office 365 Enterprise E5',
-    'Office 365 A1',
-    'Office 365 A3',
-    'Office 365 A5',
-    'Office 365 F1',
-    'Office 365 G1',
-    'Office 365 G3',
-    'Office 365 G5',
-    'Office 365 Nonprofit Business Premium',
-    'Office 365 Nonprofit Business Essentials'
+    'Office 365 Business Premium'
   ],
   platforms: {
     web: 'https://support.office.com/en-us/article/get-started-with-outlook-customer-manager-48331ce0-c356-4186-8987-c86676520dc7',

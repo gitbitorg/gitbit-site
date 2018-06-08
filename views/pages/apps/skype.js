@@ -24,10 +24,8 @@ module.exports = {
     }
   ],
   licenses: [
-    'Office 365 Business',
     'Office 365 Business Premium',
     'Office 365 Business Essentials',
-    'Office 365 ProPlus',
     'Office 365 Enterprise E1',
     'Office 365 Enterprise E3',
     'Office 365 Enterprise E5',

@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/school-data-sync.png',
   video: 'http://www.youtube.com/embed/yPzCJ4eqWfM',
   rating: '??',
-  color: '0072c6',
+  color: '5b2d90',
   testimonials: [
     {text: '""'}
   ],
@@ -23,22 +23,9 @@ module.exports = {
     }
   ],
   licenses: [
-    'Office 365 Business',
-    'Office 365 Business Premium',
-    'Office 365 Business Essentials',
-    'Office 365 ProPlus',
-    'Office 365 Enterprise E1',
-    'Office 365 Enterprise E3',
-    'Office 365 Enterprise E5',
     'Office 365 A1',
     'Office 365 A3',
     'Office 365 A5',
-    'Office 365 F1',
-    'Office 365 G1',
-    'Office 365 G3',
-    'Office 365 G5',
-    'Office 365 Nonprofit Business Premium',
-    'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
     web: 'https://sds.microsoft.com/',

@@ -35,11 +35,6 @@ module.exports = {
     'Office 365 A3',
     'Office 365 A5',
     'Office 365 F1',
-    'Office 365 G1',
-    'Office 365 G3',
-    'Office 365 G5',
-    'Office 365 Nonprofit Business Premium',
-    'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
     web: 'https://www.sway.com/',
