@@ -3,7 +3,7 @@ module.exports = {
   description: 'Task Management',
   icon: '/assets/icons/to-do.png',
   video: 'http://www.youtube.com/embed/6k3_T84z5Ds',
-  rating: '',
+  rating: '85%',
   color: '465efc',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,10 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'http://todo.microsoft.com',
+    pc: 'https://www.microsoft.com/en-us/p/todo/9wzdncrdc6mj',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.todos&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-to-do/id1212616790?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

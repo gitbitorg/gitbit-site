@@ -3,7 +3,7 @@ module.exports = {
   description: 'Email Marketing Tool',
   icon: '/assets/icons/connections.png',
   video: 'http://www.youtube.com/embed/gzlCMC0h8tk',
-  rating: '',
+  rating: '76%',
   color: 'ce0f65',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://portal.office.com/BusinessCenter/Home',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.o365smb.connections&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-bookings/id1065657468?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

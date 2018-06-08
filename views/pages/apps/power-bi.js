@@ -3,7 +3,7 @@ module.exports = {
   description: 'Business Intelligence',
   icon: '/assets/icons/power-bi.png',
   video: 'http://www.youtube.com/embed/Qgam9M8I0xA',
-  rating: '',
+  rating: '9.1',
   color: 'f2c811',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,10 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://powerbi.microsoft.com',
+    pc: 'https://powerbi.microsoft.com/en-us/downloads/',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.powerbim&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

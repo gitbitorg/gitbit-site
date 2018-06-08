@@ -3,7 +3,7 @@ module.exports = {
   description: 'ERP + CRM',
   icon: '/assets/icons/dynamics-365.png',
   video: 'http://www.youtube.com/embed/sDYBMZ2I2YA',
-  rating: '',
+  rating: '66%',
   color: '0072c6',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,11 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://home.dynamics.com/?autolaunch=true',
+    pc: 'https://www.microsoft.com/en-us/p/microsoft-dynamics-365/9nblggh4rfqp',
+    mac: 'https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/v8/deploy-dynamics-365-app-for-outlook',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-dynamics-365/id678800460?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

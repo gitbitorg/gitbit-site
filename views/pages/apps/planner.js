@@ -4,7 +4,7 @@ module.exports = {
   description: 'Task Management',
   icon: '/assets/icons/planner.png',
   video: 'http://www.youtube.com/embed/p82hS0K32fA',
-  rating: '',
+  rating: '83%',
   color: '31752f',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://tasks.office.com',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.planner&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-planner/id1219301037?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

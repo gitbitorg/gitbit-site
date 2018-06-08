@@ -3,7 +3,7 @@ module.exports = {
   description: 'Codeless App Development',
   icon: '/assets/icons/powerapps.png',
   video: 'http://www.youtube.com/embed/UCpmP6FOK-s',
-  rating: '',
+  rating: '69%',
   color: '5c005c',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,10 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://web.powerapps.com',
+    pc: 'https://powerapps.microsoft.com/en-us/downloads/',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.msapps&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/powerapps/id1047318566?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

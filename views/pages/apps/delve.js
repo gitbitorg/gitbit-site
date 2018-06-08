@@ -4,7 +4,7 @@ module.exports = {
   description: 'Enterprise Intelligent Search',
   icon: '/assets/icons/delve.png',
   video: 'http://www.youtube.com/embed/cCbyer0Xupg',
-  rating: '',
+  rating: '88%',
   color: '0078d7',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://portal.office.com',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.delvemobile&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/office-delve-for-office-365/id969258781?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

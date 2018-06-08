@@ -3,7 +3,7 @@ module.exports = {
   description: 'Mileage Tracking and Logging',
   icon: '/assets/icons/mileiq.png',
   video: 'http://www.youtube.com/embed/mCnQGj6a924',
-  rating: '',
+  rating: '91%',
   color: 'ffb214',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://www.mileiq.com/office365',
+    android: 'https://play.google.com/store/apps/details?id=com.mobiledatalabs.mileiq&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/mileiq-mileage-log-for-taxes/id578830929?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

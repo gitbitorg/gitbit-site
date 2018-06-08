@@ -4,7 +4,7 @@ module.exports = {
   description: 'Notetaking',
   icon: '/assets/icons/onenote.png',
   video: 'http://www.youtube.com/embed/9v8D857J3oM',
-  rating: '',
+  rating: '95%',
   color: '7719aa',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,11 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://www.onenote.com/hrd',
+    pc: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
+    mac: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.office.onenote&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-onenote/id410395246?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

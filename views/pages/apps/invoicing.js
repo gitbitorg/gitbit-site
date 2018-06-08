@@ -3,7 +3,7 @@ module.exports = {
   description: '',
   icon: '/assets/icons/invoicing.png',
   video: 'http://www.youtube.com/embed/RkcfhVkjkCQ',
-  rating: '',
+  rating: '75%',
   color: 'ce0f65',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://portal.office.com/BusinessCenter/Home',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.dynamics.invoice&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-invoicing/id1145475572?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

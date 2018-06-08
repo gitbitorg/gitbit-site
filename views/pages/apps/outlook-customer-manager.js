@@ -3,10 +3,10 @@ module.exports = {
   description: 'CRM',
   icon: '/assets/icons/outlook-customer-manager.png',
   video: 'http://www.youtube.com/embed/S2UiUka6dxc',
-  rating: '',
+  rating: '63%',
   color: '0078d7',
   testimonials: [
-    {text: '""'}
+    {text: '"Outlook Customer Manager is a great tool to quickly pick up how to use a CRM, and see the benefits of gaining a 360 degree view of your customers."'}
   ],
   features: [
     {
@@ -41,11 +41,10 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://support.office.com/en-us/article/get-started-with-outlook-customer-manager-48331ce0-c356-4186-8987-c86676520dc7',
+    pc: 'https://support.office.com/en-us/article/get-started-with-outlook-customer-manager-48331ce0-c356-4186-8987-c86676520dc7',
+    mac: 'https://support.office.com/en-us/article/get-started-with-outlook-customer-manager-48331ce0-c356-4186-8987-c86676520dc7',
+    iPhone: 'https://itunes.apple.com/app/outlook-customer-manager/id1139370461?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

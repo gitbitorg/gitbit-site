@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Outlook',
   description: 'Personal Information Manager',
   icon: '/assets/icons/outlook.png',
-  rating: '',
+  rating: '91%',
   color: '0078d7',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,11 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'http://mail.office365.com',
+    pc: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
+    mac: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.office.outlook',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-outlook/id951937596?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

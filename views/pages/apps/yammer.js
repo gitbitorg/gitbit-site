@@ -4,7 +4,7 @@ module.exports = {
   description: 'Enterprise Social Media',
   icon: '/assets/icons/yammer.png',
   video: 'http://www.youtube.com/embed/MMEoWMJf1uY',
-  rating: '',
+  rating: '88%',
   color: '0072c6',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://www.yammer.com/office365',
+    android: 'https://play.google.com/store/apps/details?id=com.yammer.v1&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/yammer/id289559439?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

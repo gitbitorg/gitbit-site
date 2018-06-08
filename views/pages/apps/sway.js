@@ -4,7 +4,7 @@ module.exports = {
   description: 'Presentation',
   icon: '/assets/icons/sway.png',
   video: 'http://www.youtube.com/embed/Jw-g6IuBVJE',
-  rating: '',
+  rating: '92%',
   color: '008272',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,8 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://www.sway.com/',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-sway/id929856545?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

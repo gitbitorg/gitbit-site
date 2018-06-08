@@ -3,7 +3,7 @@ module.exports = {
   description: '',
   icon: '/assets/icons/school-data-sync.png',
   video: 'http://www.youtube.com/embed/yPzCJ4eqWfM',
-  rating: '',
+  rating: '??',
   color: '0072c6',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,8 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://sds.microsoft.com/',
+    pc: 'https://docs.microsoft.com/en-us/schooldatasync/install-the-school-data-sync-toolkit'
   },
   resources: [
     {title: 'Homepage', url:''},

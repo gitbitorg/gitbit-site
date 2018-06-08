@@ -4,7 +4,7 @@ module.exports = {
   description: 'Staff Management',
   icon: '/assets/icons/staffhub.png',
   video: 'http://www.youtube.com/embed/e8ZE-IsgFow',
-  rating: '',
+  rating: '92%',
   color: '0d8387',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://staffhub.office.com',
+    android: 'https://play.google.com/store/apps/details?id=ols.microsoft.com.shiftr&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-staffhub/id1122181468?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

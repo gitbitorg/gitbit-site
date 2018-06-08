@@ -4,7 +4,7 @@ module.exports = {
   description: 'Content Management System',
   icon: '/assets/icons/sharepoint.png',
   video: 'http://www.youtube.com/embed/bvEPmIwWknY',
-  rating: '',
+  rating: '84%',
   color: '0078d7',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://portal.office.com',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.sharepoint&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-sharepoint/id1091505266?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

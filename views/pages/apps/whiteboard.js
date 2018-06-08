@@ -41,11 +41,7 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    pc: 'https://www.microsoft.com/en-us/p/microsoft-whiteboard-preview/9mspc6mp8fm4?rtc=1',
   },
   resources: [
     {title: 'Homepage', url:''},

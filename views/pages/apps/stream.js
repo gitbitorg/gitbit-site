@@ -4,7 +4,7 @@ module.exports = {
   description: 'Video Hosting',
   icon: '/assets/icons/stream.png',
   video: 'http://www.youtube.com/embed/M6JkA_SxsQQ',
-  rating: '',
+  rating: '72%',
   color: 'c30052',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,7 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://stream.microsoft.com/'
   },
   resources: [
     {title: 'Homepage', url:''},

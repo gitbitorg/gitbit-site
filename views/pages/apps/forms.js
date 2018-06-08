@@ -41,11 +41,7 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://forms.office.com/'
   },
   resources: [
     {title: 'Homepage', url:''},

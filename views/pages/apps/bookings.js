@@ -4,7 +4,7 @@ module.exports = {
   description: 'Online Bookings and Appointment Scheduling',
   icon: '/assets/icons/bookings.png',
   video: 'http://www.youtube.com/embed/hNXxBNPAOKA',
-  rating: '',
+  rating: '80%',
   color: '00a99d',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,9 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://outlook.office365.com/owa/?path=/bookings',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.exchange.bookings&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-bookings/id1065657468?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

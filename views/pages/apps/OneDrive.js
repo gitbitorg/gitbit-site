@@ -43,7 +43,7 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: 'https://portal.office.com',
+    web: 'http://onedrive.microsoft.com',
     pc: 'https://onedrive.live.com/about/en-us/download/',
     mac: 'https://itunes.apple.com/us/app/onedrive/id823766827?ls=1&mt=12',
     android: 'https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en_US',

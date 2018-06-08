@@ -3,7 +3,7 @@ module.exports = {
   description: 'Task Automation',
   icon: '/assets/icons/flow.png',
   video: 'http://www.youtube.com/embed/uY0rjTjebZ4',
-  rating: '',
+  rating: '87%',
   color: '0077ff',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,10 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://us.flow.microsoft.com/en-us/',
+    pc: 'https://www.microsoft.com/en-us/p/microsoft-flow/9nkn0p5l9n84',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.flow&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/microsoft-flow/id1094928825?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},

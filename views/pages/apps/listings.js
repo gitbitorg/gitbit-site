@@ -3,7 +3,7 @@ module.exports = {
   description: '',
   icon: '/assets/icons/listings.png',
   video: 'http://www.youtube.com/embed/pkFQoHiLDwI',
-  rating: '',
+  rating: '80%',
   color: 'ce0f65',
   testimonials: [
     {text: '""'}
@@ -41,11 +41,7 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'https://portal.office.com/BusinessCenter/Home'
   },
   resources: [
     {title: 'Homepage', url:''},

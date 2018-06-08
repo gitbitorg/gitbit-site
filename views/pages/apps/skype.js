@@ -4,7 +4,7 @@ module.exports = {
   description: 'Instant Messenger',
   icon: '/assets/icons/skype-for-business.png',
   video: 'http://www.youtube.com/embed/LUetykHsxqQ',
-  rating: '',
+  rating: '80%',
   color: '0078d7',
   testimonials: [
     {text: '""'}
@@ -42,11 +42,11 @@ module.exports = {
     'Office 365 Nonprofit Business Essentials'
   ],
   platforms: {
-    web: '',
-    pc: '',
-    mac: '',
-    android: '',
-    iPhone: ''
+    web: 'http://mail.office365.com',
+    pc: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
+    mac: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658',
+    android: 'https://play.google.com/store/apps/details?id=com.microsoft.office.lync15&hl=en_US',
+    iPhone: 'https://itunes.apple.com/us/app/skype-for-business/id605841731?mt=8'
   },
   resources: [
     {title: 'Homepage', url:''},
