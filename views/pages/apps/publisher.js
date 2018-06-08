@@ -10,16 +10,12 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Printouts',
+      description: 'Create visually stunning printouts with built-in styles and easy image effects.'
     },
     {
-      name: '',
-      description: ''
-    },
-    {
-      name: '',
-      description: ''
+      name: 'Emails',
+      description: 'Create marketing emails with images, videos, and styled text.'
     }
   ],
   licenses: [
@@ -37,7 +33,7 @@ module.exports = {
     mac: 'https://support.office.com/en-us/article/download-and-install-or-reinstall-office-365-or-office-2016-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/publisher'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

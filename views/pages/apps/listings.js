@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Business Discovery',
+      description: 'Get your business listed on Facebook, Google, Bing, and Yelp.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Automated Sync',
+      description: 'Keep your business information up-to-date. Updating your name, hours, etc. in Microsoft Listings will automatically publish the changes.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Track',
+      description: 'Track your businesses online status will a quick dashboard showing page views, reviews, and likes.'
     }
   ],
   licenses: [

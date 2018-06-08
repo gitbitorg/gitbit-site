@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Engage Customers',
+      description: 'Easily send professional marketing emails that showcase your brand and drive sales. Reach out to customers with newsletters and announcements that keep them coming back.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Grow your Business',
+      description: 'Grow your email list be easily setting up incentives and rewards.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Tracking Success',
+      description: 'Quickly view the number of sent, delivered and opened emails to find your success and failures.'
     }
   ],
   licenses: [
@@ -32,7 +32,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-bookings/id1065657468?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/business/microsoft-connections/email-marketing-software'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

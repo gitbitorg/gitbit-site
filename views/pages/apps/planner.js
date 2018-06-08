@@ -12,16 +12,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Group Tasks',
+      description: 'Keep your team organized with all your tasks in one easy to access place.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Visibility and Transparency',
+      description: 'Visualize your work and keep the whole team informed with a task list the team can see.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Share comments, files, and statuses right on tasks to keep everyone informed and moving forward.'
     }
   ],
   licenses: [
@@ -39,7 +39,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-planner/id1219301037?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/business/task-management-software'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

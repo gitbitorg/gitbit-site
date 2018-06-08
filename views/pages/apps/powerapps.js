@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Codeless Development',
+      description: 'Quickly create apps without coding to keep data at users fingertips without the complexity.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Fast',
+      description: 'Deploy apps to your organization in hours not weeks with simple drag and drop development.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Integrations',
+      description: 'Integrate a PowerApps frontend with data from SharePoint, OneDrive, Excel, Salesforce and more.'
     }
   ],
   licenses: [
@@ -40,7 +40,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/powerapps/id1047318566?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://powerapps.microsoft.com/en-us/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

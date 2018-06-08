@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Platform Support',
+      description: 'Microsoft has developed an Outlook app for smartphones to help keep your organization efficient anywhere, anytime.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Smarter Inbox',
+      description: 'The latest versions of Outlook are equipped with focused inbox to help keep the important information on top and hiding the clutter.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Integrations',
+      description: 'Integrate with Microsoft To-Do, Planner, and SharePoint to keep all your tasks in one place.'
     }
   ],
   licenses: [
@@ -44,7 +44,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-outlook/id951937596?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/outlook/email-and-calendar-software-microsoft-outlook?tab=tabs-1'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

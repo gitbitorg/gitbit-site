@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Reporting',
+      description: 'MileIQ creates a record of your mileage and sends you weekly reports. Need more? Use the web dashboard to generate highly customizable reports.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Automatic',
+      description: 'MileIQ catches your drives automatically. The app runs in the background tracking your miles and creating a comprehensive record of your drives.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Simple',
+      description: 'Swipe right for business drives – swipe left for personal drives. Easily add details such as parking, tolls or drive purposes to suit your specific needs.'
     }
   ],
   licenses: [
@@ -32,7 +32,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/mileiq-mileage-log-for-taxes/id578830929?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://www.mileiq.com/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

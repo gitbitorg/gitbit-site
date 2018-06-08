@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'CRM',
+      description: 'Fast insights and personalized relationships to predict customer needs and streamline the sales process.'
     },
     {
-      name: '',
-      description: ''
+      name: 'ERP',
+      description: 'Highly customizable but easier than other ERPs, Dynamics 365 can organize your enterprise into one fast productive team.'
     },
     {
-      name: '',
-      description: ''
+      name: 'CRM + ERP',
+      description: 'Maintain the entire sales and project lifecycle in one unified flow.'
     }
   ],
   licenses: [
@@ -54,7 +54,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-dynamics-365/id678800460?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://dynamics.microsoft.com/en-us/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

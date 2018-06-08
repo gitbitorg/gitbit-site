@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Business Intelligence',
+      description: 'Power BI is a suite of business analytics tools that deliver insights throughout your organization.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Data Visualization',
+      description: 'Visualize data to generate actionable insight from your data.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Integrations',
+      description: 'Integrate with Excel, Google Analytics, SQL, Salesforce and more to bring all your data into one dashboard.'
     }
   ],
   licenses: [
@@ -37,7 +37,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://powerbi.microsoft.com/en-us/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

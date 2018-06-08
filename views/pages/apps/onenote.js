@@ -12,16 +12,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Organized',
+      description: 'Keep projects and teams organized with a simple structure of notebooks, sections, and pages.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Store, access, sync, and share notebooks with your team to keep the latest updates accessible all from one place.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Freeform',
+      description: 'Add images, documents, text, or draw in your notebooks to keep everything organized.'
     }
   ],
   licenses: [
@@ -45,7 +45,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-onenote/id410395246?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://www.onenote.com/?public=1&wdorigin=ondcauth2&wdorigin=ondc'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

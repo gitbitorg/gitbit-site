@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Newsletters',
+      description: 'Create visually striking newsletters, presentations, and documentation in minutes.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Report',
+      description: 'Create reports with a natural flow and organized structure without the hassle.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Present',
+      description: 'Make your presentation pop with a storyline to keep your audience engaged.'
     }
   ],
   licenses: [
@@ -38,6 +38,7 @@ module.exports = {
   ],
   platforms: {
     web: 'https://www.sway.com/',
+    pc: 'https://www.microsoft.com/en-us/p/sway/9wzdncrd2g0j?activetab=pivot%3aoverviewtab',
     iPhone: 'https://itunes.apple.com/us/app/microsoft-sway/id929856545?mt=8'
   },
   resources: [
@@ -49,7 +50,8 @@ module.exports = {
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:''},
-    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Office_Sway'}
+    {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Office_Sway'},
+    {title: 'Getting Started', url:'https://support.office.com/en-us/article/getting-started-with-sway-2076c468-63f4-4a89-ae5f-424796714a8a'}
   ],
   competitors: [
     {name: 'Prezi', url: 'https://prezi.com/', image:'/assets/icons/prezi.png'},

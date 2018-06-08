@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Data Management',
+      description: 'Organize data into spreadsheets that can be quickly sorted, filtered, and analyzed.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Data Visualization',
+      description: 'Visualize data to help turn raw information into powerful action items.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaboration',
+      description: 'Work in real-time on the same spreadsheets anywhere in the world.'
     }
   ],
   licenses: [
@@ -44,7 +44,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/excel'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

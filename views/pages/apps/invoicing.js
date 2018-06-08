@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Simplicity',
+      description: 'Create professional invoices in minutes.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Online Payments',
+      description: 'Get paid faster with online payments.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Streamline',
+      description: 'Streamline and track estimates, sales, and discounts without the hassle.'
     }
   ],
   licenses: [

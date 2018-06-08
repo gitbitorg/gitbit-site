@@ -12,16 +12,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Automated Scheduling',
+      description: 'Customers can book their own appointments so you don’t waste time on the phone gathering information.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Decrease No-Shows',
+      description: 'After a customer books an appointment they’ll receive a confirmation of their booking directly in their inbox.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Mobile Management Capabilities',
+      description: 'A business-facing mobile app where business owners can see all of their bookings, access customer lists and contact information, and make manual bookings.'
     }
   ],
   licenses: [

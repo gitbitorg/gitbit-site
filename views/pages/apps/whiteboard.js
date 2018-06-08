@@ -10,16 +10,12 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Freeform',
+      description: 'Draw on whiteboards or images to quickly create and gather ideas.'
     },
     {
-      name: '',
-      description: ''
-    },
-    {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Work together to keep the whole team moving forward in a freeform way.'
     }
   ],
   licenses: [

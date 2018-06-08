@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'CRM',
+      description: 'Track customers, deals, tasks, notes, and more in one simple to use space.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Integrated in Outlook',
+      description: 'Outlook Customer Manager ingregrates a CRM directly into Outlook making it one of the easiest CRMs to use.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Share customer information with your whole team so that customers have a consistent experience no matter who they talk to.'
     }
   ],
   licenses: [
@@ -33,7 +33,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/app/outlook-customer-manager/id1139370461?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/business/outlook-customer-relationship-manager'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

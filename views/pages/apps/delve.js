@@ -12,16 +12,12 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Discover',
+      description: 'Search across your organizations data and find relevant content quickly.'
     },
     {
-      name: '',
-      description: ''
-    },
-    {
-      name: '',
-      description: ''
+      name: 'Share',
+      description: 'Build an internal personal profile to help colleagues have up-to-date and relevant information to keep everyone informed.'
     }
   ],
   licenses: [

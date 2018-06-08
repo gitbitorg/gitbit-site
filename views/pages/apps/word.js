@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Improved writing tips',
+      description: 'Microsoft Word has more spelling, grammar, and style tips then ever.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Platform Support',
+      description: 'Work with presentations from anywhere with smartphone apps.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Work together on presentations in real time.'
     }
   ],
   licenses: [
@@ -44,7 +44,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/word'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

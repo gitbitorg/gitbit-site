@@ -10,16 +10,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Built-In Desgin Ideas',
+      description: 'Drop text and images onto a slide and PowerPoint will generate design ideas to help structure your content in an appealing way.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Platform Support',
+      description: 'Work with presentations from anywhere with smartphone apps.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Work together on presentations in real time.'
     }
   ],
   licenses: [
@@ -43,7 +43,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/powerpoint'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

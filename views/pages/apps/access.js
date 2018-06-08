@@ -48,7 +48,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://access.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Access'}
   ],
   competitors: [
@@ -57,11 +57,11 @@ module.exports = {
     {name: 'Tableau', url: 'https://www.tableau.com/', image:'/assets/icons/tableau.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 244, title:'Enhance the SQL Editor'},
+    {votes: 266, title:'Better integration with SQL Server'},
+    {votes: 177, title:'Automatically resize MS-Access Applications'},
+    {votes: 156, title:'Make Access a better ODBC client'},
+    {votes: 130, title:'Sync data between local/offline and cloud db tables'}
   ],
   'title': 'Microsoft Access',
   'keywords': 'Office 365, Access, Microsoft Access',

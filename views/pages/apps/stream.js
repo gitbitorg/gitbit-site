@@ -11,16 +11,8 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
-    },
-    {
-      name: '',
-      description: ''
-    },
-    {
-      name: '',
-      description: ''
+      name: 'Learning & Training',
+      description: 'Create powerful learning and training videos to help keep employees up to date across your organization.'
     }
   ],
   licenses: [
@@ -38,7 +30,7 @@ module.exports = {
     web: 'https://stream.microsoft.com/'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-stream'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

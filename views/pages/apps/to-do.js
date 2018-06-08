@@ -10,16 +10,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Stay Focused',
+      description: 'To-do\'s my day view will help keep your daily tasks on top of mind and hide the clutter.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Share and manage lists with friends, and colleagues. Collaborate on projects or tasks.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Outlook Integration',
+      description: 'Create tasks in To-Do and access them from Outlook on your pc. Simple and fast.'
     }
   ],
   licenses: [
@@ -47,7 +47,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-to-do/id1212616790?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-to-do-list-app'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

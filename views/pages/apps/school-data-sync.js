@@ -11,16 +11,12 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Sync Rosters from SIS',
+      description: 'Automatically sync rosters from SIS and create classes in Microsoft Teams.'
     },
     {
-      name: '',
-      description: ''
-    },
-    {
-      name: '',
-      description: ''
+      name: 'Single-Sign-On',
+      description: 'Sync account information to Office 365 to create a simple single sign on experience.'
     }
   ],
   licenses: [
@@ -33,7 +29,7 @@ module.exports = {
     pc: 'https://docs.microsoft.com/en-us/schooldatasync/install-the-school-data-sync-toolkit'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://sds.microsoft.com/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

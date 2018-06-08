@@ -12,16 +12,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Chat',
+      description: 'Real time instant messaging across your organization in a safe, secure environment.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Voice and Videos',
+      description: 'Communicate with colleagues with voice and video calling.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Web Meetings',
+      description: 'Host meetings with up to 250 participants where you can share your screen, presentation, and collaborate with text, video, and voice features.'
     }
   ],
   licenses: [
@@ -48,7 +48,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/skype-for-business/id605841731?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://www.skype.com/en/business/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

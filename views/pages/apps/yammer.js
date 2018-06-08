@@ -12,16 +12,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Enterprise Social Media',
+      description: 'Share and collaborate using a social media style tool that\'s fast and secure.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Up-To-Date',
+      description: 'Stay up-to-date on all the latest announcements across the entire organization.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Communicate',
+      description: 'Yammer gives a platform to the organization so CEOs to team leads can communicate with everyone in a fast, safe environment.'
     }
   ],
   licenses: [
@@ -36,7 +36,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/yammer/id289559439?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://www.yammer.com/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

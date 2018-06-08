@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Simple Online Forms',
+      description: 'Create simple easy to user surveys, quizzes, and polls.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Web Based',
+      description: 'Every form is shared and published through Microsoft directly to the web. Simply create a form and share a link.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Document Upload',
+      description: 'Create forms where customers, and employees can upload and store documents in Office 365.'
     }
   ],
   licenses: [
@@ -41,7 +41,7 @@ module.exports = {
     {title: 'Homepage', url:''},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
-    {title: 'Roadmap', url: ''},
+    {title: 'FAQ', url: 'https://support.office.com/en-us/article/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

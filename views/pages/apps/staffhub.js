@@ -12,16 +12,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Schedule Management',
+      description: 'Schedule employees, change shifts, and manage the schedule on the go.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Streamline Onboarding',
+      description: 'Deliver employee resources and training content that workers need to gain the skills and confidence they need to do their best work.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Collaborate',
+      description: 'Create spaces for meaningful conversation where workers can share ideas, learn from one another, and gain insight into larger, organizational initiatives.'
     }
   ],
   licenses: [
@@ -40,7 +40,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-staffhub/id1122181468?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-staffhub/staff-scheduling-software'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

@@ -12,16 +12,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Document Sharing',
+      description: 'Share and Collaborate on documents in real time to keep your organization\'s information organized.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Document Sync',
+      description: 'Sync documents from SharePoint to local devices for a fast rich experience, even offline.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Mobile Intranet',
+      description: 'Build a collaborative workspace to share company news, and keep in touch with your team or organization.'
     }
   ],
   licenses: [
@@ -46,7 +46,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-sharepoint/id1091505266?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/sharepoint/collaboration'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

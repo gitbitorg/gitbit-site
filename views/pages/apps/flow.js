@@ -11,16 +11,16 @@ module.exports = {
   ],
   features: [
     {
-      name: '',
-      description: ''
+      name: 'Automation',
+      description: 'Turn mundane repetitive tasks into multistep automated workflows.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Codeless',
+      description: 'Use a GUI to create processes. No development or coding expertise required.'
     },
     {
-      name: '',
-      description: ''
+      name: 'Approval Workflows',
+      description: 'Create reminders and automated approval workflows to automate approval workflows that work with OneDrive, SharePoint, and the Office suite.'
     }
   ],
   licenses: [
@@ -44,7 +44,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-flow/id1094928825?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://flow.microsoft.com/en-us/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},
