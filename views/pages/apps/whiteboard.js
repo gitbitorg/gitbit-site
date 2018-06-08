@@ -6,6 +6,7 @@ module.exports = {
   rating: '',
   color: '0078d7',
   testimonials: [
+    {text: '""'},
     {text: '""'}
   ],
   features: [
@@ -44,7 +45,7 @@ module.exports = {
     pc: 'https://www.microsoft.com/en-us/p/microsoft-whiteboard-preview/9mspc6mp8fm4?rtc=1',
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-whiteboard/digital-whiteboard-app'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

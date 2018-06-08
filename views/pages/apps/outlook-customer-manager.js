@@ -6,7 +6,8 @@ module.exports = {
   rating: '63%',
   color: '0078d7',
   testimonials: [
-    {text: '"Outlook Customer Manager is a great tool to quickly pick up how to use a CRM, and see the benefits of gaining a 360 degree view of your customers."'}
+    {text: '"Outlook Customer Manager is a great tool to quickly pick up how to use a CRM, and see the benefits of gaining a 360 degree view of your customers."'},
+    {text: '""'}
   ],
   features: [
     {

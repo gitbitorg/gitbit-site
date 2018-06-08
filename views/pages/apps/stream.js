@@ -7,6 +7,7 @@ module.exports = {
   rating: '72%',
   color: 'c30052',
   testimonials: [
+    {text: '""'},
     {text: '""'}
   ],
   features: [

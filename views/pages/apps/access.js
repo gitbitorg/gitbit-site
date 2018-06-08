@@ -7,7 +7,8 @@ module.exports = {
   rating: '74%',
   color: 'a4373a',
   testimonials: [
-    {text: '""'}
+    {text: '"Microsoft Access is the industry leading desktop database creation tool for quick creation of relational SQL databases. It is an excellent tool for those not familiar with SQL - though add-ins, frameworks, templates & new Database Builder tools can help further simplify that, so truly don\'t need to learn SQL or VBA."'},
+    {text: '"It is an easy-to-use program compatible with the most popular databases in the world, therefore, it does not require expenses in training activities or the hiring of highly specialized personnel, saving money."'}
   ],
   features: [
     {
