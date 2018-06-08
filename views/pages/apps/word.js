@@ -51,7 +51,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://word.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Word'}
   ],
   competitors: [
@@ -59,11 +59,11 @@ module.exports = {
     {name: 'LibreOffice Writer', url: 'https://www.libreoffice.org/discover/writer/', image:'/assets/icons/libreoffice-writer.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 19000, title:'Avar spelling dictionary'},
+    {votes: 12000, title:'Chechen spelling dictionary'},
+    {votes: 10000, title:'Kumyk spelling dictionary (Latin alphabet) / Qumuqça tüzyazıw sözlügü (Latin alipbada)'},
+    {votes: 750, title:'Bring back "classic" text boundaries'},
+    {votes: 700, title:'Missing "Document panel" in Word 2016'}
   ],
   'title': 'Word',
   'keywords': 'Office 365, Word',

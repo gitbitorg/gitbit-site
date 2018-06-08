@@ -39,7 +39,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:'https://office365.uservoice.com/forums/600610-microsoft-connections-email-marketing/filters/top'}
   ],
   competitors: [
     {name: 'Constant Contact', url: 'https://www.constantcontact.com/index.jsp', image:'/assets/icons/constant-contact.png'},
@@ -48,11 +48,9 @@ module.exports = {
     {name: 'MailChimp', url: 'https://mailchimp.com/', image:'/assets/icons/mailchimp.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 59, title:'Add Microsoft Connections to enterprise plans'},
+    {votes: 14, title:'Better Contact Control - Connections Campaigns'},
+    {votes: 13, title:'Easier and more useful template creation/control'},
   ],
   'title': 'Microsoft Connections',
   'keywords': 'Office 365, Microsoft Connections',

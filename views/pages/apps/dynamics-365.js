@@ -61,20 +61,12 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ'},
-    {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Dynamics_365'}
   ],
   competitors: [
     {name: 'HubSpot', url: 'https://www.hubspot.com/', image:'/assets/icons/hubspot.png'},
     {name: 'SalesForce', url: 'https://www.salesforce.com/', image:'/assets/icons/salesforce.png'},
     {name: 'Outlook Customer Manager', url: '/apps/outlook-customer-manager', image: '/assets/icons/outlook-customer-manager-96px.png'}
-  ],
-  requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
   ],
   'title': 'Dynamic 365',
   'keywords': 'Office 365, Dynamics 365',

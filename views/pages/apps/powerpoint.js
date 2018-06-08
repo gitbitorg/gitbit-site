@@ -50,7 +50,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://powerpoint.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_PowerPoint'}
   ],
   competitors: [
@@ -59,11 +59,11 @@ module.exports = {
     {name: 'Sway', url: '/apps/sway', image:'/assets/icons/sway-96px.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 600, title:'Allow for portrait and landscape orientation in the same presentation'},
+    {votes: 400, title:'Embed online content besides YouTube, such as Vimeo, Wistia, Facebook, and Stream'},
+    {votes: 415, title:'Text wrapping'},
+    {votes: 300, title:'Introduce Saving a Table Template in PowerPoint'},
+    {votes: 227, title:'Continuous scrolling between slides'}
   ],
   'title': 'PowerPoint',
   'keywords': 'Office 365, PowerPoint',

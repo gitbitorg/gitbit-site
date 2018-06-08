@@ -46,7 +46,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://planner.uservoice.com/forums/330525-microsoft-planner-feedback-forum'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Planner'}
   ],
   competitors: [
@@ -55,11 +55,11 @@ module.exports = {
     {name: 'Trello', url: 'https://trello.com/', image:'/assets/icons/trello.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 6100, title:'Integration with outlook tasks'},
+    {votes: 4700, title:'Provide the ability to create Plan templates with existing tasks that can then be used to create a new plan'},
+    {votes: 4400, title:'Gantt chart view'},
+    {votes: 4100, title:'Export to Excel'},
+    {votes: 4000, title:'Email Notifications and Alert Options'}
   ],
   'title': 'Planner',
   'keywords': 'Office 365, Plannerr',

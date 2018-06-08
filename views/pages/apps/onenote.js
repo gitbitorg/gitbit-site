@@ -52,7 +52,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://onenote.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_OneNote'}
   ],
   competitors: [
@@ -60,11 +60,11 @@ module.exports = {
     {name: 'Google Keep', url: 'https://keep.google.com/', image:'/assets/icons/google-keep.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 5000, title:'Ability to share individual sections or pages (instead of entire notebooks)'},
+    {votes: 1900, title:'Windows: Mindmap functionality'},
+    {votes: 1300, title:'Send to OneNote Tool Function'},
+    {votes: 1300, title:'Group objects and anchor ink to text and images'},
+    {votes: 1300, title:'Windows: Enhance To-Do functionality with reminders, geofencing, a summary view of all To-Dos, and multi-user completion notifications'}
   ],
   'title': 'OneNote',
   'keywords': 'Office 365, OneNote',

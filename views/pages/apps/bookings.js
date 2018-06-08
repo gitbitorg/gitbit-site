@@ -44,7 +44,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://outlook.uservoice.com/forums/314907-microsoft-bookings'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Bookings'}
   ],
   competitors: [
@@ -52,11 +52,11 @@ module.exports = {
     {name: '10to8', url: 'https://10to8.com/', image:'/assets/icons/10to8.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 279, title:'Snd SMS reminders to my customers.'},
+    {votes: 231, title:'Add Skype for Business as a Location'},
+    {votes: 212, title:'Add a way for people to request appointments (rather than auto-accept)'},
+    {votes: 190, title:'Create recurring bookings and time off blocks'},
+    {votes: 177, title:'Block out certain days (for e.g. holidays etc) for business'}
   ],
   'title': 'Microsoft Bookings',
   'keywords': 'Office 365, Bookings, Microsoft Bookings',

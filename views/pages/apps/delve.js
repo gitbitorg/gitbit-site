@@ -46,7 +46,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://office365.uservoice.com/forums/273487-delve'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Delve'}
   ],
   competitors: [
@@ -54,11 +54,11 @@ module.exports = {
     {name: 'Guru', url: 'https://www.getguru.com/', image:'/assets/icons/guru.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 1000, title:'Please allow administrators to show more Profile information on the People profile pages. Such as any of the Active Directory fields'},
+    {votes: 700, title:'Ability to embed dynamic Delve Boards on SharePoint Pages as app or embed'},
+    {votes: 650, title:'Editing a board title (including deletion)'},
+    {votes: 540, title:'Please provide more Cover Photo images to choose from, plus the option to upload our own image.'},
+    {votes: 500, title:'Add content to a Delve board from SharePoint or OneDrive'}
   ],
   'title': 'Delve',
   'keywords': 'Office 365, Delve',

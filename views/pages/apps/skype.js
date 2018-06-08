@@ -55,7 +55,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/MicrosoftLync'},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://www.skypefeedback.com/forums/299913-generally-available'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Skype_for_Business'}
   ],
   competitors: [
@@ -64,11 +64,11 @@ module.exports = {
     {name: 'Microsoft Teams', url: '/apps/microsoft-teams', image:'/assets/icons/microsoft-teams-96px.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 15000, title:'The conversations should load with the history automatically'},
+    {votes: 15000, title:'Ability to paste a screenshot directly into a conversation without having to save it as a file'},
+    {votes: 13000, title:'Store the conversation history within the application, instead of requiring Outloook'},
+    {votes: 11000, title:'Keep history in conversation'},
+    {votes: 9900, title:'Add screen capturing feature'}
   ],
   'title': 'Skype for Business',
   'keywords': 'Office 365, Skype',

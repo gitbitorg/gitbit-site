@@ -51,7 +51,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://excel.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Excel'}
   ],
   competitors: [
@@ -59,11 +59,11 @@ module.exports = {
     {name: 'LibreOffice Calc', url: 'https://www.libreoffice.org/discover/calc/', image:'/assets/icons/libreoffice-calc.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 5000, title:'Python as an Excel scripting language'},
+    {votes: 1600, title:'Power Query - cache shared nodes'},
+    {votes: 1300, title:'Stop Excel from changing large "numbers" (actually text values) to scientific notation.'},
+    {votes: 1200, title:'Have Excel scroll better when there are large cells.'},
+    {votes: 1100, title:'Maintain leading zeroes when entering values in cells'}
   ],
   'title': 'Microsoft Excel',
   'keywords': 'Office 365, Excel',
