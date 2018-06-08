@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/sway.png',
   video: 'http://www.youtube.com/embed/Jw-g6IuBVJE',
   rating: '',
-  color: '',
+  color: '008272',
   testimonials: [
     {text: '""'}
   ],

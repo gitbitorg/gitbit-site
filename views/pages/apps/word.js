@@ -4,7 +4,7 @@ module.exports = {
   description: 'Word Processor',
   icon: '/assets/icons/word.png',
   rating: '',
-  color: '',
+  color: '2b579a',
   testimonials: [
     {text: '""'}
   ],

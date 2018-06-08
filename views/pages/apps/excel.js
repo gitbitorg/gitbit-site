@@ -4,7 +4,7 @@ module.exports = {
   description: 'Spreadsheet',
   icon: '/assets/icons/excel.png',
   rating: '',
-  color: '',
+  color: '217346',
   testimonials: [
     {text: '""'}
   ],

@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/yammer.png',
   video: 'http://www.youtube.com/embed/MMEoWMJf1uY',
   rating: '',
-  color: '',
+  color: '0072c6',
   testimonials: [
     {text: '""'}
   ],

@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/listings.png',
   video: 'http://www.youtube.com/embed/pkFQoHiLDwI',
   rating: '',
-  color: '',
+  color: 'ce0f65',
   testimonials: [
     {text: '""'}
   ],

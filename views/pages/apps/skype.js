@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/skype-for-business.png',
   video: 'http://www.youtube.com/embed/LUetykHsxqQ',
   rating: '',
-  color: '',
+  color: '0078d7',
   testimonials: [
     {text: '""'}
   ],

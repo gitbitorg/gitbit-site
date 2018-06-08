@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/school-data-sync.png',
   video: 'http://www.youtube.com/embed/yPzCJ4eqWfM',
   rating: '',
-  color: '',
+  color: '0072c6',
   testimonials: [
     {text: '""'}
   ],

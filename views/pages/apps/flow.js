@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/flow.png',
   video: 'http://www.youtube.com/embed/uY0rjTjebZ4',
   rating: '',
-  color: '',
+  color: '0077ff',
   testimonials: [
     {text: '""'}
   ],

@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/sharepoint.png',
   video: 'http://www.youtube.com/embed/bvEPmIwWknY',
   rating: '',
-  color: '',
+  color: '0078d7',
   testimonials: [
     {text: '""'}
   ],

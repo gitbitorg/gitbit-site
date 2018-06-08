@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/powerapps.png',
   video: 'http://www.youtube.com/embed/UCpmP6FOK-s',
   rating: '',
-  color: '',
+  color: '5c005c',
   testimonials: [
     {text: '""'}
   ],

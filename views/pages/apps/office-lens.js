@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/office-lens.png',
   video: 'http://www.youtube.com/embed/jzZ3WVhgi5w',
   rating: '94%',
-  color: '',
+  color: 'da3b01',
   testimonials: [
     {text: '"Everything works well enough for daily uses. I use it to scan and store most paper notes, receipts, documents, magazine clips."'},
     {text: '"Most of the times the app detects the boundaries of the document and automatically crops the scanned image to remove unwanted background."'}

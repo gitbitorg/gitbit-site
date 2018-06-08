@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/mileiq.png',
   video: 'http://www.youtube.com/embed/mCnQGj6a924',
   rating: '',
-  color: '',
+  color: 'ffb214',
   testimonials: [
     {text: '""'}
   ],

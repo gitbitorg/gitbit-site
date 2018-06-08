@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/power-bi.png',
   video: 'http://www.youtube.com/embed/Qgam9M8I0xA',
   rating: '',
-  color: '',
+  color: 'f2c811',
   testimonials: [
     {text: '""'}
   ],

@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/onenote.png',
   video: 'http://www.youtube.com/embed/9v8D857J3oM',
   rating: '',
-  color: '',
+  color: '7719aa',
   testimonials: [
     {text: '""'}
   ],

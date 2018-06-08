@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/staffhub.png',
   video: 'http://www.youtube.com/embed/e8ZE-IsgFow',
   rating: '',
-  color: '',
+  color: '0d8387',
   testimonials: [
     {text: '""'}
   ],

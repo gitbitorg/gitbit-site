@@ -4,7 +4,7 @@ module.exports = {
   description: 'Survey Software',
   icon: '/assets/icons/forms.png',
   rating: '',
-  color: '',
+  color: '008272',
   testimonials: [
     {text: '""'}
   ],

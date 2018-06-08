@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/planner.png',
   video: 'http://www.youtube.com/embed/p82hS0K32fA',
   rating: '',
-  color: '',
+  color: '31752f',
   testimonials: [
     {text: '""'}
   ],

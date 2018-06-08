@@ -3,7 +3,7 @@ module.exports = {
   description: 'Publishing Software',
   icon: '/assets/icons/publisher.png',
   rating: '',
-  color: '',
+  color: '087366',
   testimonials: [
     {text: '""'}
   ],

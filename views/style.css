@@ -354,13 +354,40 @@ pre.code p {
   }
 }
 
-.header-color-5558af h1, .header-color-5558af h2, .header-color-5558af h3 {
-    color: #5558af;
-}
+.header-color-a4373a h1, .header-color-a4373a h2, .header-color-a4373a h3 { color: #a4373a; }
+.header-color-00a99d h1, .header-color-00a99d h2, .header-color-00a99d h3 { color: #00a99d; }
+.header-color-ce0f65 h1, .header-color-ce0f65 h2, .header-color-ce0f65 h3 { color: #ce0f65; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0072c6 h1, .header-color-0072c6 h2, .header-color-0072c6 h3 { color: #0072c6; }
+.header-color-217346 h1, .header-color-217346 h2, .header-color-217346 h3 { color: #217346; }
+.header-color-2471ba h1, .header-color-2471ba h2, .header-color-2471ba h3 { color: #2471ba; }
+.header-color-0077ff h1, .header-color-0077ff h2, .header-color-0077ff h3 { color: #0077ff; }
+.header-color-008272 h1, .header-color-008272 h2, .header-color-008272 h3 { color: #008272; }
+.header-color-ce0f65 h1, .header-color-ce0f65 h2, .header-color-ce0f65 h3 { color: #ce0f65; }
+.header-color-ce0f65 h1, .header-color-ce0f65 h2, .header-color-ce0f65 h3 { color: #ce0f65; }
+.header-color-5558af h1, .header-color-5558af h2, .header-color-5558af h3 { color: #5558af; }
+.header-color-ffb214 h1, .header-color-ffb214 h2, .header-color-ffb214 h3 { color: #ffb214; }
+.header-color-da3b01 h1, .header-color-da3b01 h2, .header-color-da3b01 h3 { color: #da3b01; }
+.header-color-094ab1 h1, .header-color-094ab1 h2, .header-color-094ab1 h3 { color: #094ab1; }
+.header-color-7719aa h1, .header-color-7719aa h2, .header-color-7719aa h3 { color: #7719aa; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-31752f h1, .header-color-31752f h2, .header-color-31752f h3 { color: #31752f; }
+.header-color-f2c811 h1, .header-color-f2c811 h2, .header-color-f2c811 h3 { color: #f2c811; }
+.header-color-5c005c h1, .header-color-5c005c h2, .header-color-5c005c h3 { color: #5c005c; }
+.header-color-b7472a h1, .header-color-b7472a h2, .header-color-b7472a h3 { color: #b7472a; }
+.header-color-087366 h1, .header-color-087366 h2, .header-color-087366 h3 { color: #087366; }
+.header-color-0072c6 h1, .header-color-0072c6 h2, .header-color-0072c6 h3 { color: #0072c6; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0d8387 h1, .header-color-0d8387 h2, .header-color-0d8387 h3 { color: #0d8387; }
+.header-color-c30052 h1, .header-color-c30052 h2, .header-color-c30052 h3 { color: #c30052; }
+.header-color-008272 h1, .header-color-008272 h2, .header-color-008272 h3 { color: #008272; }
+.header-color-465efc h1, .header-color-465efc h2, .header-color-465efc h3 { color: #465efc; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-2b579a h1, .header-color-2b579a h2, .header-color-2b579a h3 { color: #2b579a; }
+.header-color-0072c6 h1, .header-color-0072c6 h2, .header-color-0072c6 h3 { color: #0072c6; }
 
-.header-color-2471ba h1, .header-color-2471ba h2, .header-color-2471ba h3 {
-    color: #5558af;
-}
 
 @media screen and (min-width: 900px) {
   .app .heading {

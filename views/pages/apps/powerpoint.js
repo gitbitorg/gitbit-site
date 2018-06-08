@@ -3,7 +3,7 @@ module.exports = {
   description: 'Presentation',
   icon: '/assets/icons/powerpoint.png',
   rating: '',
-  color: '',
+  color: 'b7472a',
   testimonials: [
     {text: '""'}
   ],

@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/dynamics-365.png',
   video: 'http://www.youtube.com/embed/sDYBMZ2I2YA',
   rating: '',
-  color: '',
+  color: '0072c6',
   testimonials: [
     {text: '""'}
   ],

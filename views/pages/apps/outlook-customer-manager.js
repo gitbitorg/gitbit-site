@@ -4,7 +4,7 @@ module.exports = {
   icon: '/assets/icons/outlook-customer-manager.png',
   video: 'http://www.youtube.com/embed/S2UiUka6dxc',
   rating: '',
-  color: '',
+  color: '0078d7',
   testimonials: [
     {text: '""'}
   ],

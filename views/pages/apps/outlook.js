@@ -4,7 +4,7 @@ module.exports = {
   description: 'Personal Information Manager',
   icon: '/assets/icons/outlook.png',
   rating: '',
-  color: '',
+  color: '0078d7',
   testimonials: [
     {text: '""'}
   ],

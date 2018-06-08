@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/delve.png',
   video: 'http://www.youtube.com/embed/cCbyer0Xupg',
   rating: '',
-  color: '',
+  color: '0078d7',
   testimonials: [
     {text: '""'}
   ],

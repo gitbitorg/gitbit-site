@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/stream.png',
   video: 'http://www.youtube.com/embed/M6JkA_SxsQQ',
   rating: '',
-  color: '',
+  color: 'c30052',
   testimonials: [
     {text: '""'}
   ],

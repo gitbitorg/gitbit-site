@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/bookings.png',
   video: 'http://www.youtube.com/embed/hNXxBNPAOKA',
   rating: '',
-  color: '',
+  color: '00a99d',
   testimonials: [
     {text: '""'}
   ],

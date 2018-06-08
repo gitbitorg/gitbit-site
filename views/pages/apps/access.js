@@ -5,7 +5,7 @@ module.exports = {
   icon: '/assets/icons/access.png',
   video: 'http://www.youtube.com/embed/eXiCza050ug',
   rating: '',
-  color: '',
+  color: 'a4373a',
   testimonials: [
     {text: '""'}
   ],
