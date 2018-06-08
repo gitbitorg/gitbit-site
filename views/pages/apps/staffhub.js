@@ -1,7 +1,7 @@
 module.exports = {
   name: 'StaffHub',
   tag: 'StaffHub',
-  description: '',
+  description: 'Staff Management',
   icon: '/assets/icons/staffhub.png',
   video: '',
   rating: '',

@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Outlook Customer Manager',
-  description: '',
+  description: 'CRM',
   icon: '/assets/icons/outlook-customer-manager.png',
   video: '',
   rating: '',

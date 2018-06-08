@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Skype for Business',
   tag: 'Skype for Business',
-  description: '',
+  description: 'Instant Messenger',
   icon: '/assets/icons/skype-for-business.png',
   video: '',
   rating: '',

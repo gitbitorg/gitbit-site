@@ -1,6 +1,6 @@
 module.exports = {
   name: 'MileIQ',
-  description: '',
+  description: 'Mileage Tracking and Logging',
   icon: '/assets/icons/mileiq.png',
   video: '',
   rating: '',

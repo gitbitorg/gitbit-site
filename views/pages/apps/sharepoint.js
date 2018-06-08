@@ -1,7 +1,7 @@
 module.exports = {
   name: 'SharePoint',
   tag: 'SharePoint',
-  description: '',
+  description: 'Content Management System',
   icon: '/assets/icons/sharepoint.png',
   video: '',
   rating: '',

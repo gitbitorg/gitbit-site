@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Excel',
   tag: 'Excel',
-  description: '',
+  description: 'Spreadsheet',
   icon: '/assets/icons/excel.png',
   video: '',
   rating: '',

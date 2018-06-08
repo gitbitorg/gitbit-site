@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Delve',
   tag: 'Delve',
-  description: '',
+  description: 'Enterprise Intelligent Search',
   icon: '/assets/icons/delve.png',
   video: '',
   rating: '',

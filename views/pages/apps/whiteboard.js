@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Whiteboard',
-  description: '',
+  description: 'Freeform Digital Canvas',
   icon: '/assets/icons/whiteboard.png',
   video: '',
   rating: '',

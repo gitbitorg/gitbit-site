@@ -1,6 +1,6 @@
 module.exports = {
   name: 'PowerPoint',
-  description: '',
+  description: 'Presentation',
   icon: '/assets/icons/powerpoint.png',
   video: '',
   rating: '',

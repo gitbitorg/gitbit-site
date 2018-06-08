@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Word',
   tag: 'Word',
-  description: '',
+  description: 'Word Processor',
   icon: '/assets/icons/word.png',
   video: '',
   rating: '',

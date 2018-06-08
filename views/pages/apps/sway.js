@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Sway',
   tag: 'Sway',
-  description: '',
+  description: 'Presentation',
   icon: '/assets/icons/sway.png',
   video: '',
   rating: '',

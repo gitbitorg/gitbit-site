@@ -1,6 +1,6 @@
 module.exports = {
   name: 'To-Do',
-  description: '',
+  description: 'Task Management',
   icon: '/assets/icons/to-do.png',
   video: '',
   rating: '',

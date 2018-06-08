@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Planner',
   tag: 'Planner',
-  description: '',
+  description: 'Task Management',
   icon: '/assets/icons/planner.png',
   video: '',
   rating: '',

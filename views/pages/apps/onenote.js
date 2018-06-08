@@ -1,7 +1,7 @@
 module.exports = {
   name: 'OneNote',
   tag: 'OneNote',
-  description: '',
+  description: 'Notetaking',
   icon: '/assets/icons/onenote.png',
   video: '',
   rating: '',

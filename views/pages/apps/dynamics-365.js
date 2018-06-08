@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Dynamics 365',
-  description: '',
+  description: 'ERP + CRM',
   icon: '/assets/icons/dynamics-365.png',
   video: '',
   rating: '',

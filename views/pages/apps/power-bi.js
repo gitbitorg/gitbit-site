@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Power BI',
-  description: '',
+  description: 'Business Intelligence',
   icon: '/assets/icons/power-bi.png',
   video: '',
   rating: '',

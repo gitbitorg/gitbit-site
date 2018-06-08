@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Microsoft Stream',
   tag: 'Microsoft Stream',
-  description: '',
+  description: 'Video Hosting',
   icon: '/assets/icons/stream.png',
   video: '',
   rating: '',

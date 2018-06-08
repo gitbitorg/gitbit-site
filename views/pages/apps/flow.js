@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Flow',
-  description: '',
+  description: 'Task Automation',
   icon: '/assets/icons/flow.png',
   video: '',
   rating: '',

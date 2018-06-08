@@ -1,6 +1,6 @@
 module.exports = {
   name: 'PowerApps',
-  description: '',
+  description: 'Codeless App Development',
   icon: '/assets/icons/powerapps.png',
   video: '',
   rating: '',

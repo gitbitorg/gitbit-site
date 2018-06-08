@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Publisher',
-  description: '',
+  description: 'Publishing Software',
   icon: '/assets/icons/publisher.png',
   video: '',
   rating: '',

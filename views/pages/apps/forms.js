@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Microsoft Forms',
   tag: 'Microsoft Forms',
-  description: '',
+  description: 'Survey Software',
   icon: '/assets/icons/forms.png',
   video: '',
   rating: '',

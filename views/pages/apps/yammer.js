@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Yammer',
   tag: 'Yammer',
-  description: '',
+  description: 'Enterprise Social Media',
   icon: '/assets/icons/yammer.png',
   video: '',
   rating: '',

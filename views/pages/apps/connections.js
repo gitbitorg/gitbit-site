@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Connections',
-  description: '',
+  description: 'Email Marketing Tool',
   icon: '/assets/icons/connections.png',
   video: '',
   rating: '',
