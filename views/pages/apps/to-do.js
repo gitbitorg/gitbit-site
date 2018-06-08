@@ -6,8 +6,7 @@ module.exports = {
   rating: '85%',
   color: '465efc',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Fantastic app. I keep everything from buying things on Amazon to reminding me to change the oil in my car. It\'s smart interface allows me to keep everything, then it hides future tasks so you can stay focused on your day and don\'t feel overwhelmed."'}
   ],
   features: [
     {

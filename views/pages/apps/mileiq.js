@@ -6,8 +6,8 @@ module.exports = {
   rating: '91%',
   color: 'ffb214',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"I\'m a bookkeeper in Ontario, and I recommend this app to all my clients, regardless of industry."'},
+    {text: '"One of my challenges with managing a business is keeping up with miles traveled. With this app, it is automatic. For me, I was able to document $175 in business mileage travel in the first two weeks of my subscription -- enough said."'}
   ],
   features: [
     {

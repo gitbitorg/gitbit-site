@@ -7,8 +7,8 @@ module.exports = {
   rating: '92%',
   color: '0d8387',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"I like that "shift members can take care of their own shift swaps, but that managers can still approve or deny them, without anyone needing to be near the other."'},
+    {text: '"Can track hours and time off, easily, replacing our previous schedule management system and time clock."'}
   ],
   features: [
     {

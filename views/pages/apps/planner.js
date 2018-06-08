@@ -7,8 +7,8 @@ module.exports = {
   rating: '83%',
   color: '31752f',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Office Planner is Microsoft’s entry into simplified, collaborative project management."'},
+    {text: '"Though smaller, standalone project management rivals have gained in popularity, Microsoft’s ability to bundle Planner with other Office apps give it a big foot in the enterprise door."'}
   ],
   features: [
     {

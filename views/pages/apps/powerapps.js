@@ -6,8 +6,8 @@ module.exports = {
   rating: '69%',
   color: '5c005c',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"PowerApps is a quick way to easily create applications that will allow users to consume and edit data from multiple different sources."'},
+    {text: '"Easy to use and create apps; Visual editor on the web and as an app; Coding is very easy and simple like excel"'}
   ],
   features: [
     {

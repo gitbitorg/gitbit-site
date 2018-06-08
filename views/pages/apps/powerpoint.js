@@ -5,8 +5,8 @@ module.exports = {
   rating: '92%',
   color: 'b7472a',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Powerpoint is easy to use and offers the user many options of templates, or you can make your own."'},
+    {text: '"Microsoft Power Point is the best tool for photo slide shows and is used professionally across the globe."'}
   ],
   features: [
     {

@@ -6,8 +6,8 @@ module.exports = {
   rating: '',
   color: '008272',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"You don\'t need web design or developer skills to solicit a bit of information using online forms."'},
+    {text: '"Creating a quick form is easy using Microsoft Forms."'}
   ],
   features: [
     {

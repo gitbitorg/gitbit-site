@@ -6,8 +6,8 @@ module.exports = {
   rating: '92%',
   color: '217346',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Excel is the best spreadsheet software available, and in my opinion is the most important software for any company."'},
+    {text: '"One of the most powerful office oriented software packages ever developed"'}
   ],
   features: [
     {

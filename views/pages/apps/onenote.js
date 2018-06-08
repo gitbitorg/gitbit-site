@@ -7,8 +7,8 @@ module.exports = {
   rating: '95%',
   color: '7719aa',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Microsoft OneNote is a perfect tool to take quick notes and organize your ideas and thoughts. One can make checklists and to-do lists and add tags to any notes."'},
+    {text: '"If you want to choose only one app for notes and information storage, I would recommend OneNote. It does the job and makes your life so much easier and cleaner."'}
   ],
   features: [
     {

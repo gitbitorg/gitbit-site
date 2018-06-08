@@ -7,8 +7,8 @@ module.exports = {
   rating: '80%',
   color: '00a99d',
   testimonials: [
-    {text: '""'},
-    {text: '""'},
+    {text: '"A great booking app and much less expensive than other options for my small business."'},
+    {text: '"Bookings is great Microsoft service for any size business that wants to start offering online scheduling of services provided by a company."'},
   ],
   features: [
     {
@@ -37,7 +37,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-bookings/id1065657468?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en/business/scheduling-and-booking-app'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

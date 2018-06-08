@@ -6,8 +6,8 @@ module.exports = {
   rating: '??',
   color: '5b2d90',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"It mirrors user data from Student information System (SIS) into Office 365 and Azure Active directory, enabling single sign-on and making it easier to deliver more customized experiences. Let us check how"'},
+    {text: '"The class is already populated with students. The teacher didn’t have to do anything, thanks to the automation process of School Data Sync."'}
   ],
   features: [
     {

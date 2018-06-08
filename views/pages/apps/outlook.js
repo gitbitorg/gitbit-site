@@ -6,8 +6,8 @@ module.exports = {
   rating: '91%',
   color: '0078d7',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Intuitive to use and fully compatible with every device."'},
+    {text: '"Outlook has so many features that you can use. The calender is the best, invites and reminders that you can have alert you on your cell phone."'}
   ],
   features: [
     {

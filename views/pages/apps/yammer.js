@@ -7,8 +7,8 @@ module.exports = {
   rating: '88%',
   color: '0072c6',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Great for keeping in touch with whats happening in my workplace."'},
+    {text: '"Awesome social app to connect with work people nationwide."'}
   ],
   features: [
     {

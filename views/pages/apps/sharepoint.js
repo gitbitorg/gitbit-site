@@ -7,8 +7,8 @@ module.exports = {
   rating: '84%',
   color: '0078d7',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Eeasy to navigate; Easy to upload, edit, and remove documents."'},
+    {text: '"Sharepoint has lots of built features, security and settings to create an internal intranet or customer facing website."'}
   ],
   features: [
     {

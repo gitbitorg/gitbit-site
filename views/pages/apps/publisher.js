@@ -5,8 +5,8 @@ module.exports = {
   rating: '85%',
   color: '087366',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"The best thing about the program is its simple interface."'},
+    {text: '"Publisher is a program that has a simple interface that makes it easy to use, inclusive for people who have no knowledge of the subject in graphic design, is created for the preparation of calendars, brochures, diplomas, newsletters, resumes, signs, information sheets, letterheads, envelopes, business forms, invitations, catalogs, flyers, calendars and announcements in general."'}
   ],
   features: [
     {

@@ -7,8 +7,7 @@ module.exports = {
   rating: '72%',
   color: 'c30052',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Microsoft Stream is part of Microsoft\'s ongoing mission to make meetings and conferencing more productive"'}
   ],
   features: [
     {

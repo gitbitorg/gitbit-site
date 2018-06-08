@@ -7,8 +7,8 @@ module.exports = {
   rating: '88%',
   color: '0078d7',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Delve is sort of a fusion of OneDrive and Skype."'},
+    {text: '"Users can curate their profiles to present information about themselves -- such as pictures, projects and skills -- to make it easier for colleagues to find or connect with them."'}
   ],
   features: [
     {

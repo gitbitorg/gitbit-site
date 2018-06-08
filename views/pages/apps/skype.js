@@ -7,8 +7,8 @@ module.exports = {
   rating: '80%',
   color: '0078d7',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"I love skype for business, because it\'s so basic and has all the necessary components to communicate across your business."'},
+    {text: '"Easily see if my coworkers are available or not. Easily able to message them for things that are quick questions or if we are not near by each other and working at separate locations."'}
   ],
   features: [
     {

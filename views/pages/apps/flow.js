@@ -6,8 +6,8 @@ module.exports = {
   rating: '87%',
   color: '0077ff',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"I love Flow. It\'s been great way to streamline lots of tasks."'},
+    {text: '"Amazingly powerful app that allow you to automize a lot og tedious operations. A little hard to understand at first, but well worth it when you get the basics of how it works."'}
   ],
   features: [
     {

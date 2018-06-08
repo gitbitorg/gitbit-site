@@ -6,8 +6,8 @@ module.exports = {
   rating: '66%',
   color: '0072c6',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"I like that I can work leads lists like an excel sheet, it makes it very easy to maneuver large data sets and make a lot of phone calls quickly. Importing large lists of data was very easy and it was easy to map to the correct fields."'},
+    {text: '"The simplicity of the tool. It was easy to get used to. Adding bulk SKUs is also easy, and the newest update allows for suggested parts to be added. It is an up to date tool, that is constantly working on improvements."'}
   ],
   features: [
     {

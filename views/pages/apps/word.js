@@ -6,8 +6,8 @@ module.exports = {
   rating: '92%',
   color: '2b579a',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Microsoft word is an excellent program of the office package allows you to create, edit and share your work easily and quickly."'},
+    {text: '"It is fast and efficient, you can create tables, insert images, hyperlinks, which facilitates the work you can do, you can design your page to taste with colors, fonts, margins, you can change the language you like, do orthographic revision, very easy to do any kind of work."'}
   ],
   features: [
     {

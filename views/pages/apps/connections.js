@@ -6,8 +6,8 @@ module.exports = {
   rating: '76%',
   color: 'ce0f65',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Simple to use and I could see it becoming a integral part of our digital mailouts."'},
+    {text: '"I\'m using this with Microsoft 365 Business. It\'s perfect for us!"'}
   ],
   features: [
     {

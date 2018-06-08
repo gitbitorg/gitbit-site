@@ -6,8 +6,7 @@ module.exports = {
   rating: '',
   color: '0078d7',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Awesome pen app. Best app for whiteboard."'}
   ],
   features: [
     {

@@ -6,8 +6,8 @@ module.exports = {
   rating: '75%',
   color: 'ce0f65',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Nice and easy to use."'},
+    {text: '"Good invoicing app for Office 365 Premium users."'}
   ],
   features: [
     {
@@ -32,7 +32,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-invoicing/id1145475572?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/business/microsoft-invoicing/invoice-software'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},

@@ -7,8 +7,7 @@ module.exports = {
   rating: '92%',
   color: '008272',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"We’ve previously dubbed Sway one of the first of a new generation of “blended apps,” lifting elements from Word, PowerPoint, and more and combining them in a way that feels interesting and fresh."'}
   ],
   features: [
     {

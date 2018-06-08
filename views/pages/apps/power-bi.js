@@ -6,8 +6,8 @@ module.exports = {
   rating: '9.1',
   color: 'f2c811',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"Connects easily to a lot of different systems that we use, there are a lot of pre built reports and dashboards for popular data sources such as Google Analytics, Mailchimp etc."'},
+    {text: '"With Power BI, I can combine data from multiple sources, build a data model, create visualizations, and share the results with others in my company."'}
   ],
   features: [
     {

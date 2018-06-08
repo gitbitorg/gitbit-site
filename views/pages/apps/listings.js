@@ -6,8 +6,8 @@ module.exports = {
   rating: '80%',
   color: 'ce0f65',
   testimonials: [
-    {text: '""'},
-    {text: '""'}
+    {text: '"If you\'re starting from square one, you can use Microsoft Listings to publish information about your business to Facebook, Google, Bing and Yelp."'},
+    {text: '"Listings walks you through the process of setting up a presence with the major services. Just uploading details like your name, address, phone number, website, hours and logo can be a great start."'}
   ],
   features: [
     {
@@ -30,7 +30,7 @@ module.exports = {
     web: 'https://portal.office.com/BusinessCenter/Home'
   },
   resources: [
-    {title: 'Homepage', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/business/microsoft-listings/online-web-presence-management-tool'},
     {title: 'News', url:''},
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},
