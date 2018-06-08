@@ -57,10 +57,6 @@ module.exports = {
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:''}
   ],
-  competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
-  ],
   requests: [
     {votes: 0, title:''},
     {votes: 0, title:''},

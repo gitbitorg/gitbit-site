@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Google Docs', url: 'https://www.google.com/docs/about/', image:'/assets/icons/google-docs.png'},
+    {name: 'LibreOffice Writer', url: 'https://www.libreoffice.org/discover/writer/', image:'/assets/icons/libreoffice-writer.png'},
   ],
   requests: [
     {votes: 0, title:''},

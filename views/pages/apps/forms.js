@@ -59,8 +59,7 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Google Forms', url: 'https://www.google.com/forms/about/', image:'/assets/icons/google-forms.png'},
   ],
   requests: [
     {votes: 0, title:''},

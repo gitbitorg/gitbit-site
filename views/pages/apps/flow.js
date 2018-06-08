@@ -58,8 +58,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'IFTTT', url: 'https://ifttt.com/discover', image:'/assets/icons/ifttt.png'},
+    {name: 'Zapier', url: 'https://zapier.com/', image:'/assets/icons/zapier.png'},
   ],
   requests: [
     {votes: 0, title:''},

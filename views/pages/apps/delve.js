@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Docurated', url: 'http://www.quark.com/products/docurated/', image:'/assets/icons/docurated.png'},
+    {name: 'Guru', url: 'https://www.getguru.com/', image:'/assets/icons/guru.png'}
   ],
   requests: [
     {votes: 0, title:''},

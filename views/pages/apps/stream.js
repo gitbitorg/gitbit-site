@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Vimeo', url: 'https://vimeo.com/', image:'/assets/icons/vimeo.png'},
+    {name: 'YouTube', url: 'https://www.youtube.com/', image:'/assets/icons/youtube.png'},
   ],
   requests: [
     {votes: 0, title:''},

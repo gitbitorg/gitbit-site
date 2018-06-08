@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'acuity', url: 'https://acuityscheduling.com/', image:'/assets/icons/acuity.png'},
+    {name: '10to8', url: 'https://10to8.com/', image:'/assets/icons/10to8.png'},
   ],
   requests: [
     {votes: 0, title:''},

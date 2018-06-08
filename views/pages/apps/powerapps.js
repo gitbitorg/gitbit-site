@@ -58,8 +58,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Google App Maker', url: 'https://developers.google.com/appmaker/', image:'/assets/icons/google-app-maker.png'},
+    {name: 'Mozilla Appmaker', url: 'https://wiki.mozilla.org/Appmaker', image:'/assets/icons/mozilla-appmaker.png'},
   ],
   requests: [
     {votes: 0, title:''},

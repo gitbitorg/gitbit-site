@@ -59,8 +59,9 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Yammer', url: '/apps/yammer', image:'/assets/icons/yammer-96px.png'},
+    {name: 'Google Hangouts', url: 'https://hangouts.google.com/', image:'/assets/icons/google-hangouts.png'},
+    {name: 'Microsoft Teams', url: '/apps/microsoft-teams', image:'/assets/icons/microsoft-teams-96px.png'},
   ],
   requests: [
     {votes: 0, title:''},
@@ -71,13 +72,13 @@ module.exports = {
   ],
   'title': 'Skype for Business',
   'keywords': 'Office 365, Skype',
-  'assetsFolder': 'skype-for-business',
-  'fileName': 'skype-for-business',
+  'assetsFolder': 'skype',
+  'fileName': 'skype',
   'datePublished': '2018-06-07T06:00:00.000Z',
   'dateModified': '2018-06-07T06:00:00.000Z',
   'image1200x1200': 'http://gitbit.org/assets/apps/skype-for-business/1200x1200.jpg',
   'image1200x900': 'http://gitbit.org/assets/apps/skype-for-business/1200x900.jpg',
   'image1200x675': 'http://gitbit.org/assets/apps/skype-for-business/1200x675.jpg',
   'image400x300': 'http://gitbit.org/assets/apps/skype-for-business/400x300.jpg',
-  'canonical': '/apps/skype-for-business'
+  'canonical': '/apps/skype'
 }

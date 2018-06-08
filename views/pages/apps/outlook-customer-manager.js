@@ -58,8 +58,9 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'HubSpot', url: 'https://www.hubspot.com/', image:'/assets/icons/hubspot.png'},
+    {name: 'SalesForce', url: 'https://www.salesforce.com/', image:'/assets/icons/salesforce.png'},
+    {name: 'Dynamics 365', url: '/apps/dynamics-365', image: '/assets/icons/dynamics-365-96px.png'}
   ],
   requests: [
     {votes: 0, title:''},

@@ -43,8 +43,8 @@ module.exports = {
     {title: 'UserVoice', url:'https://.uservoice.com'}
   ],
   competitors: [
-    {name: 'CamScanner', url: 'https://www.google.com/drive/', image:'/assets/icons/Google-Drive-Logo.png'},
-    {name: 'Adobe Scan', url: 'https://www.dropbox.com/', image:'/assets/icons/Dropbox-Logo.png'},
+    {name: 'CamScanner', url: 'https://www.camscanner.com/', image:'/assets/icons/camscanner.png'},
+    {name: 'Adobe Scan', url: 'https://acrobat.adobe.com/us/en/acrobat/mobile-app/scan-documents.html', image:'/assets/icons/adobe-scan.png'}
   ],
   requests: [
     {votes: 10000, title:'Scan mulitiple photos into the same document for Windows'},

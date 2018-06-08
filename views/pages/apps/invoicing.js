@@ -58,8 +58,9 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Invoice2go', url: 'https://invoice.2go.com/', image:'/assets/icons/invoice2go.png'},
+    {name: 'Invoice Generator', url: 'https://invoice-generator.com', image:'/assets/icons/invoice-generator.png'},
+    {name: 'QuickBooks', url: 'https://quickbooks.intuit.com/', image:'/assets/icons/quickbooks.png'},
   ],
   requests: [
     {votes: 0, title:''},

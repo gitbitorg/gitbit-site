@@ -58,8 +58,7 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'G Suite', url: 'https://gsuite.google.com/', image:'/assets/icons/G-Suite.png'}
   ],
   requests: [
     {votes: 0, title:''},

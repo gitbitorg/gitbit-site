@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'ShareFile', url: 'https://www.sharefile.com/', image:'/assets/icons/citrix-sharefile.png'},
+    {name: 'Confluence', url: 'https://www.atlassian.com/software/confluence', image:'/assets/icons/confluence.png'}
   ],
   requests: [
     {votes: 0, title:''},

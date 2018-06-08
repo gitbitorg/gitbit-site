@@ -58,8 +58,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Everlance', url: 'https://everlance.com/', image:'/assets/icons/everlance.png'},
+    {name: 'QuickBooks Mileage Tracker', url: 'https://quickbooks.intuit.com/mileage-tracking/', image:'/assets/icons/quickbooks-mileage-tracker.png'}
   ],
   requests: [
     {votes: 0, title:''},

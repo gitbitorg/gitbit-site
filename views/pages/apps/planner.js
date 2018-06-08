@@ -59,8 +59,9 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Asana', url: 'https://asana.com/', image:'/assets/icons/asana.png'},
+    {name: 'Google Keep', url: 'https://keep.google.com/', image:'/assets/icons/google-keep.png'},
+    {name: 'Trello', url: 'https://trello.com/', image:'/assets/icons/trello.png'}
   ],
   requests: [
     {votes: 0, title:''},

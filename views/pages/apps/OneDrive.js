@@ -62,7 +62,7 @@ module.exports = {
   competitors: [
     {name: 'Google Drive', url: 'https://www.google.com/drive/', image:'/assets/icons/Google-Drive-Logo.png'},
     {name: 'Dropbox', url: 'https://www.dropbox.com/', image:'/assets/icons/Dropbox-Logo.png'},
-    {name: 'Box', url: 'https://www.box.com/', image:'/assets/icons/Box-Logo.png'},
+    {name: 'Box', url: 'https://www.box.com/', image:'/assets/icons/Box-Logo.png'}
   ],
   compliance: {
     tier: 'Tier A-Compliant',

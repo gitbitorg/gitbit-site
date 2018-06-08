@@ -58,8 +58,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Sisense', url: 'https://www.sisense.com/', image:'/assets/icons/sisense.png'},
+    {name: 'Tableau', url: 'https://www.tableau.com/', image:'/assets/icons/tableau.png'}
   ],
   requests: [
     {votes: 0, title:''},

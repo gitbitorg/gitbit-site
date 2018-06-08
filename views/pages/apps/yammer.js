@@ -59,8 +59,9 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Microsoft Teams', url: '/apps/microsoft-teams', image:'/assets/icons/microsoft-teams-96px.png'},
+    {name: 'Skype', url: '/apps/skype', image:'/assets/icons/skype-96px.png'},
+    {name: 'Google Hangouts', url: 'https://hangouts.google.com/', image:'/assets/icons/google-hangouts.png'},
   ],
   requests: [
     {votes: 0, title:''},

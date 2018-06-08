@@ -58,8 +58,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Google Keep', url: 'https://keep.google.com/', image:'/assets/icons/google-keep.png'},
+    {name: 'Wunderlist', url: 'https://www.wunderlist.com/', image:'/assets/icons/wunderlist.png'}
   ],
   requests: [
     {votes: 0, title:''},

@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Prezi', url: 'https://prezi.com/', image:'/assets/icons/prezi.png'},
+    {name: 'PowerPoint', url: '/apps/powerpoint', image:'/assets/icons/powerpoint-96px.png'}
   ],
   requests: [
     {votes: 0, title:''},

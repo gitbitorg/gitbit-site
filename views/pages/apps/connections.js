@@ -58,8 +58,10 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/connections.png'},
-    {name: '', url: '', image:'/assets/icons/connections.png'},
+    {name: 'Constant Contact', url: 'https://www.constantcontact.com/index.jsp', image:'/assets/icons/constant-contact.png'},
+    {name: 'Deputy', url: 'https://www.deputy.com', image:'/assets/icons/deputy.png'},
+    {name: 'HubSpot', url: 'https://www.hubspot.com/', image:'/assets/icons/hubspot.png'},
+    {name: 'MailChimp', url: 'https://mailchimp.com/', image:'/assets/icons/mailchimp.png'}
   ],
   requests: [
     {votes: 0, title:''},

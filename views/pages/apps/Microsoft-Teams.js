@@ -59,7 +59,8 @@ module.exports = {
   competitors: [
     {name: 'Slack', url: 'https://slack.com/', image:'/assets/icons/Slack-Icon-96px.png'},
     {name: 'Spark', url: 'https://www.cisco.com/c/en_uk/solutions/collaboration/ciscospark.html', image:'/assets/icons/Cisco-Spark-96px.png'},
-    {name: 'Skype for Business', url: 'https://www.skype.com/en/business/', image:'/assets/icons/Microsoft-Skype-for-Business-logo-96px.png'},
+    {name: 'Skype', url: '/apps/skype', image:'/assets/icons/skype-96px.png'},
+    {name: 'Yammer', url: '/apps/yammer', image:'/assets/icons/yammer-96px.png'}
   ],
   compliance: {
     tier: 'Tier C-Compliant',

@@ -58,8 +58,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'LibreOffice Draw', url: 'https://www.libreoffice.org/discover/draw/', image:'/assets/icons/libreoffice-draw.png'},
+    {name: 'Scribus', url: 'https://www.scribus.net/', image:'/assets/icons/scribus.png'}
   ],
   requests: [
     {votes: 0, title:''},

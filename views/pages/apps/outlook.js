@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Thunderbird', url: 'https://www.thunderbird.net/en-US/', image:'/assets/icons/thunderbird.png'},
+    {name: 'Windows Mail', url: 'https://support.office.com/en-us/article/set-up-email-in-the-mail-app-for-windows-10-7ff79e8b-439b-4b47-8ff9-3f9a33166c60', image:'/assets/icons/windows-mail.png'}
   ],
   requests: [
     {votes: 0, title:''},

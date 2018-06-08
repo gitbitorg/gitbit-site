@@ -59,8 +59,9 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'FileMaker', url: 'http://www.filemaker.com/', image:'/assets/icons/filemaker.png'},
+    {name: 'OpenOffice Base', url: 'https://www.openoffice.org/product/base.html', image:'/assets/icons/openoffice-base.png'},
+    {name: 'Tableau', url: 'https://www.tableau.com/', image:'/assets/icons/tableau.png'},
   ],
   requests: [
     {votes: 0, title:''},

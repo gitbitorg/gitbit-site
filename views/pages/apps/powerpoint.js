@@ -58,8 +58,9 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Google Slides', url: 'https://www.google.com/slides/about/', image:'/assets/icons/google-slides.png'},
+    {name: 'Prezi', url: 'https://prezi.com/', image:'/assets/icons/prezi.png'},
+    {name: 'Sway', url: '/apps/sway', image:'/assets/icons/sway-96px.png'}
   ],
   requests: [
     {votes: 0, title:''},

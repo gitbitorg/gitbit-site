@@ -58,8 +58,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Aww', url: 'https://awwapp.com/', image:'/assets/icons/awwapp.png'},
+    {name: 'Jamboard', url: 'https://gsuite.google.com/products/jamboard/', image:'/assets/icons/jamboard.png'},
   ],
   requests: [
     {votes: 0, title:''},

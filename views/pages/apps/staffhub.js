@@ -59,8 +59,8 @@ module.exports = {
     {title: 'UserVoice', url:''}
   ],
   competitors: [
-    {name: '', url: '', image:'/assets/icons/.png'},
-    {name: '', url: '', image:'/assets/icons/.png'},
+    {name: 'Timely', url: 'https://timelyapp.com/', image:'/assets/icons/timely.png'},
+    {name: 'Deputy', url: 'https://www.deputy.com/us/', image:'/assets/icons/deputy.png'}
   ],
   requests: [
     {votes: 0, title:''},
