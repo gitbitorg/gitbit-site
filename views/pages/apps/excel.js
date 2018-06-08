@@ -3,7 +3,6 @@ module.exports = {
   tag: 'Excel',
   description: 'Spreadsheet',
   icon: '/assets/icons/excel.png',
-  video: '',
   rating: '',
   color: '',
   testimonials: [

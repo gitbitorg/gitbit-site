@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Skype for Business',
   description: 'Instant Messenger',
   icon: '/assets/icons/skype-for-business.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/LUetykHsxqQ',
   rating: '',
   color: '',
   testimonials: [
@@ -55,7 +55,7 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/user/MicrosoftLync'},
     {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Skype_for_Business'}
   ],

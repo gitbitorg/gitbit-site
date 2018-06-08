@@ -2,7 +2,7 @@ module.exports = {
   name: 'Microsoft Invoicing',
   description: '',
   icon: '/assets/icons/invoicing.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/RkcfhVkjkCQ',
   rating: '',
   color: '',
   testimonials: [

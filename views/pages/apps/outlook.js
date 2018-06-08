@@ -3,7 +3,6 @@ module.exports = {
   tag: 'Outlook',
   description: 'Personal Information Manager',
   icon: '/assets/icons/outlook.png',
-  video: '',
   rating: '',
   color: '',
   testimonials: [

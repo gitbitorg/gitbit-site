@@ -2,7 +2,7 @@ module.exports = {
   name: 'Connections',
   description: 'Email Marketing Tool',
   icon: '/assets/icons/connections.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/gzlCMC0h8tk',
   rating: '',
   color: '',
   testimonials: [

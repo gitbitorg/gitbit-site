@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Planner',
   description: 'Task Management',
   icon: '/assets/icons/planner.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/p82hS0K32fA',
   rating: '',
   color: '',
   testimonials: [

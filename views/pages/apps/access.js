@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Access',
   description: 'Database Management System (DBMS)',
   icon: '/assets/icons/access.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/eXiCza050ug',
   rating: '',
   color: '',
   testimonials: [

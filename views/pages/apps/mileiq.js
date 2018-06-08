@@ -2,7 +2,7 @@ module.exports = {
   name: 'MileIQ',
   description: 'Mileage Tracking and Logging',
   icon: '/assets/icons/mileiq.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/mCnQGj6a924',
   rating: '',
   color: '',
   testimonials: [
@@ -54,7 +54,7 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/user/mileiq'},
     {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/MileIQ'}
   ],

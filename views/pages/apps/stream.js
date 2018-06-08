@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Microsoft Stream',
   description: 'Video Hosting',
   icon: '/assets/icons/stream.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/M6JkA_SxsQQ',
   rating: '',
   color: '',
   testimonials: [

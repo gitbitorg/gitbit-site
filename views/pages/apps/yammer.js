@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Yammer',
   description: 'Enterprise Social Media',
   icon: '/assets/icons/yammer.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/MMEoWMJf1uY',
   rating: '',
   color: '',
   testimonials: [
@@ -55,7 +55,7 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/user/YammerInc'},
     {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Yammer'}
   ],

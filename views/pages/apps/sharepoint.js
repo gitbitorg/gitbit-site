@@ -3,7 +3,7 @@ module.exports = {
   tag: 'SharePoint',
   description: 'Content Management System',
   icon: '/assets/icons/sharepoint.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/bvEPmIwWknY',
   rating: '',
   color: '',
   testimonials: [

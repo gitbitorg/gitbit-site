@@ -2,7 +2,7 @@ module.exports = {
   name: 'Flow',
   description: 'Task Automation',
   icon: '/assets/icons/flow.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/uY0rjTjebZ4',
   rating: '',
   color: '',
   testimonials: [
@@ -54,7 +54,7 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/channel/UCG98S4lL7nwlN8dxSF322bA'},
     {title: 'UserVoice', url:''}
   ],
   competitors: [

@@ -2,7 +2,7 @@ module.exports = {
   name: 'To-Do',
   description: 'Task Management',
   icon: '/assets/icons/to-do.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/6k3_T84z5Ds',
   rating: '',
   color: '',
   testimonials: [

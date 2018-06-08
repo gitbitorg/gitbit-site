@@ -3,7 +3,7 @@ module.exports = {
   tag: 'StaffHub',
   description: 'Staff Management',
   icon: '/assets/icons/staffhub.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/e8ZE-IsgFow',
   rating: '',
   color: '',
   testimonials: [

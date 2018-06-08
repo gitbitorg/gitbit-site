@@ -2,7 +2,7 @@ module.exports = {
   name: 'Whiteboard',
   description: 'Freeform Digital Canvas',
   icon: '/assets/icons/whiteboard.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/y9nCilNdKxw',
   rating: '',
   color: '',
   testimonials: [

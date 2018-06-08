@@ -2,7 +2,7 @@ module.exports = {
   name: 'PowerApps',
   description: 'Codeless App Development',
   icon: '/assets/icons/powerapps.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/UCpmP6FOK-s',
   rating: '',
   color: '',
   testimonials: [
@@ -54,7 +54,7 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg'},
     {title: 'UserVoice', url:''}
   ],
   competitors: [

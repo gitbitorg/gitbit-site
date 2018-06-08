@@ -3,7 +3,6 @@ module.exports = {
   tag: 'Microsoft Forms',
   description: 'Survey Software',
   icon: '/assets/icons/forms.png',
-  video: '',
   rating: '',
   color: '',
   testimonials: [

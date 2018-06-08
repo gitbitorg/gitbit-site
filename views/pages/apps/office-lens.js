@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Office Lens',
   description: 'Camera for Scanning',
   icon: '/assets/icons/office-lens.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/jzZ3WVhgi5w',
   rating: '94%',
   color: '',
   testimonials: [

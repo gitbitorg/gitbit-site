@@ -3,7 +3,6 @@ module.exports = {
   tag: 'Word',
   description: 'Word Processor',
   icon: '/assets/icons/word.png',
-  video: '',
   rating: '',
   color: '',
   testimonials: [

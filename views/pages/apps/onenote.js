@@ -3,7 +3,7 @@ module.exports = {
   tag: 'OneNote',
   description: 'Notetaking',
   icon: '/assets/icons/onenote.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/9v8D857J3oM',
   rating: '',
   color: '',
   testimonials: [

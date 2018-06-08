@@ -2,7 +2,7 @@ module.exports = {
   name: 'Dynamics 365',
   description: 'ERP + CRM',
   icon: '/assets/icons/dynamics-365.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/sDYBMZ2I2YA',
   rating: '',
   color: '',
   testimonials: [
@@ -54,7 +54,7 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ'},
     {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Dynamics_365'}
   ],

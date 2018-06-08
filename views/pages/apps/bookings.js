@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Small Business Apps',
   description: 'Online Bookings and Appointment Scheduling',
   icon: '/assets/icons/bookings.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/hNXxBNPAOKA',
   rating: '',
   color: '',
   testimonials: [

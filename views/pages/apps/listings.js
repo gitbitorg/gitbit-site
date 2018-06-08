@@ -2,7 +2,7 @@ module.exports = {
   name: 'Listings',
   description: '',
   icon: '/assets/icons/listings.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/pkFQoHiLDwI',
   rating: '',
   color: '',
   testimonials: [

@@ -2,7 +2,7 @@ module.exports = {
   name: 'Power BI',
   description: 'Business Intelligence',
   icon: '/assets/icons/power-bi.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/Qgam9M8I0xA',
   rating: '',
   color: '',
   testimonials: [
@@ -54,7 +54,7 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/user/mspowerbi'},
     {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Power_BI'}
   ],

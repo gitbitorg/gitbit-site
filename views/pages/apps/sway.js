@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Sway',
   description: 'Presentation',
   icon: '/assets/icons/sway.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/Jw-g6IuBVJE',
   rating: '',
   color: '',
   testimonials: [

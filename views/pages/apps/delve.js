@@ -3,7 +3,7 @@ module.exports = {
   tag: 'Delve',
   description: 'Enterprise Intelligent Search',
   icon: '/assets/icons/delve.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/cCbyer0Xupg',
   rating: '',
   color: '',
   testimonials: [

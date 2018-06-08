@@ -2,7 +2,7 @@ module.exports = {
   name: 'School Data Sync',
   description: '',
   icon: '/assets/icons/school-data-sync.png',
-  video: '',
+  video: 'http://www.youtube.com/embed/yPzCJ4eqWfM',
   rating: '',
   color: '',
   testimonials: [
@@ -54,7 +54,8 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'YouTube', url:'https://www.youtube.com/channel/UCA8ZOC7eTfzLlkcFW3imkHg'},
+    {title: 'YouTube: MS Education', url: 'https://www.youtube.com/user/Microsoftedu'},
     {title: 'UserVoice', url:''}
   ],
   competitors: [
