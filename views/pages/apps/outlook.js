@@ -47,7 +47,7 @@ module.exports = {
     {title: 'Homepage', url:'https://products.office.com/en-us/outlook/email-and-calendar-software-microsoft-outlook?tab=tabs-1'},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/microsoftoutlook'},
-    {title: 'Roadmap', url: ''},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=outlook'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

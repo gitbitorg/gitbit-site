@@ -43,7 +43,7 @@ module.exports = {
     {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-staffhub/staff-scheduling-software'},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/staffhub'},
-    {title: 'Roadmap', url: ''},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=staffhub'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

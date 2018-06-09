@@ -43,8 +43,8 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/access'},
     {title: 'News', url:'https://www.microsoft.com/en-us/microsoft-365/blog/access/'},
-    {title: 'Twitter', url: ''},
-    {title: 'Roadmap', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftAccess?src=hash'},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=access'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

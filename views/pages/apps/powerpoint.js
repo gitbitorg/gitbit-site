@@ -46,7 +46,7 @@ module.exports = {
     {title: 'Homepage', url:'https://products.office.com/en-us/powerpoint'},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/PowerPoint'},
-    {title: 'Roadmap', url: ''},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=powerpoint'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

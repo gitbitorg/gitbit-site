@@ -35,7 +35,6 @@ module.exports = {
     {title: 'Homepage', url:'https://www.mileiq.com/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MileIQ'},
-    {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/mileiq'},

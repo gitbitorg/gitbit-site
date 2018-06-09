@@ -42,7 +42,7 @@ module.exports = {
     {title: 'Homepage', url:''},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/Delve'},
-    {title: 'Roadmap', url: ''},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Delve'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

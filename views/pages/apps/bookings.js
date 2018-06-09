@@ -40,7 +40,7 @@ module.exports = {
     {title: 'Homepage', url:'https://products.office.com/en/business/scheduling-and-booking-app'},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftBookings'},
-    {title: 'Roadmap', url: ''},
+    {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Microsoft%20Bookings'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

@@ -40,7 +40,6 @@ module.exports = {
     {title: 'Homepage', url:'https://powerbi.microsoft.com/en-us/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/PowerBI'},
-    {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/mspowerbi'},
