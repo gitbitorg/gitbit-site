@@ -37,15 +37,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:''}
-  ],
-  requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
   ],
   'title': 'Microsoft Listings',
   'keywords': 'Office 365, Listings',

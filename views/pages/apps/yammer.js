@@ -43,7 +43,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/YammerInc'},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://yammer.uservoice.com/forums/399627-yammer/filters/top'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Yammer'}
   ],
   competitors: [
@@ -52,11 +52,11 @@ module.exports = {
     {name: 'Google Hangouts', url: 'https://hangouts.google.com/', image:'/assets/icons/google-hangouts.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 560, title:'Allow users to change order of Groups'},
+    {votes: 480, title:'Support rich text formatting in Yammer posts'},
+    {votes: 380, title:'Be able to pin messages to the top of groups'},
+    {votes: 310, title:'Post a thread to multiple groups'},
+    {votes: 310, title:'Allow us to customize the name/avatar for the "All Company" group'}
   ],
   'title': 'Yammer',
   'keywords': 'Office 365, Yammer',

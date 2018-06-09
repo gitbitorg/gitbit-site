@@ -39,19 +39,11 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/mileiq'},
-    {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/MileIQ'}
   ],
   competitors: [
     {name: 'Everlance', url: 'https://everlance.com/', image:'/assets/icons/everlance.png'},
     {name: 'QuickBooks Mileage Tracker', url: 'https://quickbooks.intuit.com/mileage-tracking/', image:'/assets/icons/quickbooks-mileage-tracker.png'}
-  ],
-  requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
   ],
   'title': 'MileIQ',
   'keywords': 'Office 365, MileIQ',

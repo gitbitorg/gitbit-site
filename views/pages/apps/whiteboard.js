@@ -46,19 +46,11 @@ module.exports = {
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'YouTube', url:''}
   ],
   competitors: [
     {name: 'Aww', url: 'https://awwapp.com/', image:'/assets/icons/awwapp.png'},
     {name: 'Jamboard', url: 'https://gsuite.google.com/products/jamboard/', image:'/assets/icons/jamboard.png'},
-  ],
-  requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
   ],
   'title': 'Whiteboard',
   'keywords': 'Office 365, Whiteboard',

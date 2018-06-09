@@ -51,18 +51,18 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCG98S4lL7nwlN8dxSF322bA'},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:'https://powerusers.microsoft.com/t5/Flow-Ideas/idb-p/FlowIdeas/tab/most-kudoed'}
   ],
   competitors: [
     {name: 'IFTTT', url: 'https://ifttt.com/discover', image:'/assets/icons/ifttt.png'},
     {name: 'Zapier', url: 'https://zapier.com/', image:'/assets/icons/zapier.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 270, title:'Add the From field on the action "Send Approval email"'},
+    {votes: 260, title:'Trigger from Microsoft Teams'},
+    {votes: 240, title:'Need a Sharepoint trigger when a list item is deleted'},
+    {votes: 220, title:'set item level security in SharePoint'},
+    {votes: 220, title:'SharePoint Files - all fields not just a few'}
   ],
   'title': 'Microsoft Flow',
   'keywords': 'Office 365, Flow',

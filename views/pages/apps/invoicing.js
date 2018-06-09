@@ -39,7 +39,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:'https://office365.uservoice.com/forums/600781-microsoft-invoicing'}
   ],
   competitors: [
     {name: 'Invoice2go', url: 'https://invoice.2go.com/', image:'/assets/icons/invoice2go.png'},
@@ -47,11 +47,11 @@ module.exports = {
     {name: 'QuickBooks', url: 'https://quickbooks.intuit.com/', image:'/assets/icons/quickbooks.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 26, title:'Allow For Automated Scheduling of Invoice Sends'},
+    {votes: 22, title:'Allow invoice number to be changed'},
+    {votes: 21, title:'Allow for Deleting a Cancelled Invoice'},
+    {votes: 14, title:'Enable Invoice Updating and Reissuing to Include Registered Payments'},
+    {votes: 12, title:'Edit the automated email. Currernly reads "Hello x" and it would like the option to change that to "Dear x"'}
   ],
   'title': '',
   'keywords': 'Office 365, Invoicing',

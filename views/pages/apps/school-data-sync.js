@@ -37,17 +37,16 @@ module.exports = {
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCA8ZOC7eTfzLlkcFW3imkHg'},
     {title: 'YouTube: MS Education', url: 'https://www.youtube.com/user/Microsoftedu'},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:'https://edu.uservoice.com/forums/602512-school-data-sync/filters/top'}
   ],
   competitors: [
     {name: 'G Suite', url: 'https://gsuite.google.com/', image:'/assets/icons/G-Suite.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 5, title:'Parent Data in SDS'},
+    {votes: 4, title:'Changelog for SDS Toolkit'},
+    {votes: 3, title:'Select what Powerschool Fields to sync with Azure'},
+    {votes: 1, title:'Events to publish changes to the school roaster via rest api.'}
   ],
   'title': 'School Data Sync',
   'keywords': 'Office 365, School Data Sync',

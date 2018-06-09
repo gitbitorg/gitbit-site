@@ -37,19 +37,11 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Stream'}
   ],
   competitors: [
     {name: 'Vimeo', url: 'https://vimeo.com/', image:'/assets/icons/vimeo.png'},
     {name: 'YouTube', url: 'https://www.youtube.com/', image:'/assets/icons/youtube.png'},
-  ],
-  requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
   ],
   'title': 'Microsoft Stream',
   'keywords': 'Office 365, Microsoft Stream',

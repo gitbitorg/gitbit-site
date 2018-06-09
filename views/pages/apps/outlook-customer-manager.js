@@ -40,7 +40,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:'https://outlook.uservoice.com/forums/407082-outlook-customer-manager/filters/top'}
   ],
   competitors: [
     {name: 'HubSpot', url: 'https://www.hubspot.com/', image:'/assets/icons/hubspot.png'},
@@ -48,11 +48,11 @@ module.exports = {
     {name: 'Dynamics 365', url: '/apps/dynamics-365', image: '/assets/icons/dynamics-365-96px.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 1700, title:'Add support for Office 365 E3 and E5 tenants (as well as E1 and E2)'},
+    {votes: 400, title:'Make Outlook Customer Manager available in Outlook Online (Outlook Web Acess)'},
+    {votes: 280, title:'Outlook Customer Manager for Android'},
+    {votes: 240, title:'Outlook MAC'},
+    {votes: 200, title:'Make Outlook Customer Manager available also offline'}
   ],
   'title': 'Outlook Customer Manager',
   'keywords': 'Office 365, Outlook Customer Manager',

@@ -47,18 +47,18 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:'https://staffhub.uservoice.com/forums/323718-general/filters/top'}
   ],
   competitors: [
     {name: 'Timely', url: 'https://timelyapp.com/', image:'/assets/icons/timely.png'},
     {name: 'Deputy', url: 'https://www.deputy.com/us/', image:'/assets/icons/deputy.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 640, title:'Offer the Mobile functionality in a browser'},
+    {votes: 560, title:'Mark company holidays (per location) on schedule'},
+    {votes: 530, title:'O365 additional group functionality - files, chat & calendar'},
+    {votes: 451, title:'Connect StaffHub to Outlook calendar of team members for availability'},
+    {votes: 340, title:'Create re-usable shifts that are saved for weekly scheduling and assign a color'}
   ],
   'title': 'StaffHub',
   'keywords': 'Office 365, StaffHub',

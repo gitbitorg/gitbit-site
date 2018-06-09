@@ -49,7 +49,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://sway.uservoice.com/forums/264674-sway-suggestion-box/filters/top'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Office_Sway'},
     {title: 'Getting Started', url:'https://support.office.com/en-us/article/getting-started-with-sway-2076c468-63f4-4a89-ae5f-424796714a8a'}
   ],
@@ -58,11 +58,11 @@ module.exports = {
     {name: 'PowerPoint', url: '/apps/powerpoint', image:'/assets/icons/powerpoint-96px.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 1500, title:'Better offline support'},
+    {votes: 1400, title:'Linking within my Sway'},
+    {votes: 1000, title:'Vanity URLs/be able to mask the sway url with my own domain name'},
+    {votes: 700, title:'More formatting and layout options'},
+    {votes: 570, title:'Android Sway App'}
   ],
   'title': 'Sway',
   'keywords': 'Office 365, Sway',

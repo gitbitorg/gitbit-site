@@ -45,18 +45,18 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://microsoftforms.uservoice.com/forums/386451-welcome-to-microsoft-forms-suggestion-box/filters/top'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Forms'}
   ],
   competitors: [
     {name: 'Google Forms', url: 'https://www.google.com/forms/about/', image:'/assets/icons/google-forms.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 1500, title:'add upload attachment for uploading a document, image, etc...'},
+    {votes: 1300, title:'Add ability to insert sections, titles and instructional text'},
+    {votes: 850, title:'Checkboxes, email alerts, forms to tasks'},
+    {votes: 740, title:'Connect results to Excel as a data source rather than opening a new workbook each time'},
+    {votes: 700, title:'Transfer of ownership'}
   ],
   'title': 'Microsoft Forms',
   'keywords': 'Office 365, Forms',

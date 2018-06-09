@@ -54,7 +54,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://todo.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_To-Do'}
   ],
   competitors: [
@@ -62,11 +62,11 @@ module.exports = {
     {name: 'Wunderlist', url: 'https://www.wunderlist.com/', image:'/assets/icons/wunderlist.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 6700, title:'Outlook Mail Integration'},
+    {votes: 4400, title:'Priority Levels'},
+    {votes: 4200, title:'Attach files'},
+    {votes: 3700, title:'Weekly view for To-Do'},
+    {votes: 3500, title:'Support for multiple accounts'}
   ],
   'title': 'To-Do',
   'keywords': 'Office 365, To-Do',

@@ -51,7 +51,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://outlook.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Outlook'}
   ],
   competitors: [
@@ -59,11 +59,11 @@ module.exports = {
     {name: 'Windows Mail', url: 'https://support.office.com/en-us/article/set-up-email-in-the-mail-app-for-windows-10-7ff79e8b-439b-4b47-8ff9-3f9a33166c60', image:'/assets/icons/windows-mail.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 5700, title:'Email Signature Sync across devices'},
+    {votes: 1400, title:'Unified Inbox for Outlook 2016'},
+    {votes: 1300, title:'Pin or Stick important emails at the top of your Inbox'},
+    {votes: 1100, title:'Please make it possible to synchronize Gmail contacts and calendar'},
+    {votes: 1000, title:'Multiple choices of colors and themes like black theme in Desktop Outlook 2016'}
   ],
   'title': 'Outlook',
   'keywords': 'Office 365, Outlook',

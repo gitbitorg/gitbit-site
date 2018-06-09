@@ -45,20 +45,20 @@ module.exports = {
     {title: 'Twitter', url: ''},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'Admin Training', url:'https://powerapps.microsoft.com/en-us/search/documentation/'},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg'},
-    {title: 'UserVoice', url:''}
+    {title: 'UserVoice', url:'https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas/tab/most-kudoed'}
   ],
   competitors: [
     {name: 'Google App Maker', url: 'https://developers.google.com/appmaker/', image:'/assets/icons/google-app-maker.png'},
     {name: 'Mozilla Appmaker', url: 'https://wiki.mozilla.org/Appmaker', image:'/assets/icons/mozilla-appmaker.png'},
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 600, title:'Share with external users'},
+    {votes: 500, title:'Attach a file to form'},
+    {votes: 460, title:'Printing'},
+    {votes: 440, title:'PowerApps must also see SQL Azure Queries, not only Tables'},
+    {votes: 400, title:'Save attachments to SharePoint list item'}
   ],
   'title': 'PowerApps',
   'keywords': 'Office 365, PowerApps',

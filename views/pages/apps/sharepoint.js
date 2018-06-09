@@ -53,7 +53,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://sharepoint.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/SharePoint'}
   ],
   competitors: [
@@ -61,11 +61,11 @@ module.exports = {
     {name: 'Confluence', url: 'https://www.atlassian.com/software/confluence', image:'/assets/icons/confluence.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 2100, title:'Enable renaming the site collection URLs'},
+    {votes: 880, title:'Open Adobe PDF in client application'},
+    {votes: 850, title:'Remove the list view threshold (5000 by default)'},
+    {votes: 650, title:'A simple move/copy function between SharePoint Online Document libraries/folders/files'},
+    {votes: 630, title:'Please let me drag Outlook attachments into SharePoint'}
   ],
   'title': 'SharePoint',
   'keywords': 'Office 365, SharePoint',

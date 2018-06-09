@@ -44,7 +44,7 @@ module.exports = {
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/mspowerbi'},
-    {title: 'UserVoice', url:''},
+    {title: 'UserVoice', url:'https://ideas.powerbi.com/forums/265200-power-bi-ideas/filters/top'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Power_BI'}
   ],
   competitors: [
@@ -52,11 +52,11 @@ module.exports = {
     {name: 'Tableau', url: 'https://www.tableau.com/', image:'/assets/icons/tableau.png'}
   ],
   requests: [
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''},
-    {votes: 0, title:''}
+    {votes: 4100, title:'Print option from Power BI Desktop'},
+    {votes: 3500, title:'Decomposition Tree Visualization Type'},
+    {votes: 3300, title:'Global filter in dashboards'},
+    {votes: 3300, title:'Matrix +/- Collapse/ Expand Buttons'},
+    {votes: 3000, title:'scheduled export of a report to pdf'}
   ],
   'title': 'Power BI',
   'keywords': 'Office 365, Power BI',
