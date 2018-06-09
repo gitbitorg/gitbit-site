@@ -5,6 +5,11 @@ block content
 
   main
     article
-      h1 Hello
+      .container
+        each app in apps
+          .app.side-margins
+            img(src=app.icon)
+            h3.no-margin=app.name
+            p.no-margin=app.description
 
   include ../../includes/footer.pug

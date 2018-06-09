@@ -1,8 +1,6 @@
 const Glob = require('glob').Glob
 
-const apps = (Glob(__dirname + '/!(index).js', {sync:true})).found.map(path => {
-  require(path)
-})
+const apps = (Glob(__dirname + '/!(index).js', {sync:true})).found.map(path => require(path))
 
 module.exports = {
   apps,
