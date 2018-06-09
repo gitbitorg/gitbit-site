@@ -51,8 +51,9 @@ module.exports = {
     {title: 'Homepage', url:''},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'Windows Training', url: 'https://support.office.com/en-us/article/office-lens-for-windows-577ec09d-8da2-4029-8bb7-12f8114f472a'},
+    {title: 'Android Training', url:'https://support.office.com/en-gb/article/office-lens-for-android-ec124207-0049-4201-afaf-b5874a8e6f2b'},
+    {title: 'iOS Training', url:'https://support.office.com/en-us/article/office-lens-for-ios-fbdca5f4-1b1b-4391-a931-dc1c2582397b'},
     {title: 'YouTube', url:'https://www.youtube.com/'},
     {title: 'UserVoice', url:'https://.uservoice.com'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_mobile_services#Office_Lens'}

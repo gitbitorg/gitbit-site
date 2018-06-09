@@ -52,7 +52,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/Skype4B'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=skype%20for%20business'},
-    {title: 'User Training', url: ''},
+    {title: 'User Training', url: 'https://support.office.com/en-us/skype-for-business'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/MicrosoftLync'},
     {title: 'UserVoice', url:'https://www.skypefeedback.com/forums/299913-generally-available'},

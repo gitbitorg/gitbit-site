@@ -33,10 +33,8 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://www.mileiq.com/'},
-    {title: 'News', url:''},
+    {title: 'News', url:'https://www.mileiq.com/blog/'},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MileIQ'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/mileiq'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/MileIQ'}
   ],

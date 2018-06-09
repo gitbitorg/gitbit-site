@@ -44,7 +44,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftWhiteboard?src=hash'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=whiteboard'},
-    {title: 'User Training', url: ''},
+    {title: 'Getting Started', url: 'https://docs.microsoft.com/en-us/surface-hub/whiteboard-collaboration'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''}
   ],

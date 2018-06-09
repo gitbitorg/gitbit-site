@@ -40,8 +40,7 @@ module.exports = {
     {title: 'Homepage', url:'https://powerbi.microsoft.com/en-us/'},
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/PowerBI'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'Training', url: 'https://powerbi.microsoft.com/en-us/learning/'},
     {title: 'YouTube', url:'https://www.youtube.com/user/mspowerbi'},
     {title: 'UserVoice', url:'https://ideas.powerbi.com/forums/265200-power-bi-ideas/filters/top'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Power_BI'}

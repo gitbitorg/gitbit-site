@@ -49,6 +49,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-to-do-list-app'},
     {title: 'News', url:''},
+    {title: '4 Steps to Being More Productive Using Microsoft To-Do', url:'/articles/4-Steps-to-Being-More-Productive-Using-Microsoft-ToDo'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},

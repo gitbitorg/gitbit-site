@@ -44,8 +44,8 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/PowerApps'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=powerapps'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:'https://powerapps.microsoft.com/en-us/search/documentation/'},
+    {title: 'Training', url: 'https://docs.microsoft.com/en-us/powerapps/guided-learning/'},
+    {title: 'Documentation', url:'https://powerapps.microsoft.com/en-us/search/documentation/'},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg'},
     {title: 'UserVoice', url:'https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas/tab/most-kudoed'}
   ],

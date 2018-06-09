@@ -50,7 +50,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/SharePoint'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=sharepoint'},
-    {title: 'User Training', url: ''},
+    {title: 'User Training', url: 'https://support.office.com/en-us/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://sharepoint.uservoice.com/'},

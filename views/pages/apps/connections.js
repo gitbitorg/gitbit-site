@@ -36,7 +36,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftConnections'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Microsoft%20Connections'},
-    {title: 'User Training', url: ''},
+    {title: 'User Training', url: 'https://support.office.com/en-us/article/grow-your-business-with-microsoft-connections-45ae5acd-d215-4bc1-89e7-034b421bf4c8'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://office365.uservoice.com/forums/600610-microsoft-connections-email-marketing/filters/top'}

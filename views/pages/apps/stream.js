@@ -34,9 +34,9 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftStream'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=stream'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
+    {title: 'Introduction', url: 'https://docs.microsoft.com/en-us/stream/overview'},
+    {title: 'FAQ', url:'https://stream.microsoft.com/en-us/support/'},
+    {title: 'Docs', url:'https://docs.microsoft.com/en-us/stream/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Stream'}
   ],
   competitors: [

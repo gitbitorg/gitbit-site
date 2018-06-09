@@ -48,7 +48,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftWord'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=word'},
-    {title: 'User Training', url: ''},
+    {title: 'User Training', url: 'https://support.office.com/en-us/article/word-for-windows-video-training-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://word.uservoice.com/'},

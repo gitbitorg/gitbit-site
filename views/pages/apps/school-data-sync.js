@@ -33,8 +33,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/schooldatasync'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=education'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'Getting Started', url: 'https://docs.microsoft.com/en-us/schooldatasync/overview-of-school-data-sync'},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCA8ZOC7eTfzLlkcFW3imkHg'},
     {title: 'YouTube: MS Education', url: 'https://www.youtube.com/user/Microsoftedu'},
     {title: 'UserVoice', url:'https://edu.uservoice.com/forums/602512-school-data-sync/filters/top'}

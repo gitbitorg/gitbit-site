@@ -54,7 +54,8 @@ module.exports = {
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams'},
     {title: 'UserVoice', url:'https://microsoftteams.uservoice.com'},
     {title: 'End User Training', url:'https://docs.microsoft.com/en-us/microsoftteams/enduser-training'},
-    {title: 'Admin Training', url:'https://docs.microsoft.com/en-us/microsoftteams/itadmin-readiness'}
+    {title: 'Admin Training', url:'https://docs.microsoft.com/en-us/microsoftteams/itadmin-readiness'},
+    {title: 'Video Training', url:'https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'}
   ],
   competitors: [
     {name: 'Slack', url: 'https://slack.com/', image:'/assets/icons/Slack-Icon-96px.png'},

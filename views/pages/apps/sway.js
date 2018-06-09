@@ -46,7 +46,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftSway'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=sway'},
-    {title: 'User Training', url: ''},
+    {title: 'User Training', url: 'https://support.office.com/en-us/sway'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://sway.uservoice.com/forums/264674-sway-suggestion-box/filters/top'},

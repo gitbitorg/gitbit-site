@@ -58,7 +58,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/Dynamics365'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Dyanmics'},
-    {title: 'User Training', url: ''},
+    {title: 'User Training', url: 'https://docs.microsoft.com/en-us/dynamics365/get-started/training/'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Dynamics_365'}

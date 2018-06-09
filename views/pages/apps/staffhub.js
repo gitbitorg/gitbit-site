@@ -44,8 +44,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/staffhub'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=staffhub'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'Training', url: 'https://support.office.com/en-us/article/getting-started-with-microsoft-staffhub-92e9480f-0a37-47d2-ac96-2d11ee5f0656'},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://staffhub.uservoice.com/forums/323718-general/filters/top'}
   ],

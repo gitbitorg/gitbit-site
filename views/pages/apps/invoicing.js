@@ -36,8 +36,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftInvoicing'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Invoicing'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'Training', url: 'https://support.office.com/en-us/article/send-invoices-on-the-go-with-microsoft-invoicing-98b7c6ea-bb16-45e4-ac9c-59dd0b1e41d5'},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://office365.uservoice.com/forums/600781-microsoft-invoicing'}
   ],

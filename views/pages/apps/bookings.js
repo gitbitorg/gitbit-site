@@ -41,8 +41,8 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftBookings'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Microsoft%20Bookings'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'User Training', url: '/articles/how-to-automate-scheduling-with-office-365'},
+    {title: 'Admin Training', url:'/articles/how-to-automate-scheduling-with-office-365'},
     {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://outlook.uservoice.com/forums/314907-microsoft-bookings'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Bookings'}

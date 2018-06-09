@@ -48,8 +48,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftFlow'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Flow'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
+    {title: 'User Training', url: 'https://docs.microsoft.com/en-us/flow/'},
     {title: 'YouTube', url:'https://www.youtube.com/channel/UCG98S4lL7nwlN8dxSF322bA'},
     {title: 'UserVoice', url:'https://powerusers.microsoft.com/t5/Flow-Ideas/idb-p/FlowIdeas/tab/most-kudoed'}
   ],

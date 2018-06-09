@@ -40,7 +40,7 @@ module.exports = {
     {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/yammer'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=yammer'},
-    {title: 'User Training', url: ''},
+    {title: 'User Training', url: 'https://support.office.com/en-us/article/yammer-video-training-2c0ce4c6-0a99-466f-bf1b-cbe7ffa9779a?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
     {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/YammerInc'},
     {title: 'UserVoice', url:'https://yammer.uservoice.com/forums/399627-yammer/filters/top'},
