@@ -52,16 +52,17 @@ block content
             p=testimonial.text
         .align-center.hide-overflow.user-rating-container
           h1.no-margin=rating
-    section.columnar.sm-stack.reverse
-      div
-        img(src='/assets/icons/Compliance-Admin-Center.png', layout="responsive")
-      .stack
-        h2.text-center.no-margin Compliance
-        h3.text-center.no-margin= compliance.tier
-        .columnar
-          ul.scatter
-            each standard in compliance.standards
-              li=standard
+    if compliance
+      section.columnar.sm-stack.reverse
+        div
+          img(src='/assets/icons/Compliance-Admin-Center.png', layout="responsive")
+        .stack
+          h2.text-center.no-margin Compliance
+          h3.text-center.no-margin= compliance.tier
+          .columnar
+            ul.scatter
+              each standard in compliance.standards
+                li=standard
     section.stack.align-center
       h2.text-center.no-margin Latest Updates
       .updates
@@ -84,26 +85,28 @@ block content
             if update.moreInfoLink
               |  - 
               a(href=update.moreInfoLink) More Information
-    section.stack.reverse
-      h2.text-center.no-margin Top Requested Features
-      .columnar.space-around
-        each request in requests
-          .request-container.stack
-            .votes
-              h3.request-votes.text-center.no-margin= request.votes
-              span.request-label VOTES
-            span.request-title=request.title
-            if request.status
-              .status-container
-                span.request-label STATUS
-                span.request-status(class=request.status.split(' ').join('-').toLowerCase())=request.status
-    section.stack
-      h2.text-center.no-margin Top Competitors
-      .columnar.space-around
-          each competitor in competitors
-            a(href=competitor.url).platform-container
-              img(src=competitor.image width='96px' height='96px')
-              span=competitor.name
+    if requests
+      section.stack.reverse
+        h2.text-center.no-margin Top Requested Features
+        .columnar.space-around
+          each request in requests
+            .request-container.stack
+              .votes
+                h3.request-votes.text-center.no-margin= request.votes
+                span.request-label VOTES
+              span.request-title=request.title
+              if request.status
+                .status-container
+                  span.request-label STATUS
+                  span.request-status(class=request.status.split(' ').join('-').toLowerCase())=request.status
+    if competitors
+      section.stack
+        h2.text-center.no-margin Top Competitors
+        .columnar.space-around
+            each competitor in competitors
+              a(href=competitor.url).platform-container
+                img(src=competitor.image width='96px' height='96px')
+                span=competitor.name
     section.stack.reverse
       h2.text-center.no-margin Additional Resources
       ul.scatter

@@ -39,7 +39,7 @@ const renderAppViews = () => {
   apps.forEach((file) => {
     const app = require(`./${file}`)
     app.updates = roadmap.getLatest(app.tag)
-    const slug = app.name.split(' ').join('-') + '.html'
+    const slug = app.fileName + '.html'
     const destination = resolve(__dirname, 'docs', 'apps', slug)
     const html = pug.renderFile(template, app)
     const amp = ampify(html, {cwd:resolve(__dirname, 'docs')})
