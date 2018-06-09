@@ -35,7 +35,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/publisher'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/microsoftpublisher'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

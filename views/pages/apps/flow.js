@@ -46,7 +46,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://flow.microsoft.com/en-us/'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftFlow'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

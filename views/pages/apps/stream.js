@@ -32,7 +32,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-stream'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftStream'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

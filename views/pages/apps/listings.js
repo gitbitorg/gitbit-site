@@ -32,7 +32,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/business/microsoft-listings/online-web-presence-management-tool'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftListings'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

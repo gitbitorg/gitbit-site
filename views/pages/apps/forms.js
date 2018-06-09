@@ -40,7 +40,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:''},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftForms'},
     {title: 'FAQ', url: 'https://support.office.com/en-us/article/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c'},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

@@ -46,7 +46,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/outlook/email-and-calendar-software-microsoft-outlook?tab=tabs-1'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/microsoftoutlook'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

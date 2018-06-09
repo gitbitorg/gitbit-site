@@ -47,7 +47,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://www.onenote.com/?public=1&wdorigin=ondcauth2&wdorigin=ondc'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/OneNote'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

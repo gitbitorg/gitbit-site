@@ -50,7 +50,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://www.skype.com/en/business/'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/Skype4B'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

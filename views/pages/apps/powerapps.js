@@ -42,7 +42,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://powerapps.microsoft.com/en-us/'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/PowerApps'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:'https://powerapps.microsoft.com/en-us/search/documentation/'},

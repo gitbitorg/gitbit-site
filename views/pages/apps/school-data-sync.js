@@ -31,7 +31,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://sds.microsoft.com/'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/schooldatasync'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},

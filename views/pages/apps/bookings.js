@@ -39,7 +39,7 @@ module.exports = {
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en/business/scheduling-and-booking-app'},
     {title: 'News', url:''},
-    {title: 'Twitter', url: ''},
+    {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftBookings'},
     {title: 'Roadmap', url: ''},
     {title: 'User Training', url: ''},
     {title: 'Admin Training', url:''},
