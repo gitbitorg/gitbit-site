@@ -34,7 +34,7 @@ const views = () => {
 
 const renderAppViews = () => {
   const template = resolve(__dirname, 'views', 'template-app.pug')
-  const apps = (Glob('views/pages/apps/*.js', {sync:true})).found
+  const apps = (Glob('views/pages/apps/!(index).js', {sync:true})).found
 
   apps.forEach((file) => {
     const app = require(`./${file}`)
