@@ -8,8 +8,10 @@ block content
       .container
         each app in apps
           .app.side-margins
-            img(src=app.icon)
-            h3.no-margin=app.name
-            p.no-margin=app.description
+            .app-image
+              img(src=app.icon width=150 height=150)
+            .app-body
+              h3.no-margin=app.name
+              p.no-margin=app.description
 
   include ../../includes/footer.pug
