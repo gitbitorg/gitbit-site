@@ -52,10 +52,12 @@ block content
             p=testimonial.text
         .align-center.hide-overflow.user-rating-container
           h1.no-margin=rating
+    - var idx = 0;
     if compliance
-      section.columnar.sm-stack.reverse
+      - idx++;
+      section.columnar.sm-stack(class=idx % 2 === 0 ? '' : 'reverse')
         div
-          img(src='/assets/icons/Compliance-Admin-Center.png', layout="responsive")
+          img(src='/assets/icons/compliance-admin-center.png', layout="responsive")
         .stack
           h2.text-center.no-margin Compliance
           h3.text-center.no-margin= compliance.tier
@@ -63,7 +65,8 @@ block content
             ul.scatter
               each standard in compliance.standards
                 li=standard
-    section.stack.align-center
+    - idx++
+    section.stack.align-center(class=idx % 2 === 0 ? '' : 'reverse')
       h2.text-center.no-margin Latest Updates
       .updates
         h3 Launched
@@ -86,7 +89,8 @@ block content
               |  - 
               a(href=update.moreInfoLink) More Information
     if requests
-      section.stack.reverse
+      - idx++
+      section.stack(class=idx % 2 === 0 ? '' : 'reverse')
         h2.text-center.no-margin Top Requested Features
         .columnar.space-around
           each request in requests
@@ -100,14 +104,16 @@ block content
                   span.request-label STATUS
                   span.request-status(class=request.status.split(' ').join('-').toLowerCase())=request.status
     if competitors
-      section.stack
+      - idx++
+      section.stack(class=idx % 2 === 0 ? '' : 'reverse')
         h2.text-center.no-margin Top Competitors
         .columnar.space-around
             each competitor in competitors
               a(href=competitor.url).platform-container
                 img(src=competitor.image width='96px' height='96px')
                 span=competitor.name
-    section.stack.reverse
+    - idx++
+    section.stack(class=idx % 2 === 0 ? '' : 'reverse')
       h2.text-center.no-margin Additional Resources
       ul.scatter
         each resource in resources

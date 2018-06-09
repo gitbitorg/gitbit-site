@@ -58,8 +58,8 @@ module.exports = {
     {title: 'Video Training', url:'https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'}
   ],
   competitors: [
-    {name: 'Slack', url: 'https://slack.com/', image:'/assets/icons/Slack-Icon-96px.png'},
-    {name: 'Spark', url: 'https://www.cisco.com/c/en_uk/solutions/collaboration/ciscospark.html', image:'/assets/icons/Cisco-Spark-96px.png'},
+    {name: 'Slack', url: 'https://slack.com/', image:'/assets/icons/slack-icon-96px.png'},
+    {name: 'Spark', url: 'https://www.cisco.com/c/en_uk/solutions/collaboration/ciscospark.html', image:'/assets/icons/cisco-spark-96px.png'},
     {name: 'Skype', url: '/apps/skype', image:'/assets/icons/skype-96px.png'},
     {name: 'Yammer', url: '/apps/yammer', image:'/assets/icons/yammer-96px.png'}
   ],
