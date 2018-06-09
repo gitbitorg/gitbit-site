@@ -46,13 +46,10 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://www.onenote.com/?public=1&wdorigin=ondcauth2&wdorigin=ondc'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/OneNote'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=onenote'},
     {title: 'User Training', url: 'https://support.office.com/en-us/article/onenote-video-training-1c983b65-42f6-42c1-ab61-235aae5d0115?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
     {title: '12 Productivity Tips', url:'/articles/12-Tips-for-Improving-Productivity-using-OneNote'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://onenote.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_OneNote'}
   ],

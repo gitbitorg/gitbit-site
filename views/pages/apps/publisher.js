@@ -34,11 +34,8 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/publisher'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/microsoftpublisher'},
     {title: 'User Training', url: 'https://support.office.com/en-us/publisher'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Publisher'}
   ],
   competitors: [

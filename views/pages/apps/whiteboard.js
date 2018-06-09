@@ -41,12 +41,9 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-whiteboard/digital-whiteboard-app'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftWhiteboard?src=hash'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=whiteboard'},
     {title: 'Getting Started', url: 'https://docs.microsoft.com/en-us/surface-hub/whiteboard-collaboration'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''}
   ],
   competitors: [
     {name: 'Aww', url: 'https://awwapp.com/', image:'/assets/icons/awwapp.png'},

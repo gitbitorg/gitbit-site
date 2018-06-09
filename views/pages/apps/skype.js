@@ -49,11 +49,9 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://www.skype.com/en/business/'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/Skype4B'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=skype%20for%20business'},
     {title: 'User Training', url: 'https://support.office.com/en-us/skype-for-business'},
-    {title: 'Admin Training', url:''},
     {title: 'YouTube', url:'https://www.youtube.com/user/MicrosoftLync'},
     {title: 'UserVoice', url:'https://www.skypefeedback.com/forums/299913-generally-available'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Skype_for_Business'}

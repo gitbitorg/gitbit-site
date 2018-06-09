@@ -42,13 +42,9 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/microsoft-sway/id929856545?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftSway'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=sway'},
     {title: 'User Training', url: 'https://support.office.com/en-us/sway'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://sway.uservoice.com/forums/264674-sway-suggestion-box/filters/top'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Office_Sway'},
     {title: 'Getting Started', url:'https://support.office.com/en-us/article/getting-started-with-sway-2076c468-63f4-4a89-ae5f-424796714a8a'}

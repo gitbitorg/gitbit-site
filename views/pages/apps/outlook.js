@@ -45,12 +45,9 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/outlook/email-and-calendar-software-microsoft-outlook?tab=tabs-1'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/microsoftoutlook'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=outlook'},
     {title: 'User Training', url: 'https://support.office.com/en-us/article/outlook-for-windows-video-training-8a5b816d-9052-4190-a5eb-494512343cca?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'Power Users Guide to Outlook 2016 Search', url:'/articles/Power-Users-Guide-to-Outlook-2016-Search'},
     {title: 'UserVoice', url:'https://outlook.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Outlook'}

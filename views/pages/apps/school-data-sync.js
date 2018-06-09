@@ -30,7 +30,6 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://sds.microsoft.com/'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/schooldatasync'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=education'},
     {title: 'Getting Started', url: 'https://docs.microsoft.com/en-us/schooldatasync/overview-of-school-data-sync'},

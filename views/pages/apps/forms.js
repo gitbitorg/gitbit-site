@@ -38,13 +38,10 @@ module.exports = {
     web: 'https://forms.office.com/'
   },
   resources: [
-    {title: 'Homepage', url:''},
-    {title: 'News', url:''},
+    {title: 'Create a form with Microsoft Forms', url:'https://support.office.com/en-us/article/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d'},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftForms'},
     {title: 'FAQ', url: 'https://support.office.com/en-us/article/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c'},
     {title: 'User Training', url: 'https://support.office.com/en-us/forms'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://microsoftforms.uservoice.com/forums/386451-welcome-to-microsoft-forms-suggestion-box/filters/top'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Forms'}
   ],

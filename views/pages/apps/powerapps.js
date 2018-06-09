@@ -41,7 +41,6 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://powerapps.microsoft.com/en-us/'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/PowerApps'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=powerapps'},
     {title: 'Training', url: 'https://docs.microsoft.com/en-us/powerapps/guided-learning/'},

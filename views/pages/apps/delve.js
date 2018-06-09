@@ -39,13 +39,10 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/office-delve-for-office-365/id969258781?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
-    {title: 'News', url:''},
+    {title: 'Homepage', url:'https://products.office.com/en-us/business/intelligent-search'},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/Delve'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Delve'},
     {title: 'User Training', url: 'https://support.office.com/en-us/delve'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://office365.uservoice.com/forums/273487-delve'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Delve'}
   ],

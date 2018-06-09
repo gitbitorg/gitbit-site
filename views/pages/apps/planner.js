@@ -40,13 +40,10 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/business/task-management-software'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/microsoftplanner'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Planner'},
     {title: 'User Training', url: 'https://support.office.com/en-us/article/planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
     {title: 'Getting Started Guide', url: '/articles/Agile-Teamwork-with-Office-365-Planner'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://planner.uservoice.com/forums/330525-microsoft-planner-feedback-forum'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Planner'}
   ],

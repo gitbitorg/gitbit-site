@@ -34,12 +34,10 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/business/outlook-customer-relationship-manager'},
-    {title: 'News', url:''},
     {title: 'FAQ', url:'https://support.office.com/en-us/article/outlook-customer-manager-faq-88e127ca-43a1-4c9d-8d52-6ad3a80f9c32?ui=en-US&rs=en-US&ad=US'},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/OutlookCustomerManager'},
     {title: 'User Training', url: 'https://support.office.com/en-us/article/get-started-with-outlook-customer-manager-48331ce0-c356-4186-8987-c86676520dc7?ui=en-US&rs=en-US&ad=US'},
     {title: 'Admin Training', url:'https://support.office.com/en-us/article/customize-outlook-customer-manager-e7411d12-cc64-4793-8211-eda1aaef78a3?ui=en-US&rs=en-US&ad=US'},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://outlook.uservoice.com/forums/407082-outlook-customer-manager/filters/top'}
   ],
   competitors: [

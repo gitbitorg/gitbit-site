@@ -31,12 +31,9 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/business/microsoft-listings/online-web-presence-management-tool'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftListings'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=Listings'},
     {title: 'Training', url: 'https://support.office.com/en-us/article/publish-your-business-information-online-with-microsoft-listings-fce02a0f-de2c-4ca1-9d60-40a89c094076'},
-    {title: 'YouTube', url:''},
-    {title: 'Wikipedia', url:''}
   ],
   'title': 'Microsoft Listings',
   'keywords': 'Office 365, Listings',

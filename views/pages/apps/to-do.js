@@ -48,11 +48,8 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-to-do-list-app'},
-    {title: 'News', url:''},
+    {title: 'Community Support', url:'https://techcommunity.microsoft.com/t5/Microsoft-To-Do/ct-p/MicrosoftTo-Do'},
     {title: '4 Steps to Being More Productive Using Microsoft To-Do', url:'/articles/4-Steps-to-Being-More-Productive-Using-Microsoft-ToDo'},
-    {title: 'User Training', url: ''},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://todo.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_To-Do'}
   ],

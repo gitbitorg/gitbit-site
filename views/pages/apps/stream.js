@@ -31,7 +31,6 @@ module.exports = {
   },
   resources: [
     {title: 'Homepage', url:'https://products.office.com/en-us/microsoft-stream'},
-    {title: 'News', url:''},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftStream'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=stream'},
     {title: 'Introduction', url: 'https://docs.microsoft.com/en-us/stream/overview'},

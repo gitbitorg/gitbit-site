@@ -46,8 +46,6 @@ module.exports = {
     {title: 'Twitter', url: 'https://twitter.com/hashtag/MicrosoftAccess?src=hash'},
     {title: 'Roadmap', url: 'https://products.office.com/en-us/business/office-365-roadmap?filters=access'},
     {title: 'User Training', url: 'https://support.office.com/en-us/article/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6?wt.mc_id=otc_home&ui=en-US&rs=en-US&ad=US'},
-    {title: 'Admin Training', url:''},
-    {title: 'YouTube', url:''},
     {title: 'UserVoice', url:'https://access.uservoice.com/'},
     {title: 'Wikipedia', url:'https://en.wikipedia.org/wiki/Microsoft_Access'}
   ],

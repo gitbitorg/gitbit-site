@@ -48,8 +48,7 @@ module.exports = {
     iPhone: 'https://itunes.apple.com/us/app/office-lens/id975925059?mt=8'
   },
   resources: [
-    {title: 'Homepage', url:''},
-    {title: 'News', url:''},
+    {title: 'More Information', url:'https://support.office.com/en-ie/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3'},
     {title: 'Twitter', url: 'https://twitter.com/hashtag/'},
     {title: 'Windows Training', url: 'https://support.office.com/en-us/article/office-lens-for-windows-577ec09d-8da2-4029-8bb7-12f8114f472a'},
     {title: 'Android Training', url:'https://support.office.com/en-gb/article/office-lens-for-android-ec124207-0049-4201-afaf-b5874a8e6f2b'},
