@@ -491,3 +491,16 @@ ul.scatter li {
 .hide-overflow {
   overflow: hidden;
 }
+
+.margin-auto {
+  margin: auto;
+}
+
+.apps .app {
+  width: 300px;
+}
+
+a.no-style {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Microsoft Invoicing',
-  description: '',
+  description: 'Simple Fast Billing',
   icon: '/assets/icons/invoicing.png',
   video: 'http://www.youtube.com/embed/RkcfhVkjkCQ',
   rating: '75%',

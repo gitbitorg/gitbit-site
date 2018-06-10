@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Listings',
-  description: '',
+  description: 'Automated Business Publishing',
   icon: '/assets/icons/listings.png',
   video: 'http://www.youtube.com/embed/pkFQoHiLDwI',
   rating: '80%',

@@ -1,6 +1,6 @@
 module.exports = {
   name: 'School Data Sync',
-  description: '',
+  description: 'SIS to Office 365',
   icon: '/assets/icons/school-data-sync.png',
   video: 'http://www.youtube.com/embed/yPzCJ4eqWfM',
   rating: '??',
