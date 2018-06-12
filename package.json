@@ -13,7 +13,8 @@
     "publisher": "node publisher.js",
     "smm": "node lib/smm/index.js",
     "roadmap": "node lib/roadmap/index.js",
-    "compile": "node lib/compile/run.js"
+    "compile": "node lib/compile/run.js",
+    "finalize": "node lib/finalize/index.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "html-word-count": "^2.0.0",
     "html2jade": "^0.8.6",
     "htmlparser2": "^3.9.2",
+    "image-size": "^0.6.2",
     "jest": "^22.4.3",
     "jstransformer-markdown-it": "^2.1.0",
     "mammoth": "^1.4.5",
