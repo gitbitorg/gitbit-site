@@ -40,6 +40,10 @@ html {
   line-height: 1.5;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-size: 2em;
 }
@@ -56,4 +60,93 @@ table {
 pre {
   max-width: 90vw;
 }
-</style></head><body><h1>Hello World</h1><p>Hi!</p><p>I changed.</p></body></html>
+
+blockquote {
+  font-size: larger;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.side-margins {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.columnar {
+  display: flex;
+  flex-direction: row;
+}
+
+.columnar > * {
+  flex: 1;
+}
+
+@media screen and (max-width: 899px) {
+  .sm-stack {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+.nav-top {
+  background-color: white;
+  width:100%;
+  height:60px;
+  line-height: 60px;
+  margin-bottom: 8px;
+}
+
+footer.nav-bottom a, .nav-top a {
+  text-decoration: none;
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nav-bottom {
+  padding-top: 40px;
+  border-top: 1px #e1e4e8 solid;
+  margin-top: 40px;
+  margin-left: 32px;
+  margin-right: 32px;
+  font-weight: 300;
+}
+</style></head><body><header class="nav-top space-between"><a class="align-center side-margins" href="/"><img class="logo" src="/assets/branding/GitBit-Logo-Mercury-50x50.png" height="50" width="50"><h1 class="no-margin light">GitBit</h1></a><a class="no-print light side-margins" href="/apps">apps</a></header><h1>Hello World</h1><p>Hi!</p><p>I changed.</p><footer class="nav-bottom no-print light columnar sm-stack"><a class="text-center twitter" href="https://twitter.com/gruberjl">Twitter</a><a class="text-center linkedin" href="https://www.linkedin.com/in/gruberjl/">LinkedIn</a><a class="text-center facebook" href="https://www.facebook.com/GitBit0/">Facebook</a><a class="text-center newsletter" href="https://businesscenter.office.com/b/gitbit/signup">Tips to your inbox</a><a class="text-center rss" href="rss.xml">RSS</a><a class="text-center terms" href="/terms">Terms</a><a class="text-center privacy" href="/privacy">Privacy</a></footer></body></html>
