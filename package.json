@@ -12,7 +12,8 @@
     "build": "node build.js",
     "publisher": "node publisher.js",
     "smm": "node lib/smm/index.js",
-    "roadmap": "node lib/roadmap/index.js"
+    "roadmap": "node lib/roadmap/index.js",
+    "compile": "node lib/compile/index.js"
   },
   "repository": {
     "type": "git",
