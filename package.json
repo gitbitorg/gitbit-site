@@ -13,7 +13,7 @@
     "publisher": "node publisher.js",
     "smm": "node lib/smm/index.js",
     "roadmap": "node lib/roadmap/index.js",
-    "compile": "node lib/compile/index.js"
+    "compile": "node lib/compile/run.js"
   },
   "repository": {
     "type": "git",
