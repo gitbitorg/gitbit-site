@@ -7,5 +7,6 @@ module.exports = {
   'image1200x900': 'power-users-guide-to-outlook-2-1200x900.jpg',
   'image1200x675': 'power-users-guide-to-outlook-2-1200x675.jpg',
   'image400x300': 'power-users-guide-to-outlook-2-400x300.jpg',
-  'document': 'power-users-guide-to-outlook-2.docx'
+  'document': 'power-users-guide-to-outlook-2.docx',
+  'template': 'article.template.pug'
 }
