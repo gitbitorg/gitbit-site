@@ -2,7 +2,10 @@ extends ./layout.pug
   
 block content
   include header.pug
-  h1 Hello World
-  p Hi!
-  p I changed.
+  .container
+    each article in articles
+      a.card(href=article.canonical)
+        img.card-image(src="/articles/assets/"+article.image400x300, height=300 width=400 layout="responsive")
+        h3.card-title=article.title
+        p.card-description=article.description
   include footer.pug
