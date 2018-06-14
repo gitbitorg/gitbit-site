@@ -207,6 +207,31 @@ footer.nav-bottom a, .nav-top a {
   font-weight: 300;
 }
 
+.card {
+  background: white;
+  width: 400px;
+  margin: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-title, .card-description {
+  padding: 8px;
+  margin: 0px;
+}
+
 .app .heading {
   width: 100%;
   background: rgb(63,63,63);
@@ -298,6 +323,7 @@ footer.nav-bottom a, .nav-top a {
 
 .app .request-container .request-title {
   margin: 8px 0px;
+  flex:1;
 }
 
 .app .request-container .request-label {
