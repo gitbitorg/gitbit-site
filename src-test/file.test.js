@@ -10,7 +10,12 @@ describe('src', () => {
     describe(file, () => {
       test('name should be lower case', () => {
         const relativePath = file.split('src')[1]
-        expect(relativePath).toEqual(relativePath.toLowerCase())
+        const isLower = relativePath == relativePath.toLowerCase()
+
+        if (!isLower && file.endsWith('.js') && require(file).redirect)
+          expect(true).toEqual(true)
+        else
+          expect(isLower).toEqual(true)
       })
     })
   })

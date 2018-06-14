@@ -1,0 +1,24 @@
+extends ./layout.pug
+  
+block content
+  include header.pug
+  .space-around.wrap
+    p.light Please wait while you're redirected to: 
+      a(href=redirect)=title
+    blockquote
+      strong Your most unhappy customers are your greatest source of learning.
+      strong Success is a lousy teacher. It seduces smart people into thinking they can't lose.
+      strong Life is not fair; get used to it.
+      strong It's fine to celebrate success but it is more important to heed the lessons of failure.
+      strong As we look ahead into the next century, leaders will be those who empower others.
+      strong If you can't make it good, at least make it look good.
+      strong Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important.
+      strong The Internet is becoming the town square for the global village of tomorrow.
+      strong Television is not real life. In real life people actually have to leave the coffee shop and go to jobs.
+      strong I believe that if you show people the problems and you show them the solutions they will be moved to act.
+  include footer.pug
+  script.
+    (function() {
+      window.setTimeout(function(){ window.location = '#{redirect}'; },3000)
+    })()
+    
