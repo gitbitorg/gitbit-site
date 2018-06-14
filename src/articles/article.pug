@@ -4,4 +4,16 @@ block content
   include ../header.pug
   .space-around
     article.side-margins !{documentHtml}
+  .space-around
+    aside.align-center
+      .side-margins
+        a(href="/people/john-gruber")
+          img(src="/people/assets/john-gruber-200x200.jpg" alt="Image of John Gruber")
+      .side-margins
+        div
+          span.light WRITTEN BY
+        div
+          a(href="/people/john-gruber")
+            h3.no-margin John L. Gruber
+        .author-description John Gruber is a Collaboration Engineer and is responsible for helping customers manage and maintain Microsoft Office 365. John brings 10 years of information technology (IT) experience, helping small and large organizations across North America.
   include ../footer.pug
