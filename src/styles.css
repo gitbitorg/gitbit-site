@@ -88,12 +88,31 @@ img {
   max-width: 100%;
 }
 
+a.no-style {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul.scatter {
+  list-style-type: none;
+}
+
+ul.scatter li {
+    display: inline-block;
+    min-width: 50%;
+    padding: 12px;
+}
+
 .text-center {
   text-align: center;
 }
 
 .light {
   font-weight: 300;
+}
+
+.w300 {
+  width: 300px;
 }
 
 .side-margins {
@@ -103,6 +122,14 @@ img {
 
 .no-margin {
   margin: 0px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.hide-overflow {
+  overflow: hidden;
 }
 
 .align-center {
@@ -118,6 +145,10 @@ img {
 .space-around {
   display: flex;
   justify-content: space-around;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .stack {
@@ -169,4 +200,185 @@ footer.nav-bottom a, .nav-top a {
   margin-left: 32px;
   margin-right: 32px;
   font-weight: 300;
+}
+
+.app .heading {
+  width: 100%;
+  background: rgb(63,63,63);
+  font-size: 200%;
+  color: white;
+}
+
+.app .heading .icon-container {
+  border-radius: 50%;
+  background: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(217, 217, 217);
+}
+
+.app .heading .title-container {
+  text-align: center;
+}
+
+.app .heading .title-container * {
+  margin: 0px;
+}
+
+@media screen and (max-width: 899px) {
+  .app .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app .heading .icon-container {
+    height: 310px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app .heading .title-container {
+    margin: 40px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .app .heading {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .app .heading .icon-container {
+    width: 40vw;
+    height: 40vw;
+    margin-top: -10vw;
+    margin-left: -10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-top: 5vw;
+  }
+
+  .app .heading .title-container {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.app .request-container {
+  background: white;
+  min-width: 300px;
+  max-width: 300px;
+  margin: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 8px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.app .request-container .request-votes {
+  font-size: 200%;
+  line-height: 100%;
+  margin-top: 8px;
+}
+
+.app .request-container .request-title {
+  margin: 8px 0px;
+}
+
+.app .request-container .request-label {
+    color: rgba(0,0,0,.4);
+    font-size: 70%;
+}
+
+.app .request-container .status-container > * {
+    padding: 4px;
+}
+
+.app .request-container .working-on-it {
+  color: #6FBC00;
+}
+
+.app .request-container .under-review {
+  color: #f235aa;
+}
+
+.app .request-container .partially-done {
+  color: #a644a6;
+}
+
+.header-color-a4373a h1, .header-color-a4373a h2, .header-color-a4373a h3 { color: #a4373a; }
+.header-color-00a99d h1, .header-color-00a99d h2, .header-color-00a99d h3 { color: #00a99d; }
+.header-color-ce0f65 h1, .header-color-ce0f65 h2, .header-color-ce0f65 h3 { color: #ce0f65; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0072c6 h1, .header-color-0072c6 h2, .header-color-0072c6 h3 { color: #0072c6; }
+.header-color-217346 h1, .header-color-217346 h2, .header-color-217346 h3 { color: #217346; }
+.header-color-2471ba h1, .header-color-2471ba h2, .header-color-2471ba h3 { color: #2471ba; }
+.header-color-0077ff h1, .header-color-0077ff h2, .header-color-0077ff h3 { color: #0077ff; }
+.header-color-008272 h1, .header-color-008272 h2, .header-color-008272 h3 { color: #008272; }
+.header-color-ce0f65 h1, .header-color-ce0f65 h2, .header-color-ce0f65 h3 { color: #ce0f65; }
+.header-color-ce0f65 h1, .header-color-ce0f65 h2, .header-color-ce0f65 h3 { color: #ce0f65; }
+.header-color-5558af h1, .header-color-5558af h2, .header-color-5558af h3 { color: #5558af; }
+.header-color-ffb214 h1, .header-color-ffb214 h2, .header-color-ffb214 h3 { color: #ffb214; }
+.header-color-da3b01 h1, .header-color-da3b01 h2, .header-color-da3b01 h3 { color: #da3b01; }
+.header-color-094ab1 h1, .header-color-094ab1 h2, .header-color-094ab1 h3 { color: #094ab1; }
+.header-color-7719aa h1, .header-color-7719aa h2, .header-color-7719aa h3 { color: #7719aa; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-31752f h1, .header-color-31752f h2, .header-color-31752f h3 { color: #31752f; }
+.header-color-f2c811 h1, .header-color-f2c811 h2, .header-color-f2c811 h3 { color: #f2c811; }
+.header-color-5c005c h1, .header-color-5c005c h2, .header-color-5c005c h3 { color: #5c005c; }
+.header-color-b7472a h1, .header-color-b7472a h2, .header-color-b7472a h3 { color: #b7472a; }
+.header-color-087366 h1, .header-color-087366 h2, .header-color-087366 h3 { color: #087366; }
+.header-color-0072c6 h1, .header-color-0072c6 h2, .header-color-0072c6 h3 { color: #0072c6; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-0d8387 h1, .header-color-0d8387 h2, .header-color-0d8387 h3 { color: #0d8387; }
+.header-color-c30052 h1, .header-color-c30052 h2, .header-color-c30052 h3 { color: #c30052; }
+.header-color-008272 h1, .header-color-008272 h2, .header-color-008272 h3 { color: #008272; }
+.header-color-465efc h1, .header-color-465efc h2, .header-color-465efc h3 { color: #465efc; }
+.header-color-0078d7 h1, .header-color-0078d7 h2, .header-color-0078d7 h3 { color: #0078d7; }
+.header-color-2b579a h1, .header-color-2b579a h2, .header-color-2b579a h3 { color: #2b579a; }
+.header-color-0072c6 h1, .header-color-0072c6 h2, .header-color-0072c6 h3 { color: #0072c6; }
+
+.app section {
+  padding: 60px 8px;
+}
+
+.app section.reverse {
+  background-color: #f2f2f2;
+}
+
+.app .platform-container {
+  display: flex;
+  flex-flow: column;
+  text-decoration: none;
+  font-size: 110%;
+  color: black;
+  margin:8px;
+  align-items: center;
+}
+
+.app .platform-container > * {
+  padding: 8px;
+}
+
+@media screen and (max-width: 899px) {
+  .app .user-reviews-container {
+    flex-direction: column-reverse;
+  }
+}
+
+.app .user-rating-container {
+  justify-content: center;
+  font-size: 400%;
 }

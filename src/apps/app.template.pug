@@ -1,0 +1,122 @@
+extends ../layout.pug
+  
+block content
+  include ../header.pug
+
+  .app.stack(class='header-color-' + color)
+    section.heading
+      .icon-container
+          img(width='200px', height='200px', src=icon)
+      .title-container
+          h1=name
+          p=description
+    section.columnar.sm-stack
+      .stack
+        h2.text-center.no-margin Features
+        .content
+          ul
+            each feature in features
+              li
+                strong= feature.name
+                span= ": " + feature.description
+      .text-center
+        iframe(width="560", height="315", src=video, frameborder="0", allow="autoplay; encrypted-media", allowfullscreen)
+    section.stack.reverse
+      h2.text-center.no-margin Platforms
+      .columnar.space-around
+          if platforms.web
+            a(href=platforms.web).platform-container
+              img(src='/assets/icons/edge-logo-96px.png' width='96px' height='96px')
+              span Web
+          if platforms.pc
+            a(href=platforms.pc).platform-container
+              img(src='/assets/icons/microsoft-logo-96px.png' width='96px' height='96px')
+              span Desktop
+          if platforms.mac
+            a(href=platforms.mac).platform-container
+              img(src='/assets/icons/apple-logo-96x.png' width='96px' height='96px')
+              span Mac
+          if platforms.iPhone
+            a(href=platforms.iPhone).platform-container
+              img(src='/assets/icons/iphone-logo-96px.png' width='96px' height='96px')
+              span iPhone
+          if platforms.android
+            a(href=platforms.android).platform-container
+              img(src='/assets/icons/android-logo-96px.png' width='96px' height='96px')
+              span Android
+    section.stack
+      h2.text-center.no-margin User Reviews
+      .columnar.sm-stack.user-reviews-container.side-margins
+        .stack
+          each testimonial in testimonials
+            p=testimonial.text
+        .align-center.hide-overflow.user-rating-container
+          h1.no-margin=rating
+    - var idx = 0;
+    if compliance
+      - idx++;
+      section.columnar.sm-stack(class=idx % 2 === 0 ? '' : 'reverse')
+        div
+          img(src='/assets/icons/compliance-admin-center.png', layout="responsive")
+        .stack
+          h2.text-center.no-margin Compliance
+          h3.text-center.no-margin= compliance.tier
+          .columnar
+            ul.scatter
+              each standard in compliance.standards
+                li=standard
+    - idx++
+    section.stack.align-center(class=idx % 2 === 0 ? '' : 'reverse')
+      h2.text-center.no-margin Latest Updates
+      article
+        h3 Launched
+        each update in updates.launched
+          .space-between
+            strong=update.title
+            span.light=update.publicDisclosureAvailabilityDate
+          p=update.description
+            if update.moreInfoLink
+              |  - 
+              a(href=update.moreInfoLink) More Information
+      article
+        h3 Rolling Out
+        each update in updates.rollingOut
+          .space-between
+            strong=update.title
+            span.light=update.publicDisclosureAvailabilityDate
+          p.update-description=update.description
+            if update.moreInfoLink
+              |  - 
+              a(href=update.moreInfoLink) More Information
+    if requests
+      - idx++
+      section.stack(class=idx % 2 === 0 ? '' : 'reverse')
+        h2.text-center.no-margin Top Requested Features
+        .columnar.space-around.wrap
+          each request in requests
+            .request-container.stack
+              .votes
+                h3.request-votes.text-center.no-margin= request.votes
+                span.request-label VOTES
+              span.request-title=request.title
+              if request.status
+                .status-container
+                  span.request-label STATUS
+                  span.request-status(class=request.status.split(' ').join('-').toLowerCase())=request.status
+    if competitors
+      - idx++
+      section.stack(class=idx % 2 === 0 ? '' : 'reverse')
+        h2.text-center.no-margin Top Competitors
+        .columnar.space-around
+            each competitor in competitors
+              a(href=competitor.url).platform-container
+                img(src=competitor.image width='96px' height='96px')
+                span=competitor.name
+    - idx++
+    section.stack(class=idx % 2 === 0 ? '' : 'reverse')
+      h2.text-center.no-margin Additional Resources
+      ul.scatter
+        each resource in resources
+          li
+            a(href=resource.url)=resource.title
+  include ../footer.pug
