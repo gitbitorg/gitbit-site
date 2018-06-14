@@ -1,0 +1,90 @@
+const {join} = require('path')
+const roadmap = require(join(__dirname, '..', '..', 'lib', 'roadmap'))
+
+const app = {
+  'name': 'Microsoft Stream',
+  'tag': 'Microsoft Stream',
+  'description': 'Video Hosting',
+  'icon': '/assets/icons/stream.png',
+  'video': 'http://www.youtube.com/embed/M6JkA_SxsQQ',
+  'rating': '72%',
+  'color': 'c30052',
+  'testimonials': [
+    {
+      'text': '"Microsoft Stream is part of Microsoft\'s ongoing mission to make meetings and conferencing more productive"'
+    }
+  ],
+  'features': [
+    {
+      'name': 'Learning & Training',
+      'description': 'Create powerful learning and training videos to help keep employees up to date across your organization.'
+    }
+  ],
+  'licenses': [
+    'Office 365 Enterprise E1',
+    'Office 365 Enterprise E3',
+    'Office 365 Enterprise E5',
+    'Office 365 A1',
+    'Office 365 A3',
+    'Office 365 A5',
+    'Office 365 F1',
+    'Stream Plan 1',
+    'Stream Plan 2'
+  ],
+  'platforms': {
+    'web': 'https://stream.microsoft.com/'
+  },
+  'resources': [
+    {
+      'title': 'Homepage',
+      'url': 'https://products.office.com/en-us/microsoft-stream'
+    },
+    {
+      'title': 'Twitter',
+      'url': 'https://twitter.com/hashtag/MicrosoftStream'
+    },
+    {
+      'title': 'Roadmap',
+      'url': 'https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=stream'
+    },
+    {
+      'title': 'Introduction',
+      'url': 'https://docs.microsoft.com/en-us/stream/overview'
+    },
+    {
+      'title': 'FAQ',
+      'url': 'https://stream.microsoft.com/en-us/support/'
+    },
+    {
+      'title': 'Docs',
+      'url': 'https://docs.microsoft.com/en-us/stream/'
+    },
+    {
+      'title': 'Wikipedia',
+      'url': 'https://en.wikipedia.org/wiki/Microsoft_Stream'
+    }
+  ],
+  'competitors': [
+    {
+      'name': 'Vimeo',
+      'url': 'https://vimeo.com/',
+      'image': '/assets/icons/vimeo.png'
+    },
+    {
+      'name': 'YouTube',
+      'url': 'https://www.youtube.com/',
+      'image': '/assets/icons/youtube.png'
+    }
+  ],
+  'title': 'Microsoft Stream',
+  'datePublished': '2018-06-07T06:00:00.000Z',
+  'dateModified': '2018-06-07T06:00:00.000Z',
+  'image1200x1200': '/apps/assets/stream-1200x1200.jpg',
+  'image1200x900': '/apps/assets/stream-1200x900.jpg',
+  'image1200x675': '/apps/assets/stream-1200x675.jpg',
+  'image400x300': '/apps/assets/stream-400x300.jpg',
+  'canonical': '/apps/stream',
+  'template': '/apps/app.template.pug'
+}
+app.updates = roadmap.getLatest(app.tag)
+module.exports = app

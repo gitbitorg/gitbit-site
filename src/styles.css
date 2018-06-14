@@ -120,6 +120,11 @@ ul.scatter li {
   margin-right: 12px;
 }
 
+.stack-margins2 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .no-margin {
   margin: 0px;
 }

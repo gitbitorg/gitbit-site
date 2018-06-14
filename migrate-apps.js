@@ -25,10 +25,10 @@ const migrateApp = (name) => {
 }
 
 const start = () => {
-  const apps = Glob(join(__dirname, 'views', 'pages', 'apps', '**.*'), {sync:true}).found
+  const apps = Glob(join(__dirname, 'views', 'pages', 'apps', '**.js'), {sync:true}).found
   apps.forEach((app) => {
     const s = app.split('/')
-    migrateApp(s)
+    migrateApp(s[s.length-1])
   })
 
 }

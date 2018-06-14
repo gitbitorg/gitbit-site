@@ -1,0 +1,16 @@
+extends ../layout.pug
+
+block content
+  include ../header.pug
+
+  .space-around.wrap.side-margins.apps
+    each app in apps
+      .app.stack-margins2
+        a(href=app.canonical).no-style
+          .app-image.align-center
+            img(src=app.icon, width='150', height='150').margin-auto
+          .app-body
+            h3.text-center.no-margin=app.name
+            p.text-center.no-margin.subtitle=app.description
+
+  include ../footer.pug

@@ -14,7 +14,9 @@
     "smm": "node lib/smm/index.js",
     "roadmap": "node lib/roadmap/index.js",
     "compile": "node lib/compile/run.js",
-    "finalize": "node lib/finalize/index.js"
+    "finalize": "node lib/finalize/index.js",
+    "lint": "./node_modules/.bin/eslint src/**/*.js lib/**/*.js",
+    "lint:fix": "./node_modules/.bin/eslint src/**/*.js lib/**/*.js --fix"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
     "ampify": "^0.3.0",
     "bitly": "^5.0.12",
     "cheerio": "^1.0.0-rc.2",
+    "eslint": "^4.19.1",
     "express": "^4.16.3",
     "feed": "^1.1.1",
     "glob": "^7.1.2",
