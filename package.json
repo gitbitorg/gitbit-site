@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "jest",
+    "test:watch": "jest src --watch",
     "start": "node lib/dev-server",
     "build": "node build.js",
     "publisher": "node publisher.js",

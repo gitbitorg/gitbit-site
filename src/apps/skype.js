@@ -126,10 +126,10 @@ const app = {
   'title': 'Skype for Business',
   'datePublished': '2018-06-07T06:00:00.000Z',
   'dateModified': '2018-06-07T06:00:00.000Z',
-  'image1200x1200': '/apps/assets/skype-for-business-1200x1200.jpg',
-  'image1200x900': '/apps/assets/skype-for-business-1200x900.jpg',
-  'image1200x675': '/apps/assets/skype-for-business-1200x675.jpg',
-  'image400x300': '/apps/assets/skype-for-business-400x300.jpg',
+  'image1200x1200': '/apps/assets/skype-1200x1200.jpg',
+  'image1200x900': '/apps/assets/skype-1200x900.jpg',
+  'image1200x675': '/apps/assets/skype-1200x675.jpg',
+  'image400x300': '/apps/assets/skype-400x300.jpg',
   'canonical': '/apps/skype',
   'template': '/apps/app.template.pug'
 }
