@@ -1,3 +1,5 @@
+block variables
+
 doctype html
 html(amp="" lang="en")
   head
@@ -19,7 +21,60 @@ html(amp="" lang="en")
     meta(name="msapplication-TileColor" content="#00aba9")
     meta(name="msapplication-config" content="/assets/favicons/browserconfig.xml")
     meta(name="theme-color" content="#ffffff")
-    meta(name="robots" content="index, follow")  
+    meta(name="robots" content="index, follow")
+      
+    link(rel="canonical" ref='http://gitbit.org' + canonical)
+      
+    script(type='application/ld+json').
+      {
+        "@context": "http://schema.org",
+        "@type": "#{SchemaType}",
+        "mainEntityOfPage": "http://gitbit.org#{canonical}",
+        "url": "http://gitbit.org#{canonical}",
+        "headline": "#{title}",
+        "name": "#{title}",
+        "image": [
+          { "@type":"ImageObject", "width":900, "height":1200, "url":"http://gitbit.org#{image1200x900}" },
+          { "@type":"ImageObject", "width":1200, "height":675, "url":"http://gitbit.org#{image1200x675}" },
+          { "@type":"ImageObject", "width":1200, "height":1200, "url":"http://gitbit.org#{image1200x1200}" }
+        ],
+        "thumbnailUrl": "http://gitbit.org#{image1200x900}",
+        "datePublished": "#{datePublished}",
+        "dateModified": "#{dateModified}",
+        "author": {
+          "@type": "Person",
+          "name": "John Gruber",
+          "url": "http://gitbit.org/people/john-gruber",
+          "email": "john.gruber@gitbit.org",
+          "sameAs": [
+            "http://gitbit.org/gruberjl",
+            "https://twitter.com/gruberjl",
+            "https://plus.google.com/+JohnGruber-gitbit",
+            "https://www.linkedin.com/in/gruberjl/",
+            "https://www.pinterest.com/gitbit00/",
+            "https://www.tumblr.com/blog/gruberjl",
+            "https://www.facebook.com/john.gruber00"
+          ]
+        },
+        "creator":[ "John Gruber" ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "GitBit",
+          "url": "http://gitbit.org",
+          "logo": {
+            "@type": "ImageObject",
+            "width":200,
+            "height":60,
+            "url": "http://gitbit.org/assets/gitbit/gitbit-200x60.jpg"
+          },
+          "sameAs": [
+            "https://www.facebook.com/gitbit0",
+            "https://twitter.com/gitbitorg"
+          ]
+        },
+        "description": "#{description}",
+        "about": "Office 365"
+      }
       
     style()
       include styles.css

@@ -1,0 +1,44 @@
+{
+   "@context":"http://schema.org",
+   "@type":"NewsArticle",
+   "image":{
+      "@type":"ImageObject",
+      "width":1920,
+      "height":2876,
+      "url":"https://cdn-images-1.medium.com/max/1920/0*dWTmCKYQU9AisQmu"
+   },
+   "url":"https://medium.com/s/story/fighting-ai-surveillance-with-scarves-and-face-paint-6b634ef174a1",
+   "dateCreated":"2018-06-13T16:01:01.636Z",
+   "datePublished":"2018-06-13T16:01:01.636Z",
+   "dateModified":"2018-06-15T15:35:09.994Z",
+   "headline":"Fighting AI Surveillance with Scarves and Face Paint",
+   "name":"Fighting AI Surveillance with Scarves and Face Paint",
+   "thumbnailUrl":"https://cdn-images-1.medium.com/max/1920/0*dWTmCKYQU9AisQmu",
+   "keywords":[
+      "Surveillance",
+      "AI",
+      "Facial Recognition",
+      "Technology",
+      "Disruption"
+   ],
+   "author":{
+      "@type":"Person",
+      "name":"Thomas McMullan",
+      "url":"https://medium.com/@thomas_mac"
+   },
+   "creator":[
+      "Thomas McMullan"
+   ],
+   "publisher":{
+      "@type":"Organization",
+      "name":"Medium",
+      "url":"https://medium.com/",
+      "logo":{
+         "@type":"ImageObject",
+         "width":308,
+         "height":60,
+         "url":"https://cdn-images-1.medium.com/max/308/1*OMF3fSqH8t4xBJ9-6oZDZw.png"
+      }
+   },
+   "mainEntityOfPage":"https://medium.com/s/story/fighting-ai-surveillance-with-scarves-and-face-paint-6b634ef174a1"
+}
