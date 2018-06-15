@@ -3,15 +3,17 @@ block variables
 doctype html
 html(amp="" lang="en")
   head
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
     meta(charset="utf-8")
-    meta(name='msvalidate.01', content='F38FFB109FAF9C7076E59AA8AADDA0A2')
-    meta(name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1")
+    meta(name="viewport", content="width=device-width,minimum-scale=1,initial-scale=1")
+    meta(name="referrer", content="unsafe-url")
+    meta(name="robots" content="index, follow")
+    link(rel="canonical" ref='http://gitbit.org' + canonical)
+    
     link(rel='alternate', type='application/rss+xml', title='RSS Feed for gitbit.org', href='http://gitbit.org/rss.xml')
     link(rel='alternate', type='application/atom+xml', title='Atom Feed for gitbit.org', href='http://gitbit.org/atom.xml')
     link(rel='alternate', title='JSON Feed for GitBit.org', type='application/json', href='https://gitbit.org/feed.json')
-      
-    meta(name='msvalidate.01', content='F38FFB109FAF9C7076E59AA8AADDA0A2')
-    meta(name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1")
+    
     link(rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png")
     link(rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png")
     link(rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png")
@@ -21,9 +23,41 @@ html(amp="" lang="en")
     meta(name="msapplication-TileColor" content="#00aba9")
     meta(name="msapplication-config" content="/assets/favicons/browserconfig.xml")
     meta(name="theme-color" content="#ffffff")
-    meta(name="robots" content="index, follow")
-      
-    link(rel="canonical" ref='http://gitbit.org' + canonical)
+    
+    meta(name='msvalidate.01', content='F38FFB109FAF9C7076E59AA8AADDA0A2')
+    meta(property='fb:app_id', content='1798464146887606')
+
+    link(rel="publisher" href="https://plus.google.com/u/0/+JohnGruber-gitbit")
+    
+    meta(name='twitter:card', content='summary_large_image')
+    meta(name='twitter:site', content='@gitbitorg')
+    meta(name='twitter:creator', content='@gruberjl')
+    meta(name='twitter:title', content=title)
+    meta(name='twitter:description', content=description)
+    meta(name='twitter:image', content="http://gitbit.org#{image1200x675}")
+    meta(name='twitter:image:src', content="http://gitbit.org#{image1200x675}")
+    
+    meta(property="og:site_name" content="GitBit")
+    meta(property='og:url', content="http://gitbit.org#{canonical}")
+    meta(property='og:locale', content='en_US')
+    meta(property='og:title', content=title)
+    meta(property='og:description', content=description)
+    meta(property='og:image', content="http://gitbit.org#{image1200x675}")
+    meta(property='og:image:width', content='1200')
+    meta(property='og:image:height', content='675')
+    meta(property='og:image', content="http://gitbit.org#{image1200x900}")
+    meta(property='og:image:width', content='1200')
+    meta(property='og:image:height', content='900')
+    meta(property='og:image', content="http://gitbit.org#{image1200x1200}")
+    meta(property='og:image:width', content='1200')
+    meta(property='og:image:height', content='1200')
+    
+    if (SchemaType == 'Article')
+      meta(property='og:type', content='article')
+      meta(property='article:published_time', content=datePublished)
+      meta(property='article:modified_time', content=dateModified)
+      meta(property='article:author', content='http://gitbit.org/people/john-gruber')
+      meta(property='article:section', content='Technology')
       
     script(type='application/ld+json').
       {
@@ -80,3 +114,9 @@ html(amp="" lang="en")
       include styles.css
   body
     block content
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-10841251-3')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-10841251-3');
