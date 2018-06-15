@@ -1,8 +1,8 @@
 module.exports = {
   'title': 'Agile Teamwork with Office 365 Planner',
   'description': 'On December 1st, 1913 Henry Ford installed the first moving assembly line. It was brilliant. His innovation reduced the time it took to build a car from more than 12 hours to two hours and 30 minutes. Ford increased production and decreased costs. His plan moved the automobile from one station to th',
-  'datePublished': '2018-06-14T04:00:00.000Z',
-  'dateModified': '2018-06-14T04:00:00.000Z',
+  'datePublished': '2018-05-15T11:34:51.272Z',
+  'dateModified': '2018-05-15T11:34:51.272Z',
   'template': '/articles/article.pug',
   'canonical': '/articles/agile-teamwork-with-office-365',
   'image1200x1200': '/articles/assets/agile-teamwork-with-office-365-1200x1200.jpg',

@@ -1,8 +1,8 @@
 module.exports = {
   'title': '12 Tips for Improving Productivity using OneNote',
   'description': 'OneNote is a digital notebook that automatically backs up to Microsoft’s Office 365 cloud. Microsoft has developed apps for every device including Windows PC, Mac, iPhone, Android. OneNote notebooks can be shared with colleagues for real-time collaboration.',
-  'datePublished': '2018-06-14T04:00:00.000Z',
-  'dateModified': '2018-06-14T04:00:00.000Z',
+  'datePublished': '2018-05-02T16:55:30.197Z',
+  'dateModified': '2018-05-02T16:55:30.197Z',
   'template': '/articles/article.pug',
   'canonical': '/articles/12-tips-for-improving-producti',
   'image1200x1200': '/articles/assets/12-tips-for-improving-producti-1200x1200.jpg',
