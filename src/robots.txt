@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://gitbit.org/sitemap.xml
