@@ -48,6 +48,12 @@ block content
               img(src='/assets/icons/android-logo-96px.png' width='96px' height='96px')
               span Android
     section.stack
+      h2.text-center.no-margin Included in Plans
+      ul.scatter
+        each license in licenses
+          li
+            span=license
+    section.stack.reverse
       h2.text-center.no-margin User Reviews
       .columnar.sm-stack.user-reviews-container.side-margins
         .stack
@@ -55,7 +61,7 @@ block content
             p=testimonial.text
         .align-center.hide-overflow.user-rating-container
           h1.no-margin=rating
-    - var idx = 0;
+    - var idx = 1;
     if compliance
       - idx++;
       section.columnar.sm-stack(class=idx % 2 === 0 ? '' : 'reverse')

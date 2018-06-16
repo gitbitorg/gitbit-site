@@ -17,7 +17,8 @@
     "compile": "node lib/compile/run.js",
     "finalize": "node lib/finalize/index.js",
     "lint": "./node_modules/.bin/eslint src/**/*.js lib/**/*.js",
-    "lint:fix": "./node_modules/.bin/eslint src/**/*.js lib/**/*.js --fix"
+    "lint:fix": "./node_modules/.bin/eslint src/**/*.js lib/**/*.js --fix",
+    "build:draft": "node lib/draft-builder/index.js"
   },
   "repository": {
     "type": "git",
