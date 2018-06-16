@@ -1,0 +1,334 @@
+[
+	{
+		"id": 24901,
+		"title": "Outlook on the web: Third party storage services",
+		"description": "Outlook on the web will provide Office 365 admins the ability to allow their users to connect to third party storage services and share and attach files right from Outlook on the web.",
+		"status": "In development",
+		"moreInfoLink": "https://technet.microsoft.com/en-us/library/dd297989.aspx",
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Exchange"
+			}
+		],
+		"created": "2018-06-11T21:41:08.637",
+		"modified": "2018-06-14T23:59:50.2054117",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 27825,
+		"title": "Outlook for iOS:  Favorite people ",
+		"description": "Designate people as favorites so they are quickly and easily visible Outlook for iOS and soon in other Outlook endpoints (e.g. Outlook on the web)",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			}
+		],
+		"created": "2018-06-08T00:00:00",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 27826,
+		"title": "Outlook for Android: Favorite people",
+		"description": "Designate people as favorites so they are quickly and easily visible in Outlook for Android and soon in other Outlook endpoints (e.g. Outlook on the web)",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			},
+			{
+				"tagName": "Android"
+			}
+		],
+		"created": "2018-06-06T16:35:31.253",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 27827,
+		"title": "Outlook for Android:  Monthly Calendar view",
+		"description": "View your Outlook Calendar in a full month format in addition to Agenda, Day and 3-Day.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			},
+			{
+				"tagName": "Android"
+			}
+		],
+		"created": "2018-06-02T00:00:00",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31081,
+		"title": "Alert Policies in Office 365 Security & Compliance Center available to E1/ E3 customers",
+		"description": "You can use the new alert policy and alert dashboard tools in the Office 365 Security & Compliance Center to create alert policies and then view the alerts that are generated when users perform activities that match the conditions of an alert policy. \nIn this release, 3 system default alert policies will be visible and on by default for E1/E3 customers once the feature is rolled out, including Elevation of Exchange admin privilege, Creation of forwarding/redirect rules and Messages that have been delayed; With E5 subscription, or E1/E3 with Threat intelligence or Advanced Compliance add-ons, the experience of alert policies remains the same.\n",
+		"status": "In development",
+		"moreInfoLink": "https://support.office.com/en-us/article/alert-policies-in-the-office-365-security-compliance-center-8927b8b9-c5bc-45a8-a9f9-96c732e58264  ",
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "O365"
+			}
+		],
+		"created": "2018-06-06T23:56:28.27",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31088,
+		"title": "SharePoint: select a language at site creation",
+		"description": "It will be possible for site owners to select a language for their site at the time they create it during the self-service site creation process from SharePoint home in Office 365; using the  \"Create site\" button. Previously this was only available to do by admins from the SharePoint admin center in Office 365. There are approximately 50 languages available in the service to choose from. You select this at the same time you choose the site design, name, description and classification.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "O365"
+			},
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-06-11T21:41:13.85",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31090,
+		"title": "Live event broadcasts in Microsoft Stream",
+		"description": "Schedule and host live event broadcasts in Microsoft Stream.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "",
+		"tags": [
+			{
+				"tagName": "Microsoft Stream"
+			}
+		],
+		"created": "2018-06-11T21:41:14.36",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31070,
+		"title": "SharePoint: modern team site if not group enabled",
+		"description": "People can create new team sites when they click \"Create site\" from the SharePoint home in Office 365. However, if a person is not enabled to create Office 365 Groups, they would be routed to create a subsite within a designated site collection, and it would not have modern team site features. With this update, people who are not deemed able to create Office 365 Groups will now be able to create modern SharePoint team sites that are not connected to an Office 365 group, though do have the modern user experiences for the home page, lists, libraries - and it is its own standalone site collection. This, too, applies to when a person creates a subsite, it, too, would use the modern design - if subsite creation is not disabled.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "O365"
+			},
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-06-06T16:35:20.31",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31097,
+		"title": "Create Power BI reports from Excel in SharePoint",
+		"description": "You will be able to create Power BI reports from Excel files and CSV files stored in SharePoint libraries and OneDrive folders.",
+		"status": "Rolling out",
+		"moreInfoLink": "https://techcommunity.microsoft.com/t5/SharePoint-BI/New-feature-Create-Power-BI-reports-from-tables-in-Excel-files/m-p/201843#M131",
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-06-11T21:41:15.153",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31391,
+		"title": "Correcting Shared Mailbox Provisioning and Sizing Logic",
+		"description": "We are correcting how shared (and resource) mailboxes are created in Exchange Online.\nAs per our documentation, shared and resource mailboxes in Exchange Online should be created with the size of 50GB and if a larger size is desired, a license should be assigned to the mailbox. For some time the Exchange Online system would create both new shared and resource mailboxes with a default size of 100GB even if a license was not assigned. This is now being corrected to match the documented behavior.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Exchange"
+			}
+		],
+		"created": "2018-06-14T23:58:57.3285846",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31392,
+		"title": "Exchange Hybrid Configuration Wizard - Organization Config Transfer Phase 1",
+		"description": "The Exchange Hybrid Configuration Wizard will detect and copy specific policy and configuration objects from On-Premises to Exchange Online to reduce administrative overhead when setting up a new tenant. The objects evaluated in this phase are; Retention Policy, Retention Policy Tags, OWA Mailbox Policy, Mobile Device Mailbox Policy, Active Sync Mailbox Policy.  \n\nThis phase will only copy and create non-matching objects, i.e. if Policy A exists in both On-Premises and Cloud it will not be copied. If Policy B exists only in On-Premises it will be copied.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Exchange"
+			}
+		],
+		"created": "2018-06-14T23:58:57.3285846",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 31405,
+		"title": "Updates to secure external sharing experience for files and folders",
+		"description": "We are updating our one-time passcode secure external sharing experience for files and folders in OneDrive and SharePoint Online. With this change, external recipients who also use Office 365 in their organization will be asked to sign in to their Office 365 account. This process will create a Guest account in your organization's directory and can be managed by you in the same way that all other Guest accounts can be managed today. This update will also allow external recipients that also use Office 365 in their organization to open Office documents using the Office desktop apps. ",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "OneDrive for Business"
+			}
+		],
+		"created": "2018-06-14T23:58:57.3285846",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 31247,
+		"title": "Office 365 Message Encryption: Admin control now available for Office attachments",
+		"description": "Administrators can now control whether Office attachments are protected for recipients outside of Office 365 when the Encrypt-Only template is used.  This was a key ask from Office 365 Message Encryption customers and is now available as a tenant-level setting.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "O365"
+			}
+		],
+		"created": "2018-06-12T00:03:35.52",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 31379,
+		"title": "Support for Universal Outlook protocol in Client Access Rules",
+		"description": "This update to Client Access Rules allows administrators to control access to Exchange Online for clients that use the Universal Outlook protocol (e.g., the Windows 10 Mail app). UniversalOutlook will become a valid value for the AnyOfProtocols and ExceptAnyOfProtocols parameters in Client Access Rules",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Exchange"
+			}
+		],
+		"created": "2018-06-14T23:58:57.3285846",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 31064,
+		"title": "Modern list templates for issues, contacts and datasheet",
+		"description": "The following list templates now have modern UI support:  Issue Tracking, Contacts,  Custom List in Datasheet View New and existing lists created using one of these templates will now appear in modern UI by default. \n\nAdditionally, the native UI now supports multi-line text fields with the \"Append Changes to Existing Text\" setting enabled. Lists that contain this field type will no longer fall back to classic mode to accommodate these fields. ",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-06-06T16:35:23.093",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 31065,
+		"title": "Update to file handling in libraries with required metadata",
+		"description": "When a new file is created (using Office Online) in a library by clicking the New button and entering the required metadata, the file will no longer be checked out automatically to the user who created it.  This allows other people to see the file even if required metadata has not been specified yet.",
+		"status": "In development",
+		"moreInfoLink": "https://support.office.com/article/differences-in-required-property-behavior-between-modern-and-classic-b687d6b9-20c3-49b2-b9f6-e770756256a9 ",
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-06-06T16:35:24.013",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 27770,
+		"title": "Label Activity Explorer Dashboard in Office 365 Data Governance",
+		"description": "Use the Label Activity Explorer Dashboard to gain insights into labels usage in your organization, including top labels, ratio of user vs auto-applied and more.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "O365"
+			}
+		],
+		"created": "2018-06-14T23:58:57.3306429",
+		"modified": "2018-06-14T23:59:50.2074093",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 12587,
+		"title": "Outlook for Windows:  LinkedIn integration",
+		"description": "Connect your Microsoft 365 account with LinkedIn and quickly have access to the LinkedIn profile of the people you work with daily in Outlook. ",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			}
+		],
+		"created": "2018-06-08T00:00:00",
+		"modified": "2018-06-14T23:59:50.2084131",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 31092,
+		"title": "Live event broadcasting capability in Microsoft Stream",
+		"description": "Live event broadcasting is now available in Microsoft Stream.  Host and watch live broadcasts in Stream, or watch them in Yammer and Teams.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "",
+		"tags": [
+			{
+				"tagName": "Microsoft Stream"
+			}
+		],
+		"created": "2018-06-12T21:53:05.483",
+		"modified": "2018-06-14T23:59:50.2203733",
+		"publicDisclosureAvailabilityDate": "Q4 CY2018"
+	},
+	{
+		"id": 31393,
+		"title": "Copy of: Exchange Hybrid Configuration Wizard - Organization Config Transfer Phase 2",
+		"description": "In addition to copying new objects from on-premises to cloud, the admins will be giving a choice to update existing objects in cloud if the attribute values are different from on-premises. \n\nFour additional objects – OrganizationConfig, DlpPolicy, ActiveSyncDeviceAccessRule and ActiveSyncOrganizationSettings are included in the scope of the feature.",
+		"status": "In development",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Exchange"
+			}
+		],
+		"created": "2018-06-14T23:58:58.740636",
+		"modified": "2018-06-14T23:59:50.2203733",
+		"publicDisclosureAvailabilityDate": "Q4 CY2018"
+	}
+]
