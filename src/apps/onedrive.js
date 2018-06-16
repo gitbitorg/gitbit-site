@@ -5,7 +5,7 @@ const app = {
   'name': 'OneDrive',
   'tag': 'OneDrive for Business',
   'description': 'Enterprise File Sync and Share',
-  'icon': '/assets/icons/OneDrive-Logo.png',
+  'icon': '/assets/icons/onedrive.png',
   'video': 'http://www.youtube.com/embed/0x3iA746WBE?list=PLy6ZAqnxE-0tc7v3YtTYx68S61PyQ9hNl',
   'rating': '91%',
   'color': '094ab1',
