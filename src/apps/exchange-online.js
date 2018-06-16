@@ -5,7 +5,7 @@ const app = {
   'name': 'Exchange Online',
   'tag': 'Exchange',
   'description': 'Hosted Email for Business',
-  'icon': '/assets/icons/Exchange-Online.png',
+  'icon': '/assets/icons/exchange-online.png',
   'video': 'http://www.youtube.com/embed/sZsh7SH0dM4',
   'rating': '94%',
   'color': '2471ba',

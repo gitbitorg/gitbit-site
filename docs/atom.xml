@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://gitbit.org/</id>
     <title>Office 365 Tips to Improve Productivity - GitBit</title>
-    <updated>2018-06-16T02:07:25Z</updated>
+    <updated>2018-06-16T04:06:23Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>John Gruber</name>
@@ -21,6 +21,20 @@
     </category>
     <category term="Microsoft">
     </category>
+    <entry>
+        <title type="html"><![CDATA[First Look at New Office Suite]]></title>
+        <id>http://gitbit.org/articles/first-look-at-new-office-suite</id>
+        <link href="http://gitbit.org/articles/first-look-at-new-office-suite">
+        </link>
+        <updated>2018-06-16T04:00:00Z</updated>
+        <summary type="html"><![CDATA[Microsoft Office is getting a new look. The updates are part of Microsoft’s new Fluent UI design. The fluent experience is designed to give a more natural feel across all devices giving you the same design on web, desktop, tablets, and televisions. Inspired by “The Three C’s”: customer, context, and]]></summary>
+        <content type="html"><![CDATA[<h1>First Look at New Office Suite</h1><p>Microsoft Office is getting a new look. The updates are part of Microsoft&#x2019;s new Fluent UI design. The fluent experience is designed to give a more natural feel across all devices giving you the same design on web, desktop, tablets, and televisions. Inspired by &#x201C;The Three C&#x2019;s&#x201D;: customer, context, and control, Microsoft has listened to customers and found they want a simple but powerful productivity suite. Microsoft recognized context to be a major factor in designing the new simple yet powerful Fluent UI.</p><p>The new design has minimal color to prevent distraction and help you stay focused on your work. The new icons are similar to Office 2016 icons but have higher quality resolution with less contrasting colors.</p><blockquote>&#x201C;It&#x2019;s simpler and I feel like I can open it and immediately get my bearings and move forward. Not a lot of extra information. The tasks are obvious on this screen.&#x201D;</blockquote><p>Microsoft has given you the ability to expand back to the classic ribbon using the drop-down arrow to the far right of the screen. You can quickly go back and forth if they prefer the extra screen space of the new Fluent UI while still needing the full ribbon for certain times.</p><blockquote>&#x201C;I like the extra space. What I do find is that the feature to toggle it off/on is helpful because occasionally I can&#x2019;t figure out (quickly) where something went.&#x201D;</blockquote><p>Microsoft is adding a new Coming Soon toggle switch to the Office apps. Much like the Office 365 Release Track, the Coming Soon toggle can be used to quickly add or remove new functionality before they&#x2019;re released to the public. The support documentation states the following:</p><blockquote>Occasionally, we&#x2019;ll release a new feature in Outlook that changes the look, feel, or functionality of Outlook. Coming Soon gives you a window of time to try these changes on your own schedule, learn about them, and share feedback with us before the changes are released to all customers.</blockquote><p>Updates will be slowly rolled out across the web, Windows, and Apple Office apps. <a href="http://gitbit.org/apps/onedrive">OneDrive</a> on the web was the first Office 365 app to receive the Fluent UI. The re-design will be more slow and methodical than previous major releases, for example, the original Office ribbon.</p><p>Microsoft has been transitioning from providing different apps for collaboration and productivity to integrating collaboration directly where you work. Part of the new Fluent UI is a redesign to comments and collaborating directly in Office documents. The new comment UI provide less contrast from your document to provide the comments you need while not distracting you from your work.</p>]]></content>
+        <author>
+            <name>John Gruber</name>
+            <email>john.gruber@gitbit.org</email>
+            <uri>http://gitbit.org/John-Gruber</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Live Video Broadcasts in Office 365 – In Development]]></title>
         <id>http://gitbit.org/articles/live-video-broadcasts-in-office-365--in-development</id>
