@@ -1,0 +1,275 @@
+[
+	{
+		"id": 31097,
+		"title": "Create Power BI reports from Excel in SharePoint",
+		"description": "You will be able to create Power BI reports from Excel files and CSV files stored in SharePoint libraries and OneDrive folders.",
+		"status": "Rolling out",
+		"moreInfoLink": "https://techcommunity.microsoft.com/t5/SharePoint-BI/New-feature-Create-Power-BI-reports-from-tables-in-Excel-files/m-p/201843#M131",
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-06-11T21:41:15.153",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "July CY2018"
+	},
+	{
+		"id": 31405,
+		"title": "Updates to secure external sharing experience for files and folders",
+		"description": "We are updating our one-time passcode secure external sharing experience for files and folders in OneDrive and SharePoint Online. With this change, external recipients who also use Office 365 in their organization will be asked to sign in to their Office 365 account. This process will create a Guest account in your organization's directory and can be managed by you in the same way that all other Guest accounts can be managed today. This update will also allow external recipients that also use Office 365 in their organization to open Office documents using the Office desktop apps. ",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "OneDrive for Business"
+			}
+		],
+		"created": "2018-06-14T23:58:57.3285846",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 31247,
+		"title": "Office 365 Message Encryption: Admin control now available for Office attachments",
+		"description": "Administrators can now control whether Office attachments are protected for recipients outside of Office 365 when the Encrypt-Only template is used.  This was a key ask from Office 365 Message Encryption customers and is now available as a tenant-level setting.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "O365"
+			}
+		],
+		"created": "2018-06-12T00:03:35.52",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 30688,
+		"title": "SharePoint: new Planner integration",
+		"description": "This is Planner for the team as a full-page app. Simply click New  Plan, and start managing team tasks right inside the SharePoint user experience. Add a Planner Plan from within SharePoint in Office 365 (click New  Plan).",
+		"status": "Rolling out",
+		"moreInfoLink": "https://techcommunity.microsoft.com/t5/Planner-Blog/New-Planner-capabilities-bring-task-management-directly-into/ba-p/192868",
+		"publicRoadmapStatus": "Already included",
+		"tags": [
+			{
+				"tagName": "O365"
+			},
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-05-30T15:29:59.693",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 30559,
+		"title": "Page management",
+		"description": "Build pages and news with templates, classifications, targeting and workflow",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "SharePoint"
+			}
+		],
+		"created": "2018-05-30T15:29:55.783",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 27544,
+		"title": "File +  Folder activity",
+		"description": "Users are able to see an improved view of the activity happening around their files including edits and shares in the details pane in OneDrive and SharePoint.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "OneDrive for Business"
+			}
+		],
+		"created": "2018-04-18T00:34:32.59",
+		"modified": "2018-06-14T23:59:50.2064075",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 27770,
+		"title": "Label Activity Explorer Dashboard in Office 365 Data Governance",
+		"description": "Use the Label Activity Explorer Dashboard to gain insights into labels usage in your organization, including top labels, ratio of user vs auto-applied and more.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "O365"
+			}
+		],
+		"created": "2018-06-14T23:58:57.3306429",
+		"modified": "2018-06-14T23:59:50.2074093",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 24818,
+		"title": "Message Center Reader Role",
+		"description": "The new Message center Reader role will allow admins to set users in their organization to only get access to Message Center within the admin portal. The MC Reader role permits users to read Message Center posts and share them, set their preferences, and receive email communications from Message center.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Already included",
+		"tags": [
+			{
+				"tagName": "O365"
+			},
+			{
+				"tagName": " Admin Center"
+			}
+		],
+		"created": "2017-11-17T22:32:12.32",
+		"modified": "2018-06-14T23:59:50.2074093",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 15689,
+		"title": "Outlook for iOS: Draft sync",
+		"description": "Sync drafts emails between different versions of Outlook. You can start a message in one place and finish and send in another.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Already included",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			}
+		],
+		"created": "2017-06-27T18:38:43.643",
+		"modified": "2018-06-14T23:59:50.2084131",
+		"publicDisclosureAvailabilityDate": "June CY2018"
+	},
+	{
+		"id": 15224,
+		"title": "Outlook for Windows: Changes to recurring meetings",
+		"description": "The default end date is changing from \"No end date\" to prompting people to choose an end date.  No end date will still be an option. ",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Already included",
+		"tags": [
+			{
+				"tagName": "Exchange"
+			},
+			{
+				"tagName": "Outlook"
+			}
+		],
+		"created": "2017-08-04T17:08:13.773",
+		"modified": "2018-06-14T23:59:50.2133733",
+		"publicDisclosureAvailabilityDate": "Q2 CY2018"
+	},
+	{
+		"id": 16635,
+		"title": "Transfer ownership for deleted users",
+		"description": "Currently when a user leaves the ownership of their OneDrive rolls up to the manager. With this roll out, the admin will have the rights to transfer the ownership to the individual seen fit by the manager",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "OneDrive for Business"
+			}
+		],
+		"created": "2018-05-21T16:36:58.407",
+		"modified": "2018-06-14T23:59:50.2133733",
+		"publicDisclosureAvailabilityDate": "Q2 CY2018"
+	},
+	{
+		"id": 26328,
+		"title": "Outlook for Windows:  Forwarding Meeting Invites",
+		"description": "Meeting organizers have an option to allow if their meetings can be forwarded to others. ",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Exchange"
+			},
+			{
+				"tagName": "Outlook"
+			}
+		],
+		"created": "2018-03-15T22:31:53.673",
+		"modified": "2018-06-14T23:59:50.2133733",
+		"publicDisclosureAvailabilityDate": "Q2 CY2018"
+	},
+	{
+		"id": 26345,
+		"title": "Outlook for Android:  New homescreen widget",
+		"description": "Get more details at a glance with an improved Widget. ",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			},
+			{
+				"tagName": "Android"
+			}
+		],
+		"created": "2018-03-12T00:00:00",
+		"modified": "2018-06-14T23:59:50.2133733",
+		"publicDisclosureAvailabilityDate": "Q2 CY2018"
+	},
+	{
+		"id": 26977,
+		"title": "Outlook for Android: Block links to external images",
+		"description": "Set up your account to block links in emails to external images.",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			},
+			{
+				"tagName": "Android"
+			}
+		],
+		"created": "2018-03-07T00:00:00",
+		"modified": "2018-06-14T23:59:50.2133733",
+		"publicDisclosureAvailabilityDate": "Q2 CY2018"
+	},
+	{
+		"id": 27807,
+		"title": "Outlook for Windows:  Lift 500 folder limit for shared mailboxes",
+		"description": "Outlook has improved synchronization of folders by removing the 500 folder limit for shared mailboxes. ",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [],
+		"created": "2018-05-24T00:00:00",
+		"modified": "2018-06-14T23:59:50.2143736",
+		"publicDisclosureAvailabilityDate": "Q2 CY2018"
+	},
+	{
+		"id": 27894,
+		"title": "Outlook for Android:  Add Office Lens images ",
+		"description": "With Office Lens technology embedded in Outlook, easily add an image of a whiteboard, document or photo when composing an email. ",
+		"status": "Rolling out",
+		"moreInfoLink": null,
+		"publicRoadmapStatus": "Include this month",
+		"tags": [
+			{
+				"tagName": "Outlook"
+			},
+			{
+				"tagName": "Android"
+			}
+		],
+		"created": "2018-05-24T00:00:00",
+		"modified": "2018-06-14T23:59:50.2143736",
+		"publicDisclosureAvailabilityDate": "Q2 CY2018"
+	}
+]
