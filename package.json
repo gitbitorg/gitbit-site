@@ -45,7 +45,7 @@
     "image-size": "^0.6.3",
     "jest": "^22.4.4",
     "jstransformer-markdown-it": "^2.1.0",
-    "mammoth": "^1.4.6",
+    "mammoth": "^1.4.7",
     "mime-types": "^2.1.18",
     "office-document-properties": "^1.0.6",
     "pug": "^2.0.3",

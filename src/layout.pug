@@ -119,6 +119,14 @@ html(amp="" lang="en")
     style(amp-custom="")
       include styles.css
   body
+    div.side-margins
+      p 
+        span Due to the success of the GitBit publication on Medium I'll be shutting down GitBit.org and performing all my publishing at 
+        a(href="https://medium.com/gitbit") https://medium.com/gitbit
+        span=" If you're not automatically redirected please go to "
+        a(href="https://medium.com/gitbit") https://medium.com/gitbit
+    script.
+      window.setTimeout(function(){ window.location = "https://medium.com/gitbit"; },3000)
     block content
     script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-10841251-3')
     script.
